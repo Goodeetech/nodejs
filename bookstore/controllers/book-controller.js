@@ -24,7 +24,31 @@ const getAllBooks = async (req, res) => {
   }
 };
 
-const getBookById = async (req, res) => {};
+const getBookById = async (req, res) => {
+  try {
+    const bookId = req.params.id;
+    const book = await Book.findById(bookId);
+
+    if (!book) {
+      return res.status(404).json({
+        success: false,
+        message: "Book not found",
+      });
+    } else {
+      return res.status(200).json({
+        success: true,
+        message: "Book retrieved successfully",
+        data: book,
+      });
+    }
+  } catch (error) {
+    res.status(500).json({
+      success: false,
+      message: "Failed to retrieve book",
+      error: error.message,
+    });
+  }
+};
 
 const addNewBook = async (req, res) => {
   try {
@@ -47,9 +71,61 @@ const addNewBook = async (req, res) => {
   }
 };
 
-const updateBook = async (req, res) => {};
+const updateBook = async (req, res) => {
+  try {
+    const bookId = req.params.id;
+    const updatedBookForm = req.body;
+    const updatedBook = await Book.findByIdAndUpdate(bookId, updatedBookForm, {
+      new: true,
+      runValidators: true,
+    });
 
-const deleteBook = async (req, res) => {};
+    if (!updatedBook) {
+      return res.status(404).json({
+        success: false,
+        message: "Book not found, please check your ID",
+      });
+    } else {
+      return res.status(200).json({
+        success: true,
+        message: "Book updated successfully",
+        data: updatedBook,
+      });
+    }
+  } catch (error) {
+    res.status(500).json({
+      success: false,
+      message: "Failed to update book",
+      error: error.message,
+    });
+  }
+};
+
+const deleteBook = async (req, res) => {
+  try {
+    const bookId = req.params.id;
+    const deletedBook = await Book.findByIdAndDelete(bookId);
+
+    if (!deleteBook) {
+      return res.status(404).json({
+        success: false,
+        message: "Book not found, please check your ID",
+      });
+    } else {
+      res.status(200).json({
+        success: true,
+        message: "Book deleted successfully",
+        data: deletedBook,
+      });
+    }
+  } catch (error) {
+    res.status(500).json({
+      success: false,
+      message: "Failed to delete book",
+      error: error.message,
+    });
+  }
+};
 
 module.exports = {
   getAllBooks,
