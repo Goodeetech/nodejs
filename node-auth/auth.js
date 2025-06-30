@@ -1,16 +1,19 @@
 require("dotenv").config();
-require("dns").setDefaultResultOrder("ipv4first");
+
 const express = require("express");
 const connectDB = require("./database/db");
-const bookRoutes = require("./routes/book-routes");
+const authRoutes = require("./routes/auth-route");
+const homeRoutes = require("./routes/home-route");
 
 const app = express();
-
 const PORT = process.env.PORT || 3000;
-connectDB();
-app.use(express.json());
 
-app.use("/api/books", bookRoutes);
+// Middleware to parse JSON bodies
+app.use(express.json());
+app.use("/api/auth", authRoutes);
+app.use("/api/home", homeRoutes);
+
+connectDB();
 
 app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`);
