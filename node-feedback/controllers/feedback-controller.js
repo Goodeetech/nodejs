@@ -33,7 +33,7 @@ const getFeedbacks = async (req, res) => {
   try {
     const feedbacks = await Feedback.find({});
     if (!feedbacks) {
-      res.status(401).json({
+      res.status(404).json({
         success: false,
         message: "Couldn't find the feedbacks, try again later",
       });
@@ -53,4 +53,31 @@ const getFeedbacks = async (req, res) => {
   }
 };
 
-module.exports = { addFeedback, getFeedbacks };
+const getSingleFeedback = async (req, res) => {
+  try {
+    const { id } = req.params;
+
+    const singleFeedback = await Feedback.findById(id);
+
+    if (!singleFeedback) {
+      res.status(404).json({
+        status: false,
+        message: "Feedback can not be found, check again",
+      });
+    } else {
+      res.status(200).json({
+        status: true,
+        message: "Feedback found successfully",
+        data: singleFeedback,
+      });
+    }
+  } catch (error) {
+    res.status(500).json({
+      status: false,
+      message: "Something went wrong",
+      error: error.message,
+    });
+  }
+};
+
+module.exports = { addFeedback, getFeedbacks, getSingleFeedback };
