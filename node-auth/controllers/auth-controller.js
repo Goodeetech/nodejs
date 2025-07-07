@@ -52,7 +52,7 @@ const registerUser = async (req, res) => {
     console.log(error);
     res.status(500).json({
       message: "Something went wrong while registering user",
-      erro: error.message,
+      error: error.message,
       success: false,
     });
   }
