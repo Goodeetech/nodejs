@@ -12,7 +12,7 @@ const addFeedback = async (req, res) => {
     if (!newFeedback) {
       res.status(500).json({
         success: false,
-        message: "Feedback cannot be empty",
+        message: "Feedback cannot be empty, please check and try again",
       });
     } else {
       res.status(200).json({
@@ -62,7 +62,7 @@ const getSingleFeedback = async (req, res) => {
     if (!singleFeedback) {
       res.status(404).json({
         status: false,
-        message: "Feedback can not be found, check again",
+        message: "Feedback can not be found,please check again",
       });
     } else {
       res.status(200).json({

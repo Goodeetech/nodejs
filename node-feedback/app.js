@@ -9,7 +9,6 @@ app.use("/api/feedback", feedbackRoutes);
 
 connectDB();
 
-const PORT = 3000;
-app.listen(PORT, () => {
+app.listen(process.env.PORT, () => {
   console.log("App listening at port 3000");
 });
