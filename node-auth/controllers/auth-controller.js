@@ -101,7 +101,7 @@ const loginUser = async (req, res) => {
       }
     );
 
-    res.status(200).json({
+    return res.status(200).json({
       message: "User logged in successfully",
       success: true,
       user: {
@@ -113,9 +113,52 @@ const loginUser = async (req, res) => {
     });
   } catch (error) {
     console.log(error);
-    res.status(500).json({
+    return res.status(500).json({
       message: "Something went wrong while trying to login user",
-      erro: error.message,
+      error: error.message,
+      success: false,
+    });
+  }
+};
+
+const changePassword = async (req, res) => {
+  try {
+    const { oldPassword, newPassword } = req.body;
+
+    const { userId } = req.userInfo;
+
+    const user = await User.findById(userId);
+    if (!user) {
+      return res.status(404).json({
+        status: false,
+        message: "User not found",
+      });
+    }
+
+    //check if the old password is correct
+    const correctPassword = await bcrypt.compare(oldPassword, user.password);
+    if (!correctPassword) {
+      return res.status(400).json({
+        success: false,
+        message: "Old password is not correct, Please try again",
+      });
+    }
+
+    const salt = await bcrypt.genSalt(10);
+    const newlyCreatedPassword = await bcrypt.hash(newPassword, salt);
+
+    //update user password
+    user.password = newlyCreatedPassword;
+    await user.save();
+    return res.status(200).json({
+      success: true,
+      message: "Password changed successfully",
+    });
+  } catch (error) {
+    console.log(error);
+    return res.status(500).json({
+      message: "Something went wrong while trying to login user",
+      error: error.message,
       success: false,
     });
   }
@@ -124,4 +167,5 @@ const loginUser = async (req, res) => {
 module.exports = {
   registerUser,
   loginUser,
+  changePassword,
 };
