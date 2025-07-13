@@ -58,7 +58,11 @@ const getAllImages = async (req, res) => {
     const sortObj = {};
     sortObj[sortBy] = sortOrder;
 
-    const allImages = await Image.find().sort(sortObj).skip(skip).limit(limit);
+    const allImages = await Image.find()
+      .sort(sortObj)
+      .skip(skip)
+      .limit(limit)
+      .populate("uploadedBy");
 
     if (!allImages) {
       res.status(404).json({
