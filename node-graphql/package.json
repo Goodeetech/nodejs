@@ -13,8 +13,10 @@
   "type": "commonjs",
   "dependencies": {
     "@apollo/server": "^5.0.0",
+    "dotenv": "^17.2.0",
     "graphql": "^16.11.0",
     "graphql-tag": "^2.12.6",
+    "mongoose": "^8.16.4",
     "nodemon": "^3.1.10"
   }
 }
