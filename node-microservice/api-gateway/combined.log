@@ -7,3 +7,18 @@
 {"level":"info","message":"Received POST request to /v1/auth/register","service":"api-gateway","timestamp":"2025-08-02T08:01:46.934Z"}
 {"level":"info","message":"Request Body: {\"username\":\"Goodee123\",\"password\":\"ayomide\",\"email\":\"goodee123@gmail.com\"}","service":"api-gateway","timestamp":"2025-08-02T08:01:46.941Z"}
 {"level":"info","message":"Response receives from Identity services: 201","service":"api-gateway","timestamp":"2025-08-02T08:01:48.213Z"}
+{"level":"info","message":"API Gateway is running on port 3000","service":"api-gateway","timestamp":"2025-08-02T16:29:41.036Z"}
+{"level":"info","message":"Identity service is running on port http://localhost:3001","service":"api-gateway","timestamp":"2025-08-02T16:29:41.041Z"}
+{"level":"info","message":"Redis connected: redis://localhost:6379","service":"api-gateway","timestamp":"2025-08-02T16:29:41.042Z"}
+{"level":"info","message":"Received POST request to /v1/auth/login","service":"api-gateway","timestamp":"2025-08-02T16:31:46.086Z"}
+{"level":"info","message":"Request Body: {\"email\":\"goodee123@gmail.com\",\"password\":\"ayomide\"}","service":"api-gateway","timestamp":"2025-08-02T16:31:46.089Z"}
+{"level":"info","message":"Response receives from Identity services: 500","service":"api-gateway","timestamp":"2025-08-02T16:31:46.857Z"}
+{"level":"info","message":"Received POST request to /v1/auth/login","service":"api-gateway","timestamp":"2025-08-02T16:32:56.342Z"}
+{"level":"info","message":"Request Body: {\"email\":\"goodee123@gmail.com\",\"password\":\"ayomide\"}","service":"api-gateway","timestamp":"2025-08-02T16:32:56.345Z"}
+{"level":"info","message":"Response receives from Identity services: 500","service":"api-gateway","timestamp":"2025-08-02T16:32:57.282Z"}
+{"level":"info","message":"Received POST request to /v1/auth/login","service":"api-gateway","timestamp":"2025-08-02T16:33:18.347Z"}
+{"level":"info","message":"Request Body: {\"email\":\"goodee123@gmail.com\",\"password\":\"ayomide\"}","service":"api-gateway","timestamp":"2025-08-02T16:33:18.350Z"}
+{"level":"info","message":"Response receives from Identity services: 200","service":"api-gateway","timestamp":"2025-08-02T16:33:19.122Z"}
+{"level":"info","message":"Received POST request to /v1/auth/login","service":"api-gateway","timestamp":"2025-08-02T16:33:39.491Z"}
+{"level":"info","message":"Request Body: {\"email\":\"goodee123gmail.com\",\"password\":\"ayomide\"}","service":"api-gateway","timestamp":"2025-08-02T16:33:39.492Z"}
+{"level":"info","message":"Response receives from Identity services: 400","service":"api-gateway","timestamp":"2025-08-02T16:33:39.512Z"}
