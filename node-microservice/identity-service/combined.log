@@ -185,3 +185,5 @@
 {"level":"info","message":"Request Body: {\"refreshToken\":\"c768d5d5da9a903d75f219450000e064b2889af4e9cc2dc16c3aac5ece025c45f96e49061a6cf676\"}","service":"identity-service","timestamp":"2025-08-02T18:14:29.164Z"}
 {"level":"warn","message":"Hit the logout api","service":"identity-service","timestamp":"2025-08-02T18:14:29.166Z"}
 {"level":"warn","message":"Invalid or already deleted refresh token","service":"identity-service","timestamp":"2025-08-02T18:14:29.352Z"}
+{"level":"info","message":"🚀 Identity-sevice Server running on port 3001","service":"identity-service","timestamp":"2025-08-02T18:16:00.159Z"}
+{"level":"info","message":"Database connected successfully","service":"identity-service","timestamp":"2025-08-02T18:16:02.478Z"}
