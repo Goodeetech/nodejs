@@ -3,6 +3,13 @@ const Post = require("../models/post");
 const logger = require("../utils/logger");
 const validatePost = require("../utils/validatePost");
 
+async function invalidatePostCache(req, input) {
+  const keys = await req.redisClient.keys("posts:*");
+  if (keys.length > 0) {
+    await req.redisClient.del(keys);
+  }
+}
+
 const createPost = async (req, res) => {
   logger.warn(`API hit create post endpoint`);
   try {
