@@ -187,3 +187,117 @@
 {"level":"warn","message":"Invalid or already deleted refresh token","service":"identity-service","timestamp":"2025-08-02T18:14:29.352Z"}
 {"level":"info","message":"🚀 Identity-sevice Server running on port 3001","service":"identity-service","timestamp":"2025-08-02T18:16:00.159Z"}
 {"level":"info","message":"Database connected successfully","service":"identity-service","timestamp":"2025-08-02T18:16:02.478Z"}
+{"level":"info","message":"🚀 Identity-sevice Server running on port 3001","service":"identity-service","timestamp":"2025-08-03T15:55:14.999Z"}
+{"level":"info","message":"Database connected successfully","service":"identity-service","timestamp":"2025-08-03T15:55:22.632Z"}
+{"level":"info","message":"🚀 Identity-sevice Server running on port 3001","service":"identity-service","timestamp":"2025-08-03T16:56:41.809Z"}
+{"level":"info","message":"Database connected successfully","service":"identity-service","timestamp":"2025-08-03T16:56:44.692Z"}
+{"level":"info","message":"Received POST request to /api/auth/login","service":"identity-service","timestamp":"2025-08-03T16:56:53.918Z"}
+{"level":"info","message":"Request Body: {\"email\":\"goodee123@gmail.com\",\"password\":\"ayomide\"}","service":"identity-service","timestamp":"2025-08-03T16:56:53.919Z"}
+{"level":"info","message":"Logging in user from the identity service","service":"identity-service","timestamp":"2025-08-03T16:56:53.931Z"}
+{"level":"info","message":"Received POST request to /api/auth/login","service":"identity-service","timestamp":"2025-08-03T17:01:08.620Z"}
+{"level":"info","message":"Request Body: {\"email\":\"goodee123@gmail.com\",\"password\":\"ayomide\"}","service":"identity-service","timestamp":"2025-08-03T17:01:08.621Z"}
+{"level":"info","message":"Logging in user from the identity service","service":"identity-service","timestamp":"2025-08-03T17:01:08.625Z"}
+{"level":"info","message":"Received POST request to /api/auth/login","service":"identity-service","timestamp":"2025-08-03T17:01:10.313Z"}
+{"level":"info","message":"Request Body: {\"email\":\"goodee123@gmail.com\",\"password\":\"ayomide\"}","service":"identity-service","timestamp":"2025-08-03T17:01:10.314Z"}
+{"level":"info","message":"Logging in user from the identity service","service":"identity-service","timestamp":"2025-08-03T17:01:10.318Z"}
+{"level":"info","message":"Received POST request to /api/auth/login","service":"identity-service","timestamp":"2025-08-03T17:01:12.886Z"}
+{"level":"info","message":"Request Body: {\"email\":\"goodee123@gmail.com\",\"password\":\"ayomide\"}","service":"identity-service","timestamp":"2025-08-03T17:01:12.887Z"}
+{"level":"info","message":"Logging in user from the identity service","service":"identity-service","timestamp":"2025-08-03T17:01:12.891Z"}
+{"level":"info","message":"Received POST request to /api/auth/login","service":"identity-service","timestamp":"2025-08-03T17:01:15.020Z"}
+{"level":"info","message":"Request Body: {\"email\":\"goodee123@gmail.com\",\"password\":\"ayomide\"}","service":"identity-service","timestamp":"2025-08-03T17:01:15.020Z"}
+{"level":"info","message":"Logging in user from the identity service","service":"identity-service","timestamp":"2025-08-03T17:01:15.023Z"}
+{"level":"info","message":"Received POST request to /api/auth/login","service":"identity-service","timestamp":"2025-08-03T17:01:17.139Z"}
+{"level":"info","message":"Request Body: {\"email\":\"goodee123@gmail.com\",\"password\":\"ayomide\"}","service":"identity-service","timestamp":"2025-08-03T17:01:17.140Z"}
+{"level":"info","message":"Logging in user from the identity service","service":"identity-service","timestamp":"2025-08-03T17:01:17.148Z"}
+{"level":"info","message":"Received POST request to /api/auth/login","service":"identity-service","timestamp":"2025-08-03T17:01:19.383Z"}
+{"level":"info","message":"Request Body: {\"email\":\"goodee123@gmail.com\",\"password\":\"ayomide\"}","service":"identity-service","timestamp":"2025-08-03T17:01:19.384Z"}
+{"level":"info","message":"Logging in user from the identity service","service":"identity-service","timestamp":"2025-08-03T17:01:19.386Z"}
+{"level":"info","message":"Received POST request to /api/auth/login","service":"identity-service","timestamp":"2025-08-03T17:01:21.480Z"}
+{"level":"info","message":"Request Body: {\"email\":\"goodee123@gmail.com\",\"password\":\"ayomide\"}","service":"identity-service","timestamp":"2025-08-03T17:01:21.481Z"}
+{"level":"info","message":"Logging in user from the identity service","service":"identity-service","timestamp":"2025-08-03T17:01:21.483Z"}
+{"level":"info","message":"Received POST request to /api/auth/login","service":"identity-service","timestamp":"2025-08-03T17:01:23.640Z"}
+{"level":"info","message":"Request Body: {\"email\":\"goodee123@gmail.com\",\"password\":\"ayomide\"}","service":"identity-service","timestamp":"2025-08-03T17:01:23.640Z"}
+{"level":"info","message":"Logging in user from the identity service","service":"identity-service","timestamp":"2025-08-03T17:01:23.643Z"}
+{"level":"info","message":"Received POST request to /api/auth/login","service":"identity-service","timestamp":"2025-08-03T17:01:25.840Z"}
+{"level":"info","message":"Request Body: {\"email\":\"goodee123@gmail.com\",\"password\":\"ayomide\"}","service":"identity-service","timestamp":"2025-08-03T17:01:25.841Z"}
+{"level":"info","message":"Logging in user from the identity service","service":"identity-service","timestamp":"2025-08-03T17:01:25.842Z"}
+{"level":"info","message":"Received POST request to /api/auth/login","service":"identity-service","timestamp":"2025-08-03T17:01:27.891Z"}
+{"level":"info","message":"Request Body: {\"email\":\"goodee123@gmail.com\",\"password\":\"ayomide\"}","service":"identity-service","timestamp":"2025-08-03T17:01:27.892Z"}
+{"level":"info","message":"Logging in user from the identity service","service":"identity-service","timestamp":"2025-08-03T17:01:27.893Z"}
+{"level":"info","message":"Received POST request to /api/auth/login","service":"identity-service","timestamp":"2025-08-03T17:01:30.006Z"}
+{"level":"info","message":"Request Body: {\"email\":\"goodee123@gmail.com\",\"password\":\"ayomide\"}","service":"identity-service","timestamp":"2025-08-03T17:01:30.006Z"}
+{"level":"info","message":"Logging in user from the identity service","service":"identity-service","timestamp":"2025-08-03T17:01:30.008Z"}
+{"level":"info","message":"Received POST request to /api/auth/login","service":"identity-service","timestamp":"2025-08-03T17:01:32.138Z"}
+{"level":"info","message":"Request Body: {\"email\":\"goodee123@gmail.com\",\"password\":\"ayomide\"}","service":"identity-service","timestamp":"2025-08-03T17:01:32.139Z"}
+{"level":"info","message":"Logging in user from the identity service","service":"identity-service","timestamp":"2025-08-03T17:01:32.141Z"}
+{"level":"info","message":"Received POST request to /api/auth/login","service":"identity-service","timestamp":"2025-08-03T17:01:34.384Z"}
+{"level":"info","message":"Request Body: {\"email\":\"goodee123@gmail.com\",\"password\":\"ayomide\"}","service":"identity-service","timestamp":"2025-08-03T17:01:34.384Z"}
+{"level":"info","message":"Logging in user from the identity service","service":"identity-service","timestamp":"2025-08-03T17:01:34.386Z"}
+{"level":"info","message":"Received POST request to /api/auth/login","service":"identity-service","timestamp":"2025-08-03T17:01:36.834Z"}
+{"level":"info","message":"Request Body: {\"email\":\"goodee123@gmail.com\",\"password\":\"ayomide\"}","service":"identity-service","timestamp":"2025-08-03T17:01:36.835Z"}
+{"level":"info","message":"Logging in user from the identity service","service":"identity-service","timestamp":"2025-08-03T17:01:36.836Z"}
+{"level":"info","message":"🚀 Identity-sevice Server running on port 3001","service":"identity-service","timestamp":"2025-08-03T17:02:03.641Z"}
+{"level":"info","message":"🚀 Identity-sevice Server running on port 3001","service":"identity-service","timestamp":"2025-08-03T17:02:06.005Z"}
+{"level":"info","message":"Database connected successfully","service":"identity-service","timestamp":"2025-08-03T17:02:08.207Z"}
+{"level":"info","message":"Received POST request to /api/auth/login","service":"identity-service","timestamp":"2025-08-03T17:02:16.316Z"}
+{"level":"info","message":"Request Body: {\"email\":\"goodee123@gmail.com\",\"password\":\"ayomide\"}","service":"identity-service","timestamp":"2025-08-03T17:02:16.317Z"}
+{"level":"info","message":"Logging in user from the identity service","service":"identity-service","timestamp":"2025-08-03T17:02:16.324Z"}
+{"level":"info","message":"Received POST request to /api/auth/login","service":"identity-service","timestamp":"2025-08-03T17:02:18.727Z"}
+{"level":"info","message":"Request Body: {\"email\":\"goodee123@gmail.com\",\"password\":\"ayomide\"}","service":"identity-service","timestamp":"2025-08-03T17:02:18.729Z"}
+{"level":"info","message":"Logging in user from the identity service","service":"identity-service","timestamp":"2025-08-03T17:02:18.733Z"}
+{"level":"info","message":"Received POST request to /api/auth/login","service":"identity-service","timestamp":"2025-08-03T17:02:20.978Z"}
+{"level":"info","message":"Request Body: {\"email\":\"goodee123@gmail.com\",\"password\":\"ayomide\"}","service":"identity-service","timestamp":"2025-08-03T17:02:20.982Z"}
+{"level":"info","message":"Logging in user from the identity service","service":"identity-service","timestamp":"2025-08-03T17:02:20.985Z"}
+{"level":"info","message":"Received POST request to /api/auth/login","service":"identity-service","timestamp":"2025-08-03T17:02:23.045Z"}
+{"level":"info","message":"Request Body: {\"email\":\"goodee123@gmail.com\",\"password\":\"ayomide\"}","service":"identity-service","timestamp":"2025-08-03T17:02:23.047Z"}
+{"level":"info","message":"Logging in user from the identity service","service":"identity-service","timestamp":"2025-08-03T17:02:23.050Z"}
+{"level":"info","message":"Received POST request to /api/auth/login","service":"identity-service","timestamp":"2025-08-03T17:02:25.092Z"}
+{"level":"info","message":"Request Body: {\"email\":\"goodee123@gmail.com\",\"password\":\"ayomide\"}","service":"identity-service","timestamp":"2025-08-03T17:02:25.093Z"}
+{"level":"info","message":"Logging in user from the identity service","service":"identity-service","timestamp":"2025-08-03T17:02:25.096Z"}
+{"level":"info","message":"Received POST request to /api/auth/login","service":"identity-service","timestamp":"2025-08-03T17:02:27.376Z"}
+{"level":"info","message":"Request Body: {\"email\":\"goodee123@gmail.com\",\"password\":\"ayomide\"}","service":"identity-service","timestamp":"2025-08-03T17:02:27.376Z"}
+{"level":"info","message":"Logging in user from the identity service","service":"identity-service","timestamp":"2025-08-03T17:02:27.379Z"}
+{"level":"info","message":"Received POST request to /api/auth/login","service":"identity-service","timestamp":"2025-08-03T17:02:29.540Z"}
+{"level":"info","message":"Request Body: {\"email\":\"goodee123@gmail.com\",\"password\":\"ayomide\"}","service":"identity-service","timestamp":"2025-08-03T17:02:29.541Z"}
+{"level":"info","message":"Logging in user from the identity service","service":"identity-service","timestamp":"2025-08-03T17:02:29.543Z"}
+{"level":"info","message":"Received POST request to /api/auth/login","service":"identity-service","timestamp":"2025-08-03T17:02:31.989Z"}
+{"level":"info","message":"Request Body: {\"email\":\"goodee123@gmail.com\",\"password\":\"ayomide\"}","service":"identity-service","timestamp":"2025-08-03T17:02:31.989Z"}
+{"level":"info","message":"Logging in user from the identity service","service":"identity-service","timestamp":"2025-08-03T17:02:31.993Z"}
+{"level":"info","message":"🚀 Identity-sevice Server running on port 3001","service":"identity-service","timestamp":"2025-08-03T17:03:02.428Z"}
+{"level":"info","message":"Database connected successfully","service":"identity-service","timestamp":"2025-08-03T17:03:04.417Z"}
+{"level":"info","message":"Received POST request to /api/auth/login","service":"identity-service","timestamp":"2025-08-03T17:03:06.907Z"}
+{"level":"info","message":"Request Body: {\"email\":\"goodee123@gmail.com\",\"password\":\"ayomide\"}","service":"identity-service","timestamp":"2025-08-03T17:03:06.908Z"}
+{"level":"info","message":"Logging in user from the identity service","service":"identity-service","timestamp":"2025-08-03T17:03:06.915Z"}
+{"level":"info","message":"Received POST request to /api/auth/login","service":"identity-service","timestamp":"2025-08-03T17:03:09.267Z"}
+{"level":"info","message":"Request Body: {\"email\":\"goodee123@gmail.com\",\"password\":\"ayomide\"}","service":"identity-service","timestamp":"2025-08-03T17:03:09.307Z"}
+{"level":"info","message":"Logging in user from the identity service","service":"identity-service","timestamp":"2025-08-03T17:03:09.310Z"}
+{"level":"info","message":"Received POST request to /api/auth/login","service":"identity-service","timestamp":"2025-08-03T17:03:11.444Z"}
+{"level":"info","message":"Request Body: {\"email\":\"goodee123@gmail.com\",\"password\":\"ayomide\"}","service":"identity-service","timestamp":"2025-08-03T17:03:11.445Z"}
+{"level":"info","message":"Logging in user from the identity service","service":"identity-service","timestamp":"2025-08-03T17:03:11.449Z"}
+{"level":"info","message":"Received POST request to /api/auth/login","service":"identity-service","timestamp":"2025-08-03T17:03:13.729Z"}
+{"level":"info","message":"Request Body: {\"email\":\"goodee123@gmail.com\",\"password\":\"ayomide\"}","service":"identity-service","timestamp":"2025-08-03T17:03:13.732Z"}
+{"level":"info","message":"Logging in user from the identity service","service":"identity-service","timestamp":"2025-08-03T17:03:13.735Z"}
+{"level":"info","message":"Received POST request to /api/auth/login","service":"identity-service","timestamp":"2025-08-03T17:03:16.094Z"}
+{"level":"info","message":"Request Body: {\"email\":\"goodee123@gmail.com\",\"password\":\"ayomide\"}","service":"identity-service","timestamp":"2025-08-03T17:03:16.094Z"}
+{"level":"info","message":"Logging in user from the identity service","service":"identity-service","timestamp":"2025-08-03T17:03:16.100Z"}
+{"level":"info","message":"🚀 Identity-sevice Server running on port 3001","service":"identity-service","timestamp":"2025-08-03T17:03:42.728Z"}
+{"level":"info","message":"Database connected successfully","service":"identity-service","timestamp":"2025-08-03T17:03:44.753Z"}
+{"level":"info","message":"Received POST request to /api/auth/login","service":"identity-service","timestamp":"2025-08-03T17:03:52.131Z"}
+{"level":"info","message":"Request Body: {\"email\":\"goodee123@gmail.com\",\"password\":\"ayomide\"}","service":"identity-service","timestamp":"2025-08-03T17:03:52.132Z"}
+{"level":"warn","message":"Sensitive endpoint rate limit exceeded for IP: ::1","service":"identity-service","timestamp":"2025-08-03T17:03:52.143Z"}
+{"level":"info","message":"Received POST request to /api/auth/login","service":"identity-service","timestamp":"2025-08-03T17:04:00.173Z"}
+{"level":"info","message":"Request Body: {\"email\":\"goodee123@gmail.com\",\"password\":\"ayomide\"}","service":"identity-service","timestamp":"2025-08-03T17:04:00.174Z"}
+{"level":"warn","message":"Sensitive endpoint rate limit exceeded for IP: ::1","service":"identity-service","timestamp":"2025-08-03T17:04:00.187Z"}
+{"level":"info","message":"🚀 Identity-sevice Server running on port 3001","service":"identity-service","timestamp":"2025-08-03T17:04:27.202Z"}
+{"level":"info","message":"Database connected successfully","service":"identity-service","timestamp":"2025-08-03T17:04:29.996Z"}
+{"level":"info","message":"🚀 Identity-sevice Server running on port 3001","service":"identity-service","timestamp":"2025-08-03T17:04:57.981Z"}
+{"level":"info","message":"Received POST request to /api/auth/login","service":"identity-service","timestamp":"2025-08-03T17:05:01.186Z"}
+{"level":"info","message":"Request Body: {\"email\":\"goodee123@gmail.com\",\"password\":\"ayomide\"}","service":"identity-service","timestamp":"2025-08-03T17:05:01.187Z"}
+{"level":"info","message":"Logging in user from the identity service","service":"identity-service","timestamp":"2025-08-03T17:05:01.204Z"}
+{"level":"info","message":"Database connected successfully","service":"identity-service","timestamp":"2025-08-03T17:05:04.476Z"}
+{"level":"info","message":"Received POST request to /api/auth/login","service":"identity-service","timestamp":"2025-08-03T17:10:05.284Z"}
+{"level":"info","message":"Request Body: {\"email\":\"goodee123@gmail.com\",\"password\":\"ayomide\"}","service":"identity-service","timestamp":"2025-08-03T17:10:05.285Z"}
+{"level":"info","message":"Logging in user from the identity service","service":"identity-service","timestamp":"2025-08-03T17:10:05.293Z"}
+{"level":"info","message":"Received POST request to /api/auth/login","service":"identity-service","timestamp":"2025-08-03T17:57:46.143Z"}
+{"level":"info","message":"Request Body: {\"email\":\"goodee123@gmail.com\",\"password\":\"ayomide\"}","service":"identity-service","timestamp":"2025-08-03T17:57:46.145Z"}
+{"level":"info","message":"Logging in user from the identity service","service":"identity-service","timestamp":"2025-08-03T17:57:46.154Z"}

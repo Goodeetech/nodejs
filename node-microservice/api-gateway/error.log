@@ -1,2 +1,15 @@
 {"level":"error","message":"Proxy Error: ","service":"api-gateway","timestamp":"2025-08-02T08:01:00.457Z"}
 {"level":"error","message":"Proxy Error: ","service":"api-gateway","timestamp":"2025-08-02T17:39:21.703Z"}
+{"level":"error","message":"Proxy Error: ","service":"api-gateway","timestamp":"2025-08-03T16:56:23.895Z"}
+{"level":"error","message":"Invalid access token, access denied!","service":"api-gateway","timestamp":"2025-08-03T16:57:47.474Z"}
+{"level":"error","message":"Invalid access token, access denied!","service":"api-gateway","timestamp":"2025-08-03T17:00:50.357Z"}
+{"level":"error","message":"Invalid access token, access denied!","service":"api-gateway","timestamp":"2025-08-03T17:00:51.872Z"}
+{"level":"error","message":"Invalid access token, access denied!","service":"api-gateway","timestamp":"2025-08-03T17:00:53.329Z"}
+{"level":"error","message":"Invalid access token, access denied!","service":"api-gateway","timestamp":"2025-08-03T17:00:54.455Z"}
+{"level":"error","message":"Invalid access token, access denied!","service":"api-gateway","timestamp":"2025-08-03T17:00:55.666Z"}
+{"level":"error","message":"Invalid access token, access denied!","service":"api-gateway","timestamp":"2025-08-03T17:00:57.161Z"}
+{"level":"error","message":"Invalid access token, access denied!","service":"api-gateway","timestamp":"2025-08-03T17:00:58.565Z"}
+{"level":"error","message":"Invalid access token, access denied!","service":"api-gateway","timestamp":"2025-08-03T17:01:00.162Z"}
+{"level":"error","message":"Invalid access token, access denied!","service":"api-gateway","timestamp":"2025-08-03T17:07:15.882Z"}
+{"level":"error","message":"Invalid access token, access denied!","service":"api-gateway","timestamp":"2025-08-03T17:10:30.024Z"}
+{"level":"error","message":"Invalid access token, access denied!","service":"api-gateway","timestamp":"2025-08-03T17:12:57.057Z"}
