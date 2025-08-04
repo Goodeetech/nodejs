@@ -138,3 +138,15 @@
 {"level":"info","message":"Database connected successfully","service":"post-service","timestamp":"2025-08-04T18:00:09.261Z"}
 {"level":"info","message":"🚀 Identity-sevice Server running on port 3002","service":"post-service","timestamp":"2025-08-04T18:00:41.572Z"}
 {"level":"info","message":"Database connected successfully","service":"post-service","timestamp":"2025-08-04T18:00:58.291Z"}
+{"level":"info","message":"🚀 Identity-sevice Server running on port 3002","service":"post-service","timestamp":"2025-08-04T18:02:14.044Z"}
+{"level":"info","message":"Database connected successfully","service":"post-service","timestamp":"2025-08-04T18:02:17.392Z"}
+{"level":"info","message":"Received GET request to /api/posts/get-post/6890f11e786a9e7f70ac317a","service":"post-service","timestamp":"2025-08-04T18:02:39.204Z"}
+{"level":"warn","message":"API hit get single post endpoint","service":"post-service","timestamp":"2025-08-04T18:02:39.208Z"}
+{"level":"info","message":"Received GET request to /api/posts/get-post/6890f11e786a9e7f70ac317a","service":"post-service","timestamp":"2025-08-04T18:03:04.445Z"}
+{"level":"warn","message":"API hit get single post endpoint","service":"post-service","timestamp":"2025-08-04T18:03:04.448Z"}
+{"level":"info","message":"Received GET request to /api/posts/get-post/6890f11e786a9e7f70ac317a","service":"post-service","timestamp":"2025-08-04T18:03:19.416Z"}
+{"level":"warn","message":"API hit get single post endpoint","service":"post-service","timestamp":"2025-08-04T18:03:19.417Z"}
+{"level":"info","message":"Received GET request to /api/posts/get-post/6890f11e786a9e7f70ac317a","service":"post-service","timestamp":"2025-08-04T18:03:26.298Z"}
+{"level":"warn","message":"API hit get single post endpoint","service":"post-service","timestamp":"2025-08-04T18:03:26.299Z"}
+{"level":"info","message":"Received GET request to /api/posts/get-post/6890f11e786a9e7f70ac317a","service":"post-service","timestamp":"2025-08-04T18:03:48.046Z"}
+{"level":"warn","message":"API hit get single post endpoint","service":"post-service","timestamp":"2025-08-04T18:03:48.047Z"}
