@@ -37,6 +37,7 @@ const createPost = async (req, res) => {
     });
 
     await newlyCreatedPost.save();
+    await invalidatePostCache(req, newlyCreatedPost._id.toString());
     logger.info("Post created successfully");
     return res.status(201).json({
       success: true,
@@ -95,6 +96,30 @@ const getAllPosts = async (req, res) => {
 const getSinglePost = async (req, res) => {
   logger.warn(`API hit get single post endpoint`);
   try {
+    const postId = req.params.id;
+    const cachedKey = `post:${postId}`;
+    const cachedPost = await req.redisClient.get(cachedKey);
+    if (cachedPost) {
+      return res.json(JSON.parse(cachedPost));
+    }
+
+    const singlePost = await Post.findById(postId);
+
+    if (!singlePost) {
+      logger.warn(`Post with ID ${postId}not found`);
+      return res.status(404).json({
+        message: "Post not found",
+        success: false,
+      });
+    }
+    //save in cache
+    await req.redisClient.setex(cachedKey, 3600, JSON.stringify(singlePost));
+
+    return res.status(200).json({
+      message: "Post gotten successfully",
+      success: false,
+      data: singlePost,
+    });
   } catch (error) {
     logger.error(`Error occurred while getting single post`);
     return res.status(500).json({
@@ -116,4 +141,4 @@ const deletePost = async (req, res) => {
   }
 };
 
-module.exports = { createPost, getAllPosts };
+module.exports = { createPost, getAllPosts, getSinglePost };

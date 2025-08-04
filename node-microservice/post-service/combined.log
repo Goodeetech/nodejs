@@ -111,3 +111,30 @@
 {"level":"warn","message":"API hit get all posts endpoint","service":"post-service","timestamp":"2025-08-03T18:03:24.245Z"}
 {"level":"info","message":"Received GET request to /api/posts/get-posts","service":"post-service","timestamp":"2025-08-03T18:04:21.425Z"}
 {"level":"warn","message":"API hit get all posts endpoint","service":"post-service","timestamp":"2025-08-03T18:04:21.426Z"}
+{"level":"info","message":"🚀 Identity-sevice Server running on port 3002","service":"post-service","timestamp":"2025-08-04T17:36:49.425Z"}
+{"level":"info","message":"Database connected successfully","service":"post-service","timestamp":"2025-08-04T17:37:52.795Z"}
+{"level":"info","message":"Received GET request to /api/posts/get-posts","service":"post-service","timestamp":"2025-08-04T17:41:22.054Z"}
+{"level":"warn","message":"API hit get all posts endpoint","service":"post-service","timestamp":"2025-08-04T17:41:22.057Z"}
+{"level":"info","message":"Received GET request to /api/posts/get-posts","service":"post-service","timestamp":"2025-08-04T17:41:46.493Z"}
+{"level":"warn","message":"API hit get all posts endpoint","service":"post-service","timestamp":"2025-08-04T17:41:46.495Z"}
+{"level":"info","message":"Received GET request to /api/posts/get-posts","service":"post-service","timestamp":"2025-08-04T17:41:50.807Z"}
+{"level":"warn","message":"API hit get all posts endpoint","service":"post-service","timestamp":"2025-08-04T17:41:50.810Z"}
+{"level":"info","message":"Received POST request to /api/posts/create-post","service":"post-service","timestamp":"2025-08-04T17:42:54.033Z"}
+{"level":"info","message":"Request Body: {\"content\":\"Hello, this is Goodee\"}","service":"post-service","timestamp":"2025-08-04T17:42:54.035Z"}
+{"level":"warn","message":"API hit create post endpoint","service":"post-service","timestamp":"2025-08-04T17:42:54.037Z"}
+{"level":"info","message":"Post created successfully","service":"post-service","timestamp":"2025-08-04T17:43:34.773Z"}
+{"level":"info","message":"Received GET request to /api/posts/get-posts","service":"post-service","timestamp":"2025-08-04T17:43:51.218Z"}
+{"level":"warn","message":"API hit get all posts endpoint","service":"post-service","timestamp":"2025-08-04T17:43:51.228Z"}
+{"level":"info","message":"Received GET request to /api/posts/get-posts","service":"post-service","timestamp":"2025-08-04T17:44:51.632Z"}
+{"level":"warn","message":"API hit get all posts endpoint","service":"post-service","timestamp":"2025-08-04T17:44:51.633Z"}
+{"level":"info","message":"🚀 Identity-sevice Server running on port 3002","service":"post-service","timestamp":"2025-08-04T17:52:34.006Z"}
+{"level":"info","message":"Database connected successfully","service":"post-service","timestamp":"2025-08-04T17:53:17.726Z"}
+{"level":"info","message":"🚀 Identity-sevice Server running on port 3002","service":"post-service","timestamp":"2025-08-04T17:55:24.362Z"}
+{"level":"info","message":"Database connected successfully","service":"post-service","timestamp":"2025-08-04T17:56:11.603Z"}
+{"level":"info","message":"🚀 Identity-sevice Server running on port 3002","service":"post-service","timestamp":"2025-08-04T17:56:38.284Z"}
+{"level":"info","message":"🚀 Identity-sevice Server running on port 3002","service":"post-service","timestamp":"2025-08-04T17:57:31.053Z"}
+{"level":"info","message":"Database connected successfully","service":"post-service","timestamp":"2025-08-04T17:57:37.489Z"}
+{"level":"info","message":"🚀 Identity-sevice Server running on port 3002","service":"post-service","timestamp":"2025-08-04T18:00:06.527Z"}
+{"level":"info","message":"Database connected successfully","service":"post-service","timestamp":"2025-08-04T18:00:09.261Z"}
+{"level":"info","message":"🚀 Identity-sevice Server running on port 3002","service":"post-service","timestamp":"2025-08-04T18:00:41.572Z"}
+{"level":"info","message":"Database connected successfully","service":"post-service","timestamp":"2025-08-04T18:00:58.291Z"}
