@@ -310,3 +310,8 @@
 {"level":"info","message":"Received POST request to /api/auth/login","service":"identity-service","timestamp":"2025-08-04T17:40:55.294Z"}
 {"level":"info","message":"Request Body: {\"email\":\"goodee123@gmail.com\",\"password\":\"ayomide\"}","service":"identity-service","timestamp":"2025-08-04T17:40:55.295Z"}
 {"level":"info","message":"Logging in user from the identity service","service":"identity-service","timestamp":"2025-08-04T17:40:55.301Z"}
+{"level":"info","message":"🚀 Identity-sevice Server running on port 3001","service":"identity-service","timestamp":"2025-08-05T15:46:13.111Z"}
+{"level":"info","message":"Database connected successfully","service":"identity-service","timestamp":"2025-08-05T15:46:17.965Z"}
+{"level":"info","message":"Received POST request to /api/auth/login","service":"identity-service","timestamp":"2025-08-05T15:50:33.129Z"}
+{"level":"info","message":"Request Body: {\"email\":\"goodee123@gmail.com\",\"password\":\"ayomide\"}","service":"identity-service","timestamp":"2025-08-05T15:50:33.130Z"}
+{"level":"info","message":"Logging in user from the identity service","service":"identity-service","timestamp":"2025-08-05T15:50:33.165Z"}

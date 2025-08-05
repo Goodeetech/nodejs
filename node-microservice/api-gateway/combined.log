@@ -346,3 +346,20 @@
 {"level":"info","message":"Response receives from Post service: 200","service":"api-gateway","timestamp":"2025-08-04T18:03:26.304Z"}
 {"level":"info","message":"Received GET request to /v1/posts/get-post/6890f11e786a9e7f70ac317a","service":"api-gateway","timestamp":"2025-08-04T18:03:48.039Z"}
 {"level":"info","message":"Response receives from Post service: 200","service":"api-gateway","timestamp":"2025-08-04T18:03:48.051Z"}
+{"level":"info","message":"API Gateway is running on port 3000","service":"api-gateway","timestamp":"2025-08-05T15:45:51.352Z"}
+{"level":"info","message":"Identity service is running on port http://localhost:3001","service":"api-gateway","timestamp":"2025-08-05T15:45:51.362Z"}
+{"level":"info","message":"Post service is running on port http://localhost:3002","service":"api-gateway","timestamp":"2025-08-05T15:45:51.364Z"}
+{"level":"info","message":"Redis connected: redis://localhost:6379","service":"api-gateway","timestamp":"2025-08-05T15:45:51.370Z"}
+{"level":"info","message":"Received POST request to /v1/auth/login","service":"api-gateway","timestamp":"2025-08-05T15:50:33.055Z"}
+{"level":"info","message":"Request Body: {\"email\":\"goodee123@gmail.com\",\"password\":\"ayomide\"}","service":"api-gateway","timestamp":"2025-08-05T15:50:33.056Z"}
+{"level":"info","message":"Response receives from Identity services: 200","service":"api-gateway","timestamp":"2025-08-05T15:50:36.603Z"}
+{"level":"info","message":"Received GET request to /v1/posts/get-post/6890f11e786a9e7f70ac317a","service":"api-gateway","timestamp":"2025-08-05T15:50:59.944Z"}
+{"level":"info","message":"Response receives from Post service: 200","service":"api-gateway","timestamp":"2025-08-05T15:51:01.589Z"}
+{"level":"info","message":"Received GET request to /v1/posts/get-post/6890f11e786a9e7f70ac317a","service":"api-gateway","timestamp":"2025-08-05T15:51:32.438Z"}
+{"level":"error","message":"Proxy Error: ","service":"api-gateway","timestamp":"2025-08-05T15:51:32.476Z"}
+{"level":"info","message":"Received GET request to /v1/posts/get-post/6890f11e786a9e7f70ac317a","service":"api-gateway","timestamp":"2025-08-05T15:52:11.644Z"}
+{"level":"info","message":"Response receives from Post service: 200","service":"api-gateway","timestamp":"2025-08-05T15:52:11.785Z"}
+{"level":"info","message":"Received GET request to /v1/posts/get-post/6890f11e786a9e7f70ac317a","service":"api-gateway","timestamp":"2025-08-05T15:52:19.934Z"}
+{"level":"info","message":"Response receives from Post service: 200","service":"api-gateway","timestamp":"2025-08-05T15:52:19.948Z"}
+{"level":"info","message":"Received GET request to /v1/posts/get-post/6890f11e786a9e7f70ac317a","service":"api-gateway","timestamp":"2025-08-05T15:52:21.814Z"}
+{"level":"info","message":"Response receives from Post service: 200","service":"api-gateway","timestamp":"2025-08-05T15:52:21.825Z"}

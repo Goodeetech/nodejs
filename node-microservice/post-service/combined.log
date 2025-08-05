@@ -154,3 +154,11 @@
 {"level":"info","message":"Database connected successfully","service":"post-service","timestamp":"2025-08-05T15:46:12.561Z"}
 {"level":"info","message":"Received GET request to /api/posts/get-post/6890f11e786a9e7f70ac317a","service":"post-service","timestamp":"2025-08-05T15:51:00.076Z"}
 {"level":"warn","message":"API hit get single post endpoint","service":"post-service","timestamp":"2025-08-05T15:51:00.094Z"}
+{"level":"info","message":"🚀 Identity-sevice Server running on port 3002","service":"post-service","timestamp":"2025-08-05T15:51:34.333Z"}
+{"level":"info","message":"Database connected successfully","service":"post-service","timestamp":"2025-08-05T15:52:08.251Z"}
+{"level":"info","message":"Received GET request to /api/posts/get-post/6890f11e786a9e7f70ac317a","service":"post-service","timestamp":"2025-08-05T15:52:11.703Z"}
+{"level":"warn","message":"API hit get single post endpoint","service":"post-service","timestamp":"2025-08-05T15:52:11.749Z"}
+{"level":"info","message":"Received GET request to /api/posts/get-post/6890f11e786a9e7f70ac317a","service":"post-service","timestamp":"2025-08-05T15:52:19.941Z"}
+{"level":"warn","message":"API hit get single post endpoint","service":"post-service","timestamp":"2025-08-05T15:52:19.943Z"}
+{"level":"info","message":"Received GET request to /api/posts/get-post/6890f11e786a9e7f70ac317a","service":"post-service","timestamp":"2025-08-05T15:52:21.821Z"}
+{"level":"warn","message":"API hit get single post endpoint","service":"post-service","timestamp":"2025-08-05T15:52:21.822Z"}
