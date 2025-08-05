@@ -117,7 +117,7 @@ const getSinglePost = async (req, res) => {
 
     return res.status(200).json({
       message: "Post gotten successfully",
-      success: false,
+      success: true,
       data: singlePost,
     });
   } catch (error) {
