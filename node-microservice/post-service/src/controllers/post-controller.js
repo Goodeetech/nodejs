@@ -3,11 +3,57 @@ const Post = require("../models/post");
 const logger = require("../utils/logger");
 const validatePost = require("../utils/validatePost");
 
+// async function (req, input) {
+//   const keys = await req.redisClient.keys("posts:*");
+//   if (keys.length > 0) {
+//     await req.redisClient.del(keys);
+//   }
+// }
 async function invalidatePostCache(req, input) {
-  const keys = await req.redisClient.keys("posts:*");
-  if (keys.length > 0) {
-    await req.redisClient.del(keys);
-  }
+  let cursor = "0";
+  do {
+    // SCAN cursor MATCH pattern COUNT batchSize
+    const result = await req.redisClient.scan(
+      cursor,
+      "MATCH",
+      "posts:*",
+      "COUNT",
+      100
+    );
+    cursor = result[0];
+    const keys = result[1];
+
+    if (keys.length > 0) {
+      await req.redisClient.del(...keys);
+    }
+  } while (cursor !== "0");
+}
+
+// async function invalidateSinglePostCache(req, input) {
+//   const key = await req.redisClient.keys(`post:${input}`);
+//   if (key.length > 0) {
+//     await req.redisClient.del(key);
+//   }
+// }
+
+async function invalidateSinglePostCache(req, input) {
+  let cursor = "0";
+
+  do {
+    const [newCursor, keys] = await req.redisClient.scan(
+      cursor,
+      "MATCH",
+      `post:${input}`,
+      "COUNT",
+      100
+    );
+
+    cursor = newCursor;
+
+    if (keys.length > 0) {
+      await req.redisClient.del(...keys);
+    }
+  } while (cursor !== "0");
 }
 
 const createPost = async (req, res) => {
@@ -132,6 +178,21 @@ const getSinglePost = async (req, res) => {
 const deletePost = async (req, res) => {
   logger.warn(`API hit get delete post endpoint`);
   try {
+    const id = req.params.id;
+    const deletedPost = await Post.findByIdAndDelete(id);
+    if (!deletedPost) {
+      logger.warn(`Couldn't find the post with this ID`);
+      return res.status(400).json({
+        message: "Post couldn't be deleted, Provide post with real ID",
+        success: false,
+      });
+    }
+    await invalidateSinglePostCache(req, id);
+    await invalidatePostCache(req);
+    return res.status(200).json({
+      message: "Post deleted successfully",
+      success: true,
+    });
   } catch (error) {
     logger.error(`Error occurred while deleting single post`);
     return res.status(500).json({
@@ -141,4 +202,4 @@ const deletePost = async (req, res) => {
   }
 };
 
-module.exports = { createPost, getAllPosts, getSinglePost };
+module.exports = { createPost, getAllPosts, getSinglePost, deletePost };

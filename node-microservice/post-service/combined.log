@@ -162,3 +162,180 @@
 {"level":"warn","message":"API hit get single post endpoint","service":"post-service","timestamp":"2025-08-05T15:52:19.943Z"}
 {"level":"info","message":"Received GET request to /api/posts/get-post/6890f11e786a9e7f70ac317a","service":"post-service","timestamp":"2025-08-05T15:52:21.821Z"}
 {"level":"warn","message":"API hit get single post endpoint","service":"post-service","timestamp":"2025-08-05T15:52:21.822Z"}
+{"level":"info","message":"🚀 Identity-sevice Server running on port 3002","service":"post-service","timestamp":"2025-08-05T18:42:44.425Z"}
+{"level":"info","message":"Database connected successfully","service":"post-service","timestamp":"2025-08-05T18:43:02.780Z"}
+{"level":"info","message":"🚀 Identity-sevice Server running on port 3002","service":"post-service","timestamp":"2025-08-05T18:43:08.423Z"}
+{"level":"info","message":"Database connected successfully","service":"post-service","timestamp":"2025-08-05T18:43:12.915Z"}
+{"level":"info","message":"🚀 Identity-sevice Server running on port 3002","service":"post-service","timestamp":"2025-08-05T18:43:32.342Z"}
+{"level":"info","message":"Database connected successfully","service":"post-service","timestamp":"2025-08-05T18:43:36.723Z"}
+{"level":"info","message":"Received GET request to /api/posts/get-posts","service":"post-service","timestamp":"2025-08-05T18:44:18.731Z"}
+{"level":"warn","message":"API hit get all posts endpoint","service":"post-service","timestamp":"2025-08-05T18:44:18.734Z"}
+{"level":"info","message":"🚀 Identity-sevice Server running on port 3002","service":"post-service","timestamp":"2025-08-05T18:45:20.583Z"}
+{"level":"info","message":"Database connected successfully","service":"post-service","timestamp":"2025-08-05T18:45:43.876Z"}
+{"level":"info","message":"Received GET request to /api/posts/get-post/6890f11e786a9e7f70ac317a","service":"post-service","timestamp":"2025-08-05T18:45:50.548Z"}
+{"level":"warn","message":"API hit get single post endpoint","service":"post-service","timestamp":"2025-08-05T18:45:50.553Z"}
+{"level":"info","message":"Received GET request to /api/posts/delete-post/6890f11e786a9e7f70ac317a","service":"post-service","timestamp":"2025-08-05T18:46:20.702Z"}
+{"level":"warn","message":"API hit get delete post endpoint","service":"post-service","timestamp":"2025-08-05T18:46:20.706Z"}
+{"level":"info","message":"Received GET request to /api/posts/get-post/6890f11e786a9e7f70ac317a","service":"post-service","timestamp":"2025-08-05T18:46:29.961Z"}
+{"level":"warn","message":"API hit get single post endpoint","service":"post-service","timestamp":"2025-08-05T18:46:29.969Z"}
+{"level":"warn","message":"Post with ID 6890f11e786a9e7f70ac317anot found","service":"post-service","timestamp":"2025-08-05T18:46:30.137Z"}
+{"level":"info","message":"Received GET request to /api/posts/get-posts","service":"post-service","timestamp":"2025-08-05T18:46:36.377Z"}
+{"level":"warn","message":"API hit get all posts endpoint","service":"post-service","timestamp":"2025-08-05T18:46:36.378Z"}
+{"level":"info","message":"🚀 Identity-sevice Server running on port 3002","service":"post-service","timestamp":"2025-08-05T18:50:19.394Z"}
+{"level":"info","message":"Database connected successfully","service":"post-service","timestamp":"2025-08-05T18:50:32.780Z"}
+{"level":"info","message":"🚀 Identity-sevice Server running on port 3002","service":"post-service","timestamp":"2025-08-05T18:55:35.654Z"}
+{"level":"info","message":"Database connected successfully","service":"post-service","timestamp":"2025-08-05T18:55:47.790Z"}
+{"level":"info","message":"Received GET request to /api/posts/delete-post/688f9cbb5a153f5720f594ab","service":"post-service","timestamp":"2025-08-05T18:56:12.248Z"}
+{"level":"warn","message":"API hit get delete post endpoint","service":"post-service","timestamp":"2025-08-05T18:56:12.253Z"}
+{"level":"info","message":"Received GET request to /api/posts/get-posts","service":"post-service","timestamp":"2025-08-05T18:56:18.644Z"}
+{"level":"warn","message":"API hit get all posts endpoint","service":"post-service","timestamp":"2025-08-05T18:56:18.648Z"}
+{"level":"info","message":"Received GET request to /api/posts/get-posts","service":"post-service","timestamp":"2025-08-05T18:56:25.827Z"}
+{"level":"warn","message":"API hit get all posts endpoint","service":"post-service","timestamp":"2025-08-05T18:56:25.832Z"}
+{"level":"info","message":"Received GET request to /api/posts/get-posts","service":"post-service","timestamp":"2025-08-05T18:56:31.005Z"}
+{"level":"warn","message":"API hit get all posts endpoint","service":"post-service","timestamp":"2025-08-05T18:56:31.008Z"}
+{"level":"info","message":"Received GET request to /api/posts/get-post/688f9c9a5a153f5720f594a9","service":"post-service","timestamp":"2025-08-05T18:56:52.874Z"}
+{"level":"warn","message":"API hit get single post endpoint","service":"post-service","timestamp":"2025-08-05T18:56:52.879Z"}
+{"level":"info","message":"Received GET request to /api/posts/get-post/688f9c9a5a153f5720f594a9","service":"post-service","timestamp":"2025-08-05T18:56:56.452Z"}
+{"level":"warn","message":"API hit get single post endpoint","service":"post-service","timestamp":"2025-08-05T18:56:56.458Z"}
+{"level":"info","message":"Received GET request to /api/posts/get-post/688f9c9a5a153f5720f594a9","service":"post-service","timestamp":"2025-08-05T18:56:58.673Z"}
+{"level":"warn","message":"API hit get single post endpoint","service":"post-service","timestamp":"2025-08-05T18:56:58.678Z"}
+{"level":"info","message":"Received GET request to /api/posts/get-post/688f9c9a5a153f5720f594a9","service":"post-service","timestamp":"2025-08-05T18:57:00.662Z"}
+{"level":"warn","message":"API hit get single post endpoint","service":"post-service","timestamp":"2025-08-05T18:57:00.664Z"}
+{"level":"info","message":"Received GET request to /api/posts/get-post/688f9c9a5a153f5720f594a9","service":"post-service","timestamp":"2025-08-05T18:57:02.591Z"}
+{"level":"warn","message":"API hit get single post endpoint","service":"post-service","timestamp":"2025-08-05T18:57:02.595Z"}
+{"level":"info","message":"Received GET request to /api/posts/get-post/688f9c9a5a153f5720f594a9","service":"post-service","timestamp":"2025-08-05T18:57:04.638Z"}
+{"level":"warn","message":"API hit get single post endpoint","service":"post-service","timestamp":"2025-08-05T18:57:04.639Z"}
+{"level":"info","message":"🚀 Identity-sevice Server running on port 3002","service":"post-service","timestamp":"2025-08-05T19:09:36.938Z"}
+{"level":"info","message":"Database connected successfully","service":"post-service","timestamp":"2025-08-05T19:09:48.895Z"}
+{"level":"info","message":"🚀 Identity-sevice Server running on port 3002","service":"post-service","timestamp":"2025-08-05T19:10:02.925Z"}
+{"level":"info","message":"Database connected successfully","service":"post-service","timestamp":"2025-08-05T19:10:06.509Z"}
+{"level":"info","message":"Received GET request to /api/posts/get-posts","service":"post-service","timestamp":"2025-08-05T19:10:23.123Z"}
+{"level":"warn","message":"API hit get all posts endpoint","service":"post-service","timestamp":"2025-08-05T19:10:23.126Z"}
+{"level":"info","message":"Received GET request to /api/posts/get-posts","service":"post-service","timestamp":"2025-08-05T19:10:29.756Z"}
+{"level":"warn","message":"API hit get all posts endpoint","service":"post-service","timestamp":"2025-08-05T19:10:29.761Z"}
+{"level":"info","message":"Received GET request to /api/posts/get-posts","service":"post-service","timestamp":"2025-08-05T19:10:31.601Z"}
+{"level":"warn","message":"API hit get all posts endpoint","service":"post-service","timestamp":"2025-08-05T19:10:31.602Z"}
+{"level":"info","message":"Received GET request to /api/posts/get-post/688f9a0c775cdbd786980803","service":"post-service","timestamp":"2025-08-05T19:10:46.895Z"}
+{"level":"warn","message":"API hit get single post endpoint","service":"post-service","timestamp":"2025-08-05T19:10:46.900Z"}
+{"level":"info","message":"Received GET request to /api/posts/get-post/688f9a0c775cdbd786980803","service":"post-service","timestamp":"2025-08-05T19:10:49.649Z"}
+{"level":"warn","message":"API hit get single post endpoint","service":"post-service","timestamp":"2025-08-05T19:10:49.653Z"}
+{"level":"info","message":"Received GET request to /api/posts/get-post/688f9a0c775cdbd786980803","service":"post-service","timestamp":"2025-08-05T19:10:51.796Z"}
+{"level":"warn","message":"API hit get single post endpoint","service":"post-service","timestamp":"2025-08-05T19:10:51.797Z"}
+{"level":"info","message":"Received GET request to /api/posts/get-post/688f9a0c775cdbd786980803","service":"post-service","timestamp":"2025-08-05T19:10:53.752Z"}
+{"level":"warn","message":"API hit get single post endpoint","service":"post-service","timestamp":"2025-08-05T19:10:53.755Z"}
+{"level":"info","message":"Received GET request to /api/posts/delete-post/688f9a0c775cdbd786980803","service":"post-service","timestamp":"2025-08-05T19:11:00.794Z"}
+{"level":"warn","message":"API hit get delete post endpoint","service":"post-service","timestamp":"2025-08-05T19:11:00.800Z"}
+{"level":"error","message":"Error occurred while deleting single post","service":"post-service","timestamp":"2025-08-05T19:11:01.081Z"}
+{"level":"info","message":"Received GET request to /api/posts/delete-post/688f9a0c775cdbd786980803","service":"post-service","timestamp":"2025-08-05T19:11:42.689Z"}
+{"level":"warn","message":"API hit get delete post endpoint","service":"post-service","timestamp":"2025-08-05T19:11:42.690Z"}
+{"level":"warn","message":"Couldn't find the post with this ID","service":"post-service","timestamp":"2025-08-05T19:11:42.958Z"}
+{"level":"info","message":"Received GET request to /api/posts/get-posts","service":"post-service","timestamp":"2025-08-05T19:12:03.167Z"}
+{"level":"warn","message":"API hit get all posts endpoint","service":"post-service","timestamp":"2025-08-05T19:12:03.168Z"}
+{"level":"info","message":"Received GET request to /api/posts/delete-post/688f9a0c775cdbd786980803","service":"post-service","timestamp":"2025-08-05T19:12:33.178Z"}
+{"level":"warn","message":"API hit get delete post endpoint","service":"post-service","timestamp":"2025-08-05T19:12:33.180Z"}
+{"level":"warn","message":"Couldn't find the post with this ID","service":"post-service","timestamp":"2025-08-05T19:12:33.446Z"}
+{"level":"info","message":"Received GET request to /api/posts/get-post/688f9a0c775cdbd786980803","service":"post-service","timestamp":"2025-08-05T19:12:42.751Z"}
+{"level":"warn","message":"API hit get single post endpoint","service":"post-service","timestamp":"2025-08-05T19:12:42.752Z"}
+{"level":"info","message":"Received GET request to /api/posts/delete-post/688f9a0c775cdbd786980803","service":"post-service","timestamp":"2025-08-05T19:12:51.251Z"}
+{"level":"warn","message":"API hit get delete post endpoint","service":"post-service","timestamp":"2025-08-05T19:12:51.265Z"}
+{"level":"warn","message":"Couldn't find the post with this ID","service":"post-service","timestamp":"2025-08-05T19:12:51.468Z"}
+{"level":"info","message":"Received GET request to /api/posts/delete-post/688f9c9a5a153f5720f594a9","service":"post-service","timestamp":"2025-08-05T19:13:24.599Z"}
+{"level":"warn","message":"API hit get delete post endpoint","service":"post-service","timestamp":"2025-08-05T19:13:24.601Z"}
+{"level":"error","message":"Error occurred while deleting single post","service":"post-service","timestamp":"2025-08-05T19:13:24.856Z"}
+{"level":"info","message":"🚀 Identity-sevice Server running on port 3002","service":"post-service","timestamp":"2025-08-05T19:15:04.507Z"}
+{"level":"info","message":"Database connected successfully","service":"post-service","timestamp":"2025-08-05T19:15:09.408Z"}
+{"level":"info","message":"Received GET request to /api/posts/delete-post/688f9c9a5a153f5720f594a9","service":"post-service","timestamp":"2025-08-05T19:15:17.881Z"}
+{"level":"warn","message":"API hit get delete post endpoint","service":"post-service","timestamp":"2025-08-05T19:15:17.885Z"}
+{"level":"warn","message":"Couldn't find the post with this ID","service":"post-service","timestamp":"2025-08-05T19:15:18.105Z"}
+{"level":"info","message":"🚀 Identity-sevice Server running on port 3002","service":"post-service","timestamp":"2025-08-05T19:17:05.491Z"}
+{"level":"info","message":"Database connected successfully","service":"post-service","timestamp":"2025-08-05T19:17:13.393Z"}
+{"level":"info","message":"Received GET request to /api/posts/get-post/688f9c9a5a153f5720f594a9","service":"post-service","timestamp":"2025-08-05T19:17:41.036Z"}
+{"level":"warn","message":"API hit get single post endpoint","service":"post-service","timestamp":"2025-08-05T19:17:41.039Z"}
+{"level":"info","message":"Received GET request to /api/posts/delete-post/688f9c9a5a153f5720f594a9","service":"post-service","timestamp":"2025-08-05T19:17:48.152Z"}
+{"level":"warn","message":"API hit get delete post endpoint","service":"post-service","timestamp":"2025-08-05T19:17:48.155Z"}
+{"level":"warn","message":"Couldn't find the post with this ID","service":"post-service","timestamp":"2025-08-05T19:17:48.339Z"}
+{"level":"info","message":"Received GET request to /api/posts/delete-post/688f9c9a5a153f5720f594a9","service":"post-service","timestamp":"2025-08-05T19:19:45.829Z"}
+{"level":"warn","message":"API hit get delete post endpoint","service":"post-service","timestamp":"2025-08-05T19:19:45.834Z"}
+{"level":"warn","message":"Couldn't find the post with this ID","service":"post-service","timestamp":"2025-08-05T19:19:45.992Z"}
+{"level":"info","message":"Received GET request to /api/posts/get-post/688f9c9a5a153f5720f594a9","service":"post-service","timestamp":"2025-08-05T19:20:02.583Z"}
+{"level":"warn","message":"API hit get single post endpoint","service":"post-service","timestamp":"2025-08-05T19:20:02.589Z"}
+{"level":"info","message":"Received GET request to /api/posts/delete-post/688f9c9a5a153f5720f594a9","service":"post-service","timestamp":"2025-08-05T19:20:58.046Z"}
+{"level":"warn","message":"API hit get delete post endpoint","service":"post-service","timestamp":"2025-08-05T19:20:58.047Z"}
+{"level":"warn","message":"Couldn't find the post with this ID","service":"post-service","timestamp":"2025-08-05T19:20:58.205Z"}
+{"level":"info","message":"🚀 Identity-sevice Server running on port 3002","service":"post-service","timestamp":"2025-08-05T19:21:39.603Z"}
+{"level":"info","message":"Database connected successfully","service":"post-service","timestamp":"2025-08-05T19:21:49.269Z"}
+{"level":"info","message":"Received GET request to /api/posts/delete-post/688f9c9a5a153f5720f594a9","service":"post-service","timestamp":"2025-08-05T19:21:52.715Z"}
+{"level":"warn","message":"API hit get delete post endpoint","service":"post-service","timestamp":"2025-08-05T19:21:52.719Z"}
+{"level":"warn","message":"Couldn't find the post with this ID","service":"post-service","timestamp":"2025-08-05T19:21:52.952Z"}
+{"level":"info","message":"Received GET request to /api/posts/get-posts","service":"post-service","timestamp":"2025-08-05T19:23:07.924Z"}
+{"level":"warn","message":"API hit get all posts endpoint","service":"post-service","timestamp":"2025-08-05T19:23:07.927Z"}
+{"level":"info","message":"Received GET request to /api/posts/get-post/688f9c9a5a153f5720f594a9","service":"post-service","timestamp":"2025-08-05T19:23:17.260Z"}
+{"level":"warn","message":"API hit get single post endpoint","service":"post-service","timestamp":"2025-08-05T19:23:17.272Z"}
+{"level":"info","message":"Received POST request to /api/posts/create-post","service":"post-service","timestamp":"2025-08-05T19:24:02.380Z"}
+{"level":"info","message":"Request Body: {\"content\":\"Hello, this is Goodee\"}","service":"post-service","timestamp":"2025-08-05T19:24:02.381Z"}
+{"level":"warn","message":"API hit create post endpoint","service":"post-service","timestamp":"2025-08-05T19:24:02.384Z"}
+{"level":"info","message":"Post created successfully","service":"post-service","timestamp":"2025-08-05T19:24:02.702Z"}
+{"level":"info","message":"Received GET request to /api/posts/get-posts","service":"post-service","timestamp":"2025-08-05T19:24:10.347Z"}
+{"level":"warn","message":"API hit get all posts endpoint","service":"post-service","timestamp":"2025-08-05T19:24:10.348Z"}
+{"level":"info","message":"Received GET request to /api/posts/get-posts","service":"post-service","timestamp":"2025-08-05T19:24:24.027Z"}
+{"level":"warn","message":"API hit get all posts endpoint","service":"post-service","timestamp":"2025-08-05T19:24:24.029Z"}
+{"level":"error","message":"Error occurred while getting all posts","service":"post-service","timestamp":"2025-08-05T19:25:05.877Z"}
+{"level":"error","message":"Error occurred while getting all posts","service":"post-service","timestamp":"2025-08-05T19:25:06.410Z"}
+{"level":"info","message":"Received POST request to /api/posts/create-post","service":"post-service","timestamp":"2025-08-05T19:25:16.400Z"}
+{"level":"info","message":"Request Body: {\"content\":\"Hello, this is Goodee and this is a new post\"}","service":"post-service","timestamp":"2025-08-05T19:25:16.402Z"}
+{"level":"warn","message":"API hit create post endpoint","service":"post-service","timestamp":"2025-08-05T19:25:16.404Z"}
+{"level":"error","message":"Error occurred while creating post","service":"post-service","timestamp":"2025-08-05T19:25:46.419Z"}
+{"level":"info","message":"Received POST request to /api/posts/create-post","service":"post-service","timestamp":"2025-08-05T19:27:04.649Z"}
+{"level":"info","message":"Request Body: {\"content\":\"Hello, this is Goodee and this is a new post\"}","service":"post-service","timestamp":"2025-08-05T19:27:04.650Z"}
+{"level":"warn","message":"API hit create post endpoint","service":"post-service","timestamp":"2025-08-05T19:27:04.651Z"}
+{"level":"error","message":"Error occurred while creating post","service":"post-service","timestamp":"2025-08-05T19:27:34.663Z"}
+{"level":"info","message":"🚀 Identity-sevice Server running on port 3002","service":"post-service","timestamp":"2025-08-06T17:27:28.929Z"}
+{"level":"info","message":"Database connected successfully","service":"post-service","timestamp":"2025-08-06T17:27:36.179Z"}
+{"level":"info","message":"Received GET request to /api/posts/get-posts","service":"post-service","timestamp":"2025-08-06T17:28:39.372Z"}
+{"level":"warn","message":"API hit get all posts endpoint","service":"post-service","timestamp":"2025-08-06T17:28:39.426Z"}
+{"level":"info","message":"Received POST request to /api/posts/create-post","service":"post-service","timestamp":"2025-08-06T17:28:58.173Z"}
+{"level":"info","message":"Request Body: {\"content\":\"Hello, this is Goodee and this is a new post\"}","service":"post-service","timestamp":"2025-08-06T17:28:58.416Z"}
+{"level":"warn","message":"API hit create post endpoint","service":"post-service","timestamp":"2025-08-06T17:28:58.445Z"}
+{"level":"info","message":"Post created successfully","service":"post-service","timestamp":"2025-08-06T17:28:58.945Z"}
+{"level":"info","message":"Received GET request to /api/posts/get-posts","service":"post-service","timestamp":"2025-08-06T17:29:06.431Z"}
+{"level":"warn","message":"API hit get all posts endpoint","service":"post-service","timestamp":"2025-08-06T17:29:06.433Z"}
+{"level":"info","message":"Received GET request to /api/posts/get-post/688dc5eb684fb18b3c827993","service":"post-service","timestamp":"2025-08-06T17:29:41.016Z"}
+{"level":"warn","message":"API hit get single post endpoint","service":"post-service","timestamp":"2025-08-06T17:29:41.018Z"}
+{"level":"warn","message":"Post with ID 688dc5eb684fb18b3c827993not found","service":"post-service","timestamp":"2025-08-06T17:29:41.728Z"}
+{"level":"info","message":"Received GET request to /api/posts/get-post/688dc5eb684fb18b3c827993","service":"post-service","timestamp":"2025-08-06T17:30:00.571Z"}
+{"level":"warn","message":"API hit get single post endpoint","service":"post-service","timestamp":"2025-08-06T17:30:00.573Z"}
+{"level":"warn","message":"Post with ID 688dc5eb684fb18b3c827993not found","service":"post-service","timestamp":"2025-08-06T17:30:00.738Z"}
+{"level":"info","message":"Received GET request to /api/posts/get-posts","service":"post-service","timestamp":"2025-08-06T17:30:06.496Z"}
+{"level":"warn","message":"API hit get all posts endpoint","service":"post-service","timestamp":"2025-08-06T17:30:06.498Z"}
+{"level":"info","message":"Received GET request to /api/posts/get-post/688dc5eb684fb18b3c827993","service":"post-service","timestamp":"2025-08-06T17:30:21.524Z"}
+{"level":"warn","message":"API hit get single post endpoint","service":"post-service","timestamp":"2025-08-06T17:30:21.525Z"}
+{"level":"warn","message":"Post with ID 688dc5eb684fb18b3c827993not found","service":"post-service","timestamp":"2025-08-06T17:30:21.706Z"}
+{"level":"info","message":"Received GET request to /api/posts/get-post/68925a52ffb1fe0a33ac0784","service":"post-service","timestamp":"2025-08-06T17:32:12.512Z"}
+{"level":"warn","message":"API hit get single post endpoint","service":"post-service","timestamp":"2025-08-06T17:32:12.512Z"}
+{"level":"info","message":"Received GET request to /api/posts/get-post/68925a52ffb1fe0a33ac0784","service":"post-service","timestamp":"2025-08-06T17:32:25.090Z"}
+{"level":"warn","message":"API hit get single post endpoint","service":"post-service","timestamp":"2025-08-06T17:32:25.101Z"}
+{"level":"info","message":"Received GET request to /api/posts/get-post/68925a52ffb1fe0a33ac0784","service":"post-service","timestamp":"2025-08-06T17:32:27.095Z"}
+{"level":"warn","message":"API hit get single post endpoint","service":"post-service","timestamp":"2025-08-06T17:32:27.098Z"}
+{"level":"info","message":"Received GET request to /api/posts/get-post/68925a52ffb1fe0a33ac0784","service":"post-service","timestamp":"2025-08-06T17:34:32.334Z"}
+{"level":"warn","message":"API hit get single post endpoint","service":"post-service","timestamp":"2025-08-06T17:34:32.335Z"}
+{"level":"info","message":"Received GET request to /api/posts/delete-post/68925a52ffb1fe0a33ac0784","service":"post-service","timestamp":"2025-08-06T17:36:32.631Z"}
+{"level":"warn","message":"API hit get delete post endpoint","service":"post-service","timestamp":"2025-08-06T17:36:32.634Z"}
+{"level":"error","message":"Error occurred while deleting single post","service":"post-service","timestamp":"2025-08-06T17:36:44.708Z"}
+{"level":"info","message":"Received GET request to /api/posts/get-posts","service":"post-service","timestamp":"2025-08-06T17:37:07.157Z"}
+{"level":"warn","message":"API hit get all posts endpoint","service":"post-service","timestamp":"2025-08-06T17:37:07.157Z"}
+{"level":"info","message":"Received GET request to /api/posts/delete-post/688dc5eb684fb18b3c827993","service":"post-service","timestamp":"2025-08-06T17:37:26.423Z"}
+{"level":"warn","message":"API hit get delete post endpoint","service":"post-service","timestamp":"2025-08-06T17:37:26.424Z"}
+{"level":"warn","message":"Couldn't find the post with this ID","service":"post-service","timestamp":"2025-08-06T17:37:26.618Z"}
+{"level":"info","message":"Received GET request to /api/posts/delete-post/689390da2f53ad60092b3676","service":"post-service","timestamp":"2025-08-06T17:37:46.759Z"}
+{"level":"warn","message":"API hit get delete post endpoint","service":"post-service","timestamp":"2025-08-06T17:37:46.759Z"}
+{"level":"info","message":"Received GET request to /api/posts/get-posts","service":"post-service","timestamp":"2025-08-06T17:37:53.062Z"}
+{"level":"warn","message":"API hit get all posts endpoint","service":"post-service","timestamp":"2025-08-06T17:37:53.062Z"}
+{"level":"info","message":"Received GET request to /api/posts/get-post/68925a52ffb1fe0a33ac0784","service":"post-service","timestamp":"2025-08-06T17:37:59.877Z"}
+{"level":"warn","message":"API hit get single post endpoint","service":"post-service","timestamp":"2025-08-06T17:37:59.878Z"}
+{"level":"info","message":"Received GET request to /api/posts/get-post/689390da2f53ad60092b3676","service":"post-service","timestamp":"2025-08-06T17:38:09.662Z"}
+{"level":"warn","message":"API hit get single post endpoint","service":"post-service","timestamp":"2025-08-06T17:38:09.663Z"}
+{"level":"warn","message":"Post with ID 689390da2f53ad60092b3676not found","service":"post-service","timestamp":"2025-08-06T17:38:09.931Z"}
+{"level":"info","message":"Received GET request to /api/posts/get-posts","service":"post-service","timestamp":"2025-08-06T17:38:16.798Z"}
+{"level":"warn","message":"API hit get all posts endpoint","service":"post-service","timestamp":"2025-08-06T17:38:16.799Z"}
+{"level":"info","message":"Received GET request to /api/posts/get-posts","service":"post-service","timestamp":"2025-08-06T17:38:19.489Z"}
+{"level":"warn","message":"API hit get all posts endpoint","service":"post-service","timestamp":"2025-08-06T17:38:19.490Z"}

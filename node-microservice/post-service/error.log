@@ -1,2 +1,9 @@
 {"level":"error","message":"Error occurred while getting all posts","service":"post-service","timestamp":"2025-08-03T17:58:49.366Z"}
 {"level":"error","message":"Error occurred while getting all posts","service":"post-service","timestamp":"2025-08-03T17:59:34.580Z"}
+{"level":"error","message":"Error occurred while deleting single post","service":"post-service","timestamp":"2025-08-05T19:11:01.081Z"}
+{"level":"error","message":"Error occurred while deleting single post","service":"post-service","timestamp":"2025-08-05T19:13:24.856Z"}
+{"level":"error","message":"Error occurred while getting all posts","service":"post-service","timestamp":"2025-08-05T19:25:05.877Z"}
+{"level":"error","message":"Error occurred while getting all posts","service":"post-service","timestamp":"2025-08-05T19:25:06.410Z"}
+{"level":"error","message":"Error occurred while creating post","service":"post-service","timestamp":"2025-08-05T19:25:46.419Z"}
+{"level":"error","message":"Error occurred while creating post","service":"post-service","timestamp":"2025-08-05T19:27:34.663Z"}
+{"level":"error","message":"Error occurred while deleting single post","service":"post-service","timestamp":"2025-08-06T17:36:44.708Z"}
