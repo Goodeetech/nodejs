@@ -67,7 +67,7 @@ const createPost = async (req, res) => {
         message: error.details[0].message,
       });
     }
-    const { content, mediaIDs } = req.body;
+    const { content, mediaIds } = req.body;
 
     if (!content) {
       logger.warn("Content of the post is missing");
@@ -79,7 +79,7 @@ const createPost = async (req, res) => {
     const newlyCreatedPost = new Post({
       user: req.user.userId,
       content,
-      mediaIDs: mediaIDs || [],
+      mediaIds: mediaIds || [],
     });
 
     await newlyCreatedPost.save();

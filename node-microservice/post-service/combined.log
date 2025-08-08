@@ -357,3 +357,34 @@
 {"level":"info","message":"Received GET request to /api/posts/get-post/689395c52aeb520a46b57609","service":"post-service","timestamp":"2025-08-06T17:50:47.707Z"}
 {"level":"warn","message":"API hit get single post endpoint","service":"post-service","timestamp":"2025-08-06T17:50:47.716Z"}
 {"level":"warn","message":"Post with ID 689395c52aeb520a46b57609not found","service":"post-service","timestamp":"2025-08-06T17:50:47.897Z"}
+{"level":"info","message":"🚀 Identity-sevice Server running on port 3002","service":"post-service","timestamp":"2025-08-07T19:12:21.005Z"}
+{"level":"info","message":"Database connected successfully","service":"post-service","timestamp":"2025-08-07T19:12:32.623Z"}
+{"level":"info","message":"🚀 Identity-sevice Server running on port 3002","service":"post-service","timestamp":"2025-08-07T19:53:54.551Z"}
+{"level":"info","message":"Database connected successfully","service":"post-service","timestamp":"2025-08-07T19:53:58.650Z"}
+{"level":"info","message":"Received POST request to /api/posts/create-post","service":"post-service","timestamp":"2025-08-07T19:54:04.517Z"}
+{"level":"info","message":"Request Body: {\"content\":\"Hello, this is Goodee and this is a new post and i will be uploading my image\",\"mediaIds\":[\"689502536c31bca70bbfcfe7\"]}","service":"post-service","timestamp":"2025-08-07T19:54:04.518Z"}
+{"level":"warn","message":"API hit create post endpoint","service":"post-service","timestamp":"2025-08-07T19:54:04.521Z"}
+{"level":"info","message":"Post created successfully","service":"post-service","timestamp":"2025-08-07T19:54:04.792Z"}
+{"level":"info","message":"Received GET request to /api/posts/get-posts","service":"post-service","timestamp":"2025-08-07T19:54:30.980Z"}
+{"level":"warn","message":"API hit get all posts endpoint","service":"post-service","timestamp":"2025-08-07T19:54:30.989Z"}
+{"level":"info","message":"Received POST request to /api/posts/create-post","service":"post-service","timestamp":"2025-08-07T19:55:23.043Z"}
+{"level":"info","message":"Request Body: {\"content\":\"Hello, this is Goodee and this is a new post and i will be uploading my image\",\"mediaIds\":[\"689502536c31bca70bbfcfe7\"]}","service":"post-service","timestamp":"2025-08-07T19:55:23.047Z"}
+{"level":"warn","message":"API hit create post endpoint","service":"post-service","timestamp":"2025-08-07T19:55:23.055Z"}
+{"level":"info","message":"Post created successfully","service":"post-service","timestamp":"2025-08-07T19:55:23.337Z"}
+{"level":"info","message":"Received GET request to /api/posts/get-posts","service":"post-service","timestamp":"2025-08-07T19:55:29.344Z"}
+{"level":"warn","message":"API hit get all posts endpoint","service":"post-service","timestamp":"2025-08-07T19:55:29.351Z"}
+{"level":"info","message":"🚀 Identity-sevice Server running on port 3002","service":"post-service","timestamp":"2025-08-07T19:57:06.436Z"}
+{"level":"info","message":"Database connected successfully","service":"post-service","timestamp":"2025-08-07T19:57:10.134Z"}
+{"level":"info","message":"🚀 Identity-sevice Server running on port 3002","service":"post-service","timestamp":"2025-08-07T19:57:21.425Z"}
+{"level":"info","message":"Database connected successfully","service":"post-service","timestamp":"2025-08-07T19:57:24.976Z"}
+{"level":"info","message":"🚀 Identity-sevice Server running on port 3002","service":"post-service","timestamp":"2025-08-07T19:57:42.101Z"}
+{"level":"info","message":"Database connected successfully","service":"post-service","timestamp":"2025-08-07T19:57:45.273Z"}
+{"level":"info","message":"Received POST request to /api/posts/create-post","service":"post-service","timestamp":"2025-08-07T19:57:48.169Z"}
+{"level":"info","message":"Request Body: {\"content\":\"Hello, this is Goodee and this is a new post and i will be uploading my image\",\"mediaIds\":[\"689502536c31bca70bbfcfe7\"]}","service":"post-service","timestamp":"2025-08-07T19:57:48.171Z"}
+{"level":"warn","message":"API hit create post endpoint","service":"post-service","timestamp":"2025-08-07T19:57:48.173Z"}
+{"level":"info","message":"Post created successfully","service":"post-service","timestamp":"2025-08-07T19:57:48.485Z"}
+{"level":"info","message":"Received GET request to /api/posts/get-posts","service":"post-service","timestamp":"2025-08-07T19:57:53.887Z"}
+{"level":"warn","message":"API hit get all posts endpoint","service":"post-service","timestamp":"2025-08-07T19:57:53.890Z"}
+{"level":"info","message":"Received GET request to /api/posts/get-posts","service":"post-service","timestamp":"2025-08-07T19:57:59.953Z"}
+{"level":"warn","message":"API hit get all posts endpoint","service":"post-service","timestamp":"2025-08-07T19:57:59.956Z"}
+{"level":"info","message":"🚀 Identity-sevice Server running on port 3002","service":"post-service","timestamp":"2025-08-07T20:00:57.485Z"}

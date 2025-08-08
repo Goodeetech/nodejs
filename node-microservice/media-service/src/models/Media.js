@@ -29,4 +29,4 @@ const mediaSchema = new mongoose.Schema(
 
 const Media = mongoose.model("Media", mediaSchema);
 
-module.export = Media;
+module.exports = Media;

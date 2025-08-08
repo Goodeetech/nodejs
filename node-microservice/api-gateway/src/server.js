@@ -108,6 +108,40 @@ app.use(
   })
 );
 
+// setting up proxy for media service
+
+app.use(
+  "/v1/media",
+  validateToken,
+  proxy(process.env.MEDIA_SERVICE_URL, {
+    ...proxyOption,
+    proxyReqOptDecorator: (proxyReqOpts, srcReq) => {
+      // ✅ Forward the original Authorization token
+      if (srcReq.headers["authorization"]) {
+        proxyReqOpts.headers["authorization"] = srcReq.headers["authorization"];
+      }
+
+      // ✅ Optional: Send decoded user ID as a separate custom header
+      if (srcReq.user?.userId) {
+        proxyReqOpts.headers["x-user-id"] = srcReq.user.userId;
+      }
+      const contentType = srcReq.headers["content-type"];
+      if (!contentType?.startsWith("multipart/form-data")) {
+        proxyReqOpts.headers["Content-Type"] = "application/json";
+      }
+
+      return proxyReqOpts;
+    },
+    userResDecorator: (proxyRes, proxyResData, userReq, userRes) => {
+      logger.info(
+        `Response receives from Media service: ${proxyRes.statusCode}`
+      );
+      return proxyResData;
+    },
+    parseReqBody: false,
+  })
+);
+
 app.use(errorHandler);
 
 app.listen(PORT, () => {
@@ -117,6 +151,9 @@ app.listen(PORT, () => {
   );
   logger.info(
     `Post service is running on port ${process.env.POST_SERVICE_URL}`
+  );
+  logger.info(
+    `Media service is running on port ${process.env.MEDIA_SERVICE_URL}`
   );
   logger.info(`Redis connected: ${process.env.REDIS_URL}`);
 });
