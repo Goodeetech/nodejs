@@ -8,6 +8,7 @@ const connectDB = require("./database/db");
 const postRoute = require("./routes/post-routes");
 const errorHandler = require("./middleware/errorHandler");
 const logger = require("./utils/logger");
+const { connectToRabbitMQ } = require("./utils/rabbitmq");
 // Connect DB
 connectDB();
 
@@ -43,10 +44,21 @@ app.use(
 app.use(errorHandler);
 
 const PORT2 = process.env.PORT2 || 3002;
-app.listen(PORT2, () => {
-  console.log(`🚀 Identity-sevice Server running on port ${PORT2}`);
-  logger.info(`🚀 Identity-sevice Server running on port ${PORT2}`);
-});
+
+async function startServer() {
+  try {
+    await connectToRabbitMQ();
+    app.listen(PORT2, () => {
+      console.log(`🚀 Post-sevice Server running on port ${PORT2}`);
+      logger.info(`🚀 Post-sevice Server running on port ${PORT2}`);
+    });
+  } catch (error) {
+    logger.error(`Failed to connect to the server ${error}`);
+    process.exit(1);
+  }
+}
+
+startServer();
 
 process.on("unhandledRejection", (reason, promise) => {
   logger.error(`unhandledRejection at ${(promise, "reason", reason)}`);

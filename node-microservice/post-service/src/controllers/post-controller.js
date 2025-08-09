@@ -2,6 +2,7 @@ const { parse } = require("dotenv");
 const Post = require("../models/post");
 const logger = require("../utils/logger");
 const validatePost = require("../utils/validatePost");
+const { publishEvent } = require("../utils/rabbitmq");
 
 // async function (req, input) {
 //   const keys = await req.redisClient.keys("posts:*");
@@ -187,6 +188,14 @@ const deletePost = async (req, res) => {
         success: false,
       });
     }
+
+    // publish event to RabbitMQ
+    await publishEvent("post.deleted", {
+      postId: deletedPost._id.toString(),
+      userId: req.user.userId,
+      mediaIds: deletePost.mediaIds,
+    });
+
     await invalidateSinglePostCache(req, id);
     await invalidatePostCache(req);
     return res.status(200).json({

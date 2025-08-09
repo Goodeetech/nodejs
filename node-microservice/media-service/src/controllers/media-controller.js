@@ -49,4 +49,27 @@ const uploadMedia = async (req, res) => {
     });
   }
 };
-module.exports = { uploadMedia };
+
+const getAllMedia = async (req, res) => {
+  try {
+    const result = await Media.find({});
+    if (!result || result.length === 0) {
+      return res.status(404).json({
+        success: false,
+        message: "No media files found",
+      });
+    }
+    return res.status(200).json({
+      success: true,
+      message: "Media files retrieved successfully",
+      data: result,
+    });
+  } catch (error) {
+    logger.error(`Error occurred while getting all the files `);
+    return res.status(500).json({
+      success: false,
+      message: "Error occurred while getting all the files",
+    });
+  }
+};
+module.exports = { uploadMedia, getAllMedia };

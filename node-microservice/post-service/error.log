@@ -7,3 +7,5 @@
 {"level":"error","message":"Error occurred while creating post","service":"post-service","timestamp":"2025-08-05T19:25:46.419Z"}
 {"level":"error","message":"Error occurred while creating post","service":"post-service","timestamp":"2025-08-05T19:27:34.663Z"}
 {"level":"error","message":"Error occurred while deleting single post","service":"post-service","timestamp":"2025-08-06T17:36:44.708Z"}
+{"level":"error","message":"Error occurred while deleting single post","service":"post-service","timestamp":"2025-08-09T01:10:55.020Z"}
+{"level":"error","message":"Error occurred while deleting single post","service":"post-service","timestamp":"2025-08-09T01:17:05.700Z"}

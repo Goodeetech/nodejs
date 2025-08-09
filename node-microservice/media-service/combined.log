@@ -36,3 +36,10 @@
 {"level":"info","message":"file name: create.png image/png","service":"media-service","timestamp":"2025-08-07T19:45:18.090Z"}
 {"level":"info","message":"Uploading to cloudinary","service":"media-service","timestamp":"2025-08-07T19:45:18.106Z"}
 {"level":"info","message":"File uploaded successfully with publicId: puantcht4tw49ftcgy2c","service":"media-service","timestamp":"2025-08-07T19:45:23.830Z"}
+{"level":"info","message":"🚀 Media-sevice Server running on port 3003","service":"media-service","timestamp":"2025-08-09T00:29:51.603Z"}
+{"level":"info","message":"Connected to the database successfully","service":"media-service","timestamp":"2025-08-09T00:29:55.969Z"}
+{"level":"info","message":"[MEDIA SERVICE] GET /api/media/get-media","service":"media-service","timestamp":"2025-08-09T00:31:50.125Z"}
+{"level":"info","message":"Received GET request to /api/media/get-media","service":"media-service","timestamp":"2025-08-09T00:31:50.126Z"}
+{"level":"warn","message":"started with authentication","service":"media-service","timestamp":"2025-08-09T00:31:50.129Z"}
+{"level":"info","message":"🚀 Media-sevice Server running on port 3003","service":"media-service","timestamp":"2025-08-09T00:46:58.218Z"}
+{"level":"info","message":"Connected to the database successfully","service":"media-service","timestamp":"2025-08-09T00:47:00.452Z"}
