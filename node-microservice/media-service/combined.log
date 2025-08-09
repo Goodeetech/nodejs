@@ -43,3 +43,7 @@
 {"level":"warn","message":"started with authentication","service":"media-service","timestamp":"2025-08-09T00:31:50.129Z"}
 {"level":"info","message":"🚀 Media-sevice Server running on port 3003","service":"media-service","timestamp":"2025-08-09T00:46:58.218Z"}
 {"level":"info","message":"Connected to the database successfully","service":"media-service","timestamp":"2025-08-09T00:47:00.452Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"media-service","timestamp":"2025-08-09T01:07:20.705Z"}
+{"level":"info","message":"Waiting for messages with routing key: post.deleted","service":"media-service","timestamp":"2025-08-09T01:07:20.791Z"}
+{"level":"info","message":"🚀 Media-sevice Server running on port 3003","service":"media-service","timestamp":"2025-08-09T01:07:20.824Z"}
+{"level":"info","message":"Connected to the database successfully","service":"media-service","timestamp":"2025-08-09T01:07:25.036Z"}

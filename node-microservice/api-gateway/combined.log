@@ -618,3 +618,43 @@
 {"level":"info","message":"Response receives from Identity services: 200","service":"api-gateway","timestamp":"2025-08-09T00:30:58.288Z"}
 {"level":"info","message":"Received GET request to /v1/media/get-media","service":"api-gateway","timestamp":"2025-08-09T00:31:50.091Z"}
 {"level":"info","message":"Response receives from Media service: 200","service":"api-gateway","timestamp":"2025-08-09T00:31:50.355Z"}
+{"level":"info","message":"Received POST request to /v1/posts/create-post","service":"api-gateway","timestamp":"2025-08-09T01:08:57.066Z"}
+{"level":"info","message":"Request Body: {\"content\":\"Hello, this is Goodee and this is a second post and i will be uploading my image\",\"mediaIds\":[\"689502536c31bca70bbfcfe7\"]}","service":"api-gateway","timestamp":"2025-08-09T01:08:57.067Z"}
+{"level":"info","message":"Response receives from Post service: 201","service":"api-gateway","timestamp":"2025-08-09T01:08:57.546Z"}
+{"level":"info","message":"Received GET request to /v1/posts/get-posts","service":"api-gateway","timestamp":"2025-08-09T01:09:11.051Z"}
+{"level":"info","message":"Response receives from Post service: 200","service":"api-gateway","timestamp":"2025-08-09T01:09:11.464Z"}
+{"level":"info","message":"Received GET request to /v1/posts/get-posts","service":"api-gateway","timestamp":"2025-08-09T01:09:19.444Z"}
+{"level":"info","message":"Response receives from Post service: 200","service":"api-gateway","timestamp":"2025-08-09T01:09:19.457Z"}
+{"level":"info","message":"Received GET request to /v1/posts/get-post/68969fa98179b5805070d51f","service":"api-gateway","timestamp":"2025-08-09T01:09:54.772Z"}
+{"level":"info","message":"Response receives from Post service: 200","service":"api-gateway","timestamp":"2025-08-09T01:09:54.951Z"}
+{"level":"info","message":"Received GET request to /v1/posts/get-post/68969fa98179b5805070d51f","service":"api-gateway","timestamp":"2025-08-09T01:10:00.715Z"}
+{"level":"info","message":"Response receives from Post service: 200","service":"api-gateway","timestamp":"2025-08-09T01:10:00.732Z"}
+{"level":"info","message":"Received DELETE request to /v1/posts/delete-post/68969fa98179b5805070d51f","service":"api-gateway","timestamp":"2025-08-09T01:10:54.845Z"}
+{"level":"info","message":"Response receives from Post service: 500","service":"api-gateway","timestamp":"2025-08-09T01:10:55.022Z"}
+{"level":"info","message":"Received DELETE request to /v1/posts/delete-post/68969fa98179b5805070d51f","service":"api-gateway","timestamp":"2025-08-09T01:12:11.966Z"}
+{"level":"info","message":"Response receives from Post service: 400","service":"api-gateway","timestamp":"2025-08-09T01:12:12.267Z"}
+{"level":"info","message":"Received GET request to /v1/posts/get-posts","service":"api-gateway","timestamp":"2025-08-09T01:12:49.068Z"}
+{"level":"info","message":"Response receives from Post service: 200","service":"api-gateway","timestamp":"2025-08-09T01:12:49.091Z"}
+{"level":"info","message":"Received GET request to /v1/posts/get-post/68969fa98179b5805070d51f","service":"api-gateway","timestamp":"2025-08-09T01:13:02.608Z"}
+{"level":"info","message":"Response receives from Post service: 200","service":"api-gateway","timestamp":"2025-08-09T01:13:02.630Z"}
+{"level":"info","message":"Received DELETE request to /v1/posts/delete-post/68969fa98179b5805070d51f","service":"api-gateway","timestamp":"2025-08-09T01:13:12.004Z"}
+{"level":"info","message":"Response receives from Post service: 400","service":"api-gateway","timestamp":"2025-08-09T01:13:12.191Z"}
+{"level":"info","message":"Received DELETE request to /v1/posts/delete-post/6895053c0d28c7f19fbc34b0","service":"api-gateway","timestamp":"2025-08-09T01:13:50.946Z"}
+{"level":"info","message":"Response receives from Post service: 200","service":"api-gateway","timestamp":"2025-08-09T01:13:51.168Z"}
+{"level":"info","message":"Received GET request to /v1/posts/get-post/6895053c0d28c7f19fbc34b0","service":"api-gateway","timestamp":"2025-08-09T01:14:04.863Z"}
+{"level":"info","message":"Response receives from Post service: 404","service":"api-gateway","timestamp":"2025-08-09T01:14:05.058Z"}
+{"level":"info","message":"Received GET request to /v1/posts/get-posts","service":"api-gateway","timestamp":"2025-08-09T01:14:10.347Z"}
+{"level":"info","message":"Response receives from Post service: 200","service":"api-gateway","timestamp":"2025-08-09T01:14:10.724Z"}
+{"level":"info","message":"Received GET request to /v1/posts/get-post/689504abb2245e8e425c7b9d","service":"api-gateway","timestamp":"2025-08-09T01:16:55.753Z"}
+{"level":"info","message":"Response receives from Post service: 200","service":"api-gateway","timestamp":"2025-08-09T01:16:56.037Z"}
+{"level":"info","message":"Received DELETE request to /v1/posts/delete-post/689504abb2245e8e425c7b9d","service":"api-gateway","timestamp":"2025-08-09T01:17:05.490Z"}
+{"level":"info","message":"Response receives from Post service: 500","service":"api-gateway","timestamp":"2025-08-09T01:17:05.702Z"}
+{"level":"info","message":"Received POST request to /v1/posts/create-post","service":"api-gateway","timestamp":"2025-08-09T01:22:17.627Z"}
+{"level":"info","message":"Request Body: {\"content\":\"Hello, this is Goodee and this is a second post and i will be uploading my image\",\"mediaIds\":[\"689502536c31bca70bbfcfe7\"]}","service":"api-gateway","timestamp":"2025-08-09T01:22:17.628Z"}
+{"level":"info","message":"Response receives from Post service: 201","service":"api-gateway","timestamp":"2025-08-09T01:22:17.993Z"}
+{"level":"info","message":"Received GET request to /v1/posts/get-posts","service":"api-gateway","timestamp":"2025-08-09T01:22:22.965Z"}
+{"level":"info","message":"Response receives from Post service: 200","service":"api-gateway","timestamp":"2025-08-09T01:22:23.374Z"}
+{"level":"info","message":"Received GET request to /v1/posts/get-post/6896a2c93757f3324b53766a","service":"api-gateway","timestamp":"2025-08-09T01:22:39.952Z"}
+{"level":"info","message":"Response receives from Post service: 200","service":"api-gateway","timestamp":"2025-08-09T01:22:40.152Z"}
+{"level":"info","message":"Received DELETE request to /v1/posts/delete-post/6896a2c93757f3324b53766a","service":"api-gateway","timestamp":"2025-08-09T01:22:48.591Z"}
+{"level":"info","message":"Response receives from Post service: 200","service":"api-gateway","timestamp":"2025-08-09T01:22:48.795Z"}
