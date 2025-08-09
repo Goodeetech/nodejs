@@ -47,3 +47,92 @@
 {"level":"info","message":"Waiting for messages with routing key: post.deleted","service":"media-service","timestamp":"2025-08-09T01:07:20.791Z"}
 {"level":"info","message":"🚀 Media-sevice Server running on port 3003","service":"media-service","timestamp":"2025-08-09T01:07:20.824Z"}
 {"level":"info","message":"Connected to the database successfully","service":"media-service","timestamp":"2025-08-09T01:07:25.036Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"media-service","timestamp":"2025-08-09T07:34:15.183Z"}
+{"level":"info","message":"Waiting for messages with routing key: post.deleted","service":"media-service","timestamp":"2025-08-09T07:34:15.232Z"}
+{"level":"info","message":"🚀 Media-sevice Server running on port 3003","service":"media-service","timestamp":"2025-08-09T07:34:15.252Z"}
+{"level":"info","message":"Connected to the database successfully","service":"media-service","timestamp":"2025-08-09T07:34:28.253Z"}
+{"level":"info","message":"[MEDIA SERVICE] POST /api/media/upload","service":"media-service","timestamp":"2025-08-09T07:36:27.415Z"}
+{"level":"info","message":"Received POST request to /api/media/upload","service":"media-service","timestamp":"2025-08-09T07:36:27.423Z"}
+{"level":"warn","message":"started with authentication","service":"media-service","timestamp":"2025-08-09T07:36:27.433Z"}
+{"level":"warn","message":"starting upload of file","service":"media-service","timestamp":"2025-08-09T07:36:27.477Z"}
+{"level":"info","message":"file name: image2.HEIC image/heic","service":"media-service","timestamp":"2025-08-09T07:36:27.479Z"}
+{"level":"info","message":"Uploading to cloudinary","service":"media-service","timestamp":"2025-08-09T07:36:27.492Z"}
+{"level":"info","message":"File uploaded successfully with publicId: fyftcopp8qzmvud5u7fq","service":"media-service","timestamp":"2025-08-09T07:36:32.825Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"media-service","timestamp":"2025-08-09T07:39:21.795Z"}
+{"level":"info","message":"Waiting for messages with routing key: post.deleted","service":"media-service","timestamp":"2025-08-09T07:39:21.807Z"}
+{"level":"info","message":"🚀 Media-sevice Server running on port 3003","service":"media-service","timestamp":"2025-08-09T07:39:21.813Z"}
+{"level":"info","message":"Connected to the database successfully","service":"media-service","timestamp":"2025-08-09T07:39:25.036Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"media-service","timestamp":"2025-08-09T07:45:23.138Z"}
+{"level":"info","message":"Waiting for messages with routing key: post.deleted","service":"media-service","timestamp":"2025-08-09T07:45:23.158Z"}
+{"level":"info","message":"🚀 Media-sevice Server running on port 3003","service":"media-service","timestamp":"2025-08-09T07:45:23.167Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"media-service","timestamp":"2025-08-09T07:59:55.614Z"}
+{"level":"info","message":"Waiting for messages with routing key: post.deleted","service":"media-service","timestamp":"2025-08-09T07:59:55.631Z"}
+{"level":"info","message":"🚀 Media-sevice Server running on port 3003","service":"media-service","timestamp":"2025-08-09T07:59:55.646Z"}
+{"level":"info","message":"Connected to the database successfully","service":"media-service","timestamp":"2025-08-09T07:59:59.586Z"}
+{"level":"info","message":"[MEDIA SERVICE] POST /api/media/upload","service":"media-service","timestamp":"2025-08-09T08:00:09.705Z"}
+{"level":"info","message":"Received POST request to /api/media/upload","service":"media-service","timestamp":"2025-08-09T08:00:09.709Z"}
+{"level":"warn","message":"started with authentication","service":"media-service","timestamp":"2025-08-09T08:00:09.711Z"}
+{"level":"warn","message":"starting upload of file","service":"media-service","timestamp":"2025-08-09T08:00:09.759Z"}
+{"level":"info","message":"file name: image.jpg image/jpeg","service":"media-service","timestamp":"2025-08-09T08:00:09.763Z"}
+{"level":"info","message":"Uploading to cloudinary","service":"media-service","timestamp":"2025-08-09T08:00:09.765Z"}
+{"level":"info","message":"File uploaded successfully with publicId: aam0ajv7gjtoi8q89mn9","service":"media-service","timestamp":"2025-08-09T08:00:18.006Z"}
+{"level":"info","message":"[MEDIA SERVICE] GET /api/media/get-media","service":"media-service","timestamp":"2025-08-09T08:02:16.169Z"}
+{"level":"info","message":"Received GET request to /api/media/get-media","service":"media-service","timestamp":"2025-08-09T08:02:16.172Z"}
+{"level":"warn","message":"started with authentication","service":"media-service","timestamp":"2025-08-09T08:02:16.178Z"}
+{"level":"info","message":"Media deleted from cloudinary: aam0ajv7gjtoi8q89mn9","service":"media-service","timestamp":"2025-08-09T08:03:14.245Z"}
+{"level":"info","message":"Media file deleted: aam0ajv7gjtoi8q89mn9","service":"media-service","timestamp":"2025-08-09T08:03:14.415Z"}
+{"level":"info","message":"Processed media files for postId: 68970040cee4925970c858b4","service":"media-service","timestamp":"2025-08-09T08:03:14.416Z"}
+{"level":"info","message":"[MEDIA SERVICE] GET /api/media/get-media","service":"media-service","timestamp":"2025-08-09T08:03:23.279Z"}
+{"level":"info","message":"Received GET request to /api/media/get-media","service":"media-service","timestamp":"2025-08-09T08:03:23.279Z"}
+{"level":"warn","message":"started with authentication","service":"media-service","timestamp":"2025-08-09T08:03:23.280Z"}
+{"level":"info","message":"[MEDIA SERVICE] GET /api/media/get-media","service":"media-service","timestamp":"2025-08-09T08:04:12.677Z"}
+{"level":"info","message":"Received GET request to /api/media/get-media","service":"media-service","timestamp":"2025-08-09T08:04:12.681Z"}
+{"level":"warn","message":"started with authentication","service":"media-service","timestamp":"2025-08-09T08:04:12.687Z"}
+{"level":"info","message":"[MEDIA SERVICE] POST /api/media/upload","service":"media-service","timestamp":"2025-08-09T08:04:39.234Z"}
+{"level":"info","message":"Received POST request to /api/media/upload","service":"media-service","timestamp":"2025-08-09T08:04:39.234Z"}
+{"level":"warn","message":"started with authentication","service":"media-service","timestamp":"2025-08-09T08:04:39.238Z"}
+{"level":"warn","message":"starting upload of file","service":"media-service","timestamp":"2025-08-09T08:04:39.265Z"}
+{"level":"info","message":"file name: quiz.png image/png","service":"media-service","timestamp":"2025-08-09T08:04:39.270Z"}
+{"level":"info","message":"Uploading to cloudinary","service":"media-service","timestamp":"2025-08-09T08:04:39.271Z"}
+{"level":"info","message":"File uploaded successfully with publicId: ihmhppsuqgpx26nx9blx","service":"media-service","timestamp":"2025-08-09T08:04:43.184Z"}
+{"level":"info","message":"[MEDIA SERVICE] GET /api/media/get-media","service":"media-service","timestamp":"2025-08-09T08:04:52.164Z"}
+{"level":"info","message":"Received GET request to /api/media/get-media","service":"media-service","timestamp":"2025-08-09T08:04:52.165Z"}
+{"level":"warn","message":"started with authentication","service":"media-service","timestamp":"2025-08-09T08:04:52.168Z"}
+{"level":"info","message":"Media deleted from cloudinary: ihmhppsuqgpx26nx9blx","service":"media-service","timestamp":"2025-08-09T08:05:46.308Z"}
+{"level":"info","message":"Media file deleted: ihmhppsuqgpx26nx9blx","service":"media-service","timestamp":"2025-08-09T08:05:46.542Z"}
+{"level":"info","message":"Processed media files for postId: 6897013fcee4925970c858b9","service":"media-service","timestamp":"2025-08-09T08:05:46.545Z"}
+{"level":"info","message":"[MEDIA SERVICE] GET /api/media/get-media","service":"media-service","timestamp":"2025-08-09T08:05:49.752Z"}
+{"level":"info","message":"Received GET request to /api/media/get-media","service":"media-service","timestamp":"2025-08-09T08:05:49.752Z"}
+{"level":"warn","message":"started with authentication","service":"media-service","timestamp":"2025-08-09T08:05:49.753Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"media-service","timestamp":"2025-08-09T08:15:49.755Z"}
+{"level":"info","message":"Waiting for messages with routing key: post.deleted","service":"media-service","timestamp":"2025-08-09T08:15:49.771Z"}
+{"level":"info","message":"🚀 Media-sevice Server running on port 3003","service":"media-service","timestamp":"2025-08-09T08:15:49.788Z"}
+{"level":"info","message":"Connected to the database successfully","service":"media-service","timestamp":"2025-08-09T08:15:51.970Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"media-service","timestamp":"2025-08-09T08:16:11.151Z"}
+{"level":"info","message":"Waiting for messages with routing key: post.deleted","service":"media-service","timestamp":"2025-08-09T08:16:11.364Z"}
+{"level":"info","message":"🚀 Media-sevice Server running on port 3003","service":"media-service","timestamp":"2025-08-09T08:16:11.369Z"}
+{"level":"info","message":"Connected to the database successfully","service":"media-service","timestamp":"2025-08-09T08:16:13.500Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"media-service","timestamp":"2025-08-09T08:17:38.947Z"}
+{"level":"info","message":"Waiting for messages with routing key: post.deleted","service":"media-service","timestamp":"2025-08-09T08:17:38.960Z"}
+{"level":"info","message":"🚀 Media-sevice Server running on port 3003","service":"media-service","timestamp":"2025-08-09T08:17:38.973Z"}
+{"level":"info","message":"Connected to the database successfully","service":"media-service","timestamp":"2025-08-09T08:17:41.613Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"media-service","timestamp":"2025-08-09T08:19:00.430Z"}
+{"level":"info","message":"Waiting for messages with routing key: post.deleted","service":"media-service","timestamp":"2025-08-09T08:19:00.484Z"}
+{"level":"info","message":"🚀 Media-sevice Server running on port 3003","service":"media-service","timestamp":"2025-08-09T08:19:00.502Z"}
+{"level":"info","message":"Connected to the database successfully","service":"media-service","timestamp":"2025-08-09T08:19:03.076Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"media-service","timestamp":"2025-08-09T08:22:22.345Z"}
+{"level":"info","message":"Waiting for messages with routing key: post.deleted","service":"media-service","timestamp":"2025-08-09T08:22:22.361Z"}
+{"level":"info","message":"🚀 Media-sevice Server running on port 3003","service":"media-service","timestamp":"2025-08-09T08:22:22.375Z"}
+{"level":"info","message":"Connected to the database successfully","service":"media-service","timestamp":"2025-08-09T08:22:25.218Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"media-service","timestamp":"2025-08-09T08:22:43.127Z"}
+{"level":"info","message":"Waiting for messages with routing key: post.deleted","service":"media-service","timestamp":"2025-08-09T08:22:43.153Z"}
+{"level":"info","message":"🚀 Media-sevice Server running on port 3003","service":"media-service","timestamp":"2025-08-09T08:22:43.298Z"}
+{"level":"info","message":"Connected to the database successfully","service":"media-service","timestamp":"2025-08-09T08:22:45.719Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"media-service","timestamp":"2025-08-09T08:26:00.370Z"}
+{"level":"info","message":"Waiting for messages with routing key: post.deleted","service":"media-service","timestamp":"2025-08-09T08:26:00.382Z"}
+{"level":"info","message":"🚀 Media-sevice Server running on port 3003","service":"media-service","timestamp":"2025-08-09T08:26:00.389Z"}
+{"level":"info","message":"Connected to the database successfully","service":"media-service","timestamp":"2025-08-09T08:26:03.416Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"media-service","timestamp":"2025-08-09T08:36:22.650Z"}
+{"level":"info","message":"Waiting for messages with routing key: post.deleted","service":"media-service","timestamp":"2025-08-09T08:36:22.668Z"}
+{"level":"info","message":"🚀 Media-sevice Server running on port 3003","service":"media-service","timestamp":"2025-08-09T08:36:22.696Z"}
+{"level":"info","message":"Connected to the database successfully","service":"media-service","timestamp":"2025-08-09T08:36:38.038Z"}

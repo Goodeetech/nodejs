@@ -193,7 +193,7 @@ const deletePost = async (req, res) => {
     await publishEvent("post.deleted", {
       postId: deletedPost._id.toString(),
       userId: req.user.userId,
-      mediaIds: deletePost.mediaIds,
+      mediaIds: deletedPost.mediaIds,
     });
 
     await invalidateSinglePostCache(req, id);

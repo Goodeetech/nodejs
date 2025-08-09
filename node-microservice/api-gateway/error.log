@@ -20,3 +20,6 @@
 {"level":"error","message":"Proxy Error: Cannot read properties of undefined (reading 'startsWith')","service":"api-gateway","timestamp":"2025-08-07T19:15:28.743Z"}
 {"level":"error","message":"Proxy Error: read ECONNRESET","service":"api-gateway","timestamp":"2025-08-07T19:20:41.782Z"}
 {"level":"error","message":"Proxy Error: read ECONNRESET","service":"api-gateway","timestamp":"2025-08-07T19:30:14.439Z"}
+{"level":"error","message":"Invalid access token, access denied!","service":"api-gateway","timestamp":"2025-08-09T07:36:00.311Z"}
+{"level":"error","message":"Invalid access token, access denied!","service":"api-gateway","timestamp":"2025-08-09T07:36:53.562Z"}
+{"level":"error","message":"Proxy Error: ","service":"api-gateway","timestamp":"2025-08-09T07:59:44.058Z"}

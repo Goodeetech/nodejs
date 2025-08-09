@@ -658,3 +658,62 @@
 {"level":"info","message":"Response receives from Post service: 200","service":"api-gateway","timestamp":"2025-08-09T01:22:40.152Z"}
 {"level":"info","message":"Received DELETE request to /v1/posts/delete-post/6896a2c93757f3324b53766a","service":"api-gateway","timestamp":"2025-08-09T01:22:48.591Z"}
 {"level":"info","message":"Response receives from Post service: 200","service":"api-gateway","timestamp":"2025-08-09T01:22:48.795Z"}
+{"level":"info","message":"API Gateway is running on port 3000","service":"api-gateway","timestamp":"2025-08-09T07:34:33.671Z"}
+{"level":"info","message":"Identity service is running on port http://localhost:3001","service":"api-gateway","timestamp":"2025-08-09T07:34:33.680Z"}
+{"level":"info","message":"Post service is running on port http://localhost:3002","service":"api-gateway","timestamp":"2025-08-09T07:34:33.683Z"}
+{"level":"info","message":"Media service is running on port http://localhost:3003","service":"api-gateway","timestamp":"2025-08-09T07:34:33.686Z"}
+{"level":"info","message":"Redis connected: redis://localhost:6379","service":"api-gateway","timestamp":"2025-08-09T07:34:33.691Z"}
+{"level":"info","message":"Received POST request to /v1/auth/login","service":"api-gateway","timestamp":"2025-08-09T07:34:57.131Z"}
+{"level":"info","message":"Request Body: {\"email\":\"goodee123@gmail.com\",\"password\":\"ayomide\"}","service":"api-gateway","timestamp":"2025-08-09T07:34:57.149Z"}
+{"level":"info","message":"Response receives from Identity services: 200","service":"api-gateway","timestamp":"2025-08-09T07:34:58.152Z"}
+{"level":"info","message":"Received POST request to /v1/media/upload","service":"api-gateway","timestamp":"2025-08-09T07:36:00.305Z"}
+{"level":"error","message":"Invalid access token, access denied!","service":"api-gateway","timestamp":"2025-08-09T07:36:00.311Z"}
+{"level":"info","message":"Received POST request to /v1/media/upload","service":"api-gateway","timestamp":"2025-08-09T07:36:27.373Z"}
+{"level":"info","message":"Response receives from Media service: 201","service":"api-gateway","timestamp":"2025-08-09T07:36:33.118Z"}
+{"level":"info","message":"Received POST request to /v1/posts/create-post","service":"api-gateway","timestamp":"2025-08-09T07:36:53.559Z"}
+{"level":"info","message":"Request Body: {\"content\":\"Hello, this is Goodee and this is a second post and i will be uploading my image\",\"mediaIds\":[\"6896fa80420d3295acfcd907\"]}","service":"api-gateway","timestamp":"2025-08-09T07:36:53.559Z"}
+{"level":"error","message":"Invalid access token, access denied!","service":"api-gateway","timestamp":"2025-08-09T07:36:53.562Z"}
+{"level":"info","message":"Received POST request to /v1/posts/create-post","service":"api-gateway","timestamp":"2025-08-09T07:37:11.079Z"}
+{"level":"info","message":"Request Body: {\"content\":\"Hello, this is Goodee and this is a second post and i will be uploading my image\",\"mediaIds\":[\"6896fa80420d3295acfcd907\"]}","service":"api-gateway","timestamp":"2025-08-09T07:37:11.079Z"}
+{"level":"info","message":"Response receives from Post service: 201","service":"api-gateway","timestamp":"2025-08-09T07:37:11.597Z"}
+{"level":"info","message":"Received GET request to /v1/posts/get-posts","service":"api-gateway","timestamp":"2025-08-09T07:37:31.672Z"}
+{"level":"info","message":"Response receives from Post service: 200","service":"api-gateway","timestamp":"2025-08-09T07:37:32.137Z"}
+{"level":"info","message":"Received GET request to /v1/posts/get-post/6896faa727ece8eb94e22e5f","service":"api-gateway","timestamp":"2025-08-09T07:38:13.886Z"}
+{"level":"info","message":"Response receives from Post service: 200","service":"api-gateway","timestamp":"2025-08-09T07:38:14.080Z"}
+{"level":"info","message":"Received DELETE request to /v1/posts/delete-post/6896faa727ece8eb94e22e5f","service":"api-gateway","timestamp":"2025-08-09T07:39:38.213Z"}
+{"level":"info","message":"Response receives from Post service: 200","service":"api-gateway","timestamp":"2025-08-09T07:39:38.509Z"}
+{"level":"info","message":"Received POST request to /v1/media/upload","service":"api-gateway","timestamp":"2025-08-09T07:59:44.040Z"}
+{"level":"error","message":"Proxy Error: ","service":"api-gateway","timestamp":"2025-08-09T07:59:44.058Z"}
+{"level":"info","message":"Received POST request to /v1/media/upload","service":"api-gateway","timestamp":"2025-08-09T08:00:09.687Z"}
+{"level":"info","message":"Response receives from Media service: 201","service":"api-gateway","timestamp":"2025-08-09T08:00:18.348Z"}
+{"level":"info","message":"Received POST request to /v1/posts/create-post","service":"api-gateway","timestamp":"2025-08-09T08:00:40.103Z"}
+{"level":"info","message":"Request Body: {\"content\":\"Hello, this is Goodee and this is a second post and i will be uploading my image\",\"mediaIds\":[\"689700129e7c6676f5088586\"]}","service":"api-gateway","timestamp":"2025-08-09T08:00:40.104Z"}
+{"level":"info","message":"Response receives from Post service: 201","service":"api-gateway","timestamp":"2025-08-09T08:00:42.754Z"}
+{"level":"info","message":"Received POST request to /v1/posts/create-post","service":"api-gateway","timestamp":"2025-08-09T08:01:04.102Z"}
+{"level":"info","message":"Request Body: {\"content\":\"Hello, this is Goodee and this is a third post and i will be uploading my post and image\",\"mediaIds\":[\"689700129e7c6676f5088586\"]}","service":"api-gateway","timestamp":"2025-08-09T08:01:04.112Z"}
+{"level":"info","message":"Response receives from Post service: 201","service":"api-gateway","timestamp":"2025-08-09T08:01:04.560Z"}
+{"level":"info","message":"Received GET request to /v1/posts/get-posts","service":"api-gateway","timestamp":"2025-08-09T08:01:11.640Z"}
+{"level":"info","message":"Response receives from Post service: 200","service":"api-gateway","timestamp":"2025-08-09T08:01:12.197Z"}
+{"level":"info","message":"Received GET request to /v1/posts/get-posts","service":"api-gateway","timestamp":"2025-08-09T08:01:15.082Z"}
+{"level":"info","message":"Response receives from Post service: 200","service":"api-gateway","timestamp":"2025-08-09T08:01:15.115Z"}
+{"level":"info","message":"Received GET request to /v1/media/get-media","service":"api-gateway","timestamp":"2025-08-09T08:02:16.164Z"}
+{"level":"info","message":"Response receives from Media service: 200","service":"api-gateway","timestamp":"2025-08-09T08:02:16.511Z"}
+{"level":"info","message":"Received DELETE request to /v1/posts/delete-post/68970040cee4925970c858b4","service":"api-gateway","timestamp":"2025-08-09T08:03:12.733Z"}
+{"level":"info","message":"Response receives from Post service: 200","service":"api-gateway","timestamp":"2025-08-09T08:03:12.964Z"}
+{"level":"info","message":"Received GET request to /v1/media/get-media","service":"api-gateway","timestamp":"2025-08-09T08:03:23.273Z"}
+{"level":"info","message":"Response receives from Media service: 200","service":"api-gateway","timestamp":"2025-08-09T08:03:23.572Z"}
+{"level":"info","message":"Received GET request to /v1/media/get-media","service":"api-gateway","timestamp":"2025-08-09T08:04:12.654Z"}
+{"level":"info","message":"Response receives from Media service: 200","service":"api-gateway","timestamp":"2025-08-09T08:04:12.997Z"}
+{"level":"info","message":"Received POST request to /v1/media/upload","service":"api-gateway","timestamp":"2025-08-09T08:04:39.229Z"}
+{"level":"info","message":"Response receives from Media service: 201","service":"api-gateway","timestamp":"2025-08-09T08:04:43.381Z"}
+{"level":"info","message":"Received GET request to /v1/media/get-media","service":"api-gateway","timestamp":"2025-08-09T08:04:52.160Z"}
+{"level":"info","message":"Response receives from Media service: 200","service":"api-gateway","timestamp":"2025-08-09T08:04:52.446Z"}
+{"level":"info","message":"Received POST request to /v1/posts/create-post","service":"api-gateway","timestamp":"2025-08-09T08:05:19.825Z"}
+{"level":"info","message":"Request Body: {\"content\":\"Hello, this is Goodee and this is a fourth post and i will be uploading my post and image\",\"mediaIds\":[\"6897011b9e7c6676f508858d\"]}","service":"api-gateway","timestamp":"2025-08-09T08:05:19.827Z"}
+{"level":"info","message":"Response receives from Post service: 201","service":"api-gateway","timestamp":"2025-08-09T08:05:20.111Z"}
+{"level":"info","message":"Received GET request to /v1/posts/get-posts","service":"api-gateway","timestamp":"2025-08-09T08:05:25.542Z"}
+{"level":"info","message":"Response receives from Post service: 200","service":"api-gateway","timestamp":"2025-08-09T08:05:25.935Z"}
+{"level":"info","message":"Received DELETE request to /v1/posts/delete-post/6897013fcee4925970c858b9","service":"api-gateway","timestamp":"2025-08-09T08:05:42.834Z"}
+{"level":"info","message":"Response receives from Post service: 200","service":"api-gateway","timestamp":"2025-08-09T08:05:43.168Z"}
+{"level":"info","message":"Received GET request to /v1/media/get-media","service":"api-gateway","timestamp":"2025-08-09T08:05:49.746Z"}
+{"level":"info","message":"Response receives from Media service: 200","service":"api-gateway","timestamp":"2025-08-09T08:05:49.926Z"}
