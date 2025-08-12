@@ -759,3 +759,6 @@
 {"level":"info","message":"Search service is running on port http://localhost:3004","service":"api-gateway","timestamp":"2025-08-12T19:43:20.440Z"}
 {"level":"info","message":"Media service is running on port http://localhost:3003","service":"api-gateway","timestamp":"2025-08-12T19:43:20.441Z"}
 {"level":"info","message":"Redis connected: redis://localhost:6379","service":"api-gateway","timestamp":"2025-08-12T19:43:20.443Z"}
+{"level":"info","message":"Received POST request to /v1/auth/register","service":"api-gateway","timestamp":"2025-08-12T20:43:34.219Z"}
+{"level":"info","message":"Request Body: {\"username\":\"Goodee12345\",\"password\":\"ayomide12345\",\"email\":\"goodnessay79@gmail.com\"}","service":"api-gateway","timestamp":"2025-08-12T20:43:34.221Z"}
+{"level":"info","message":"Response receives from Identity services: 201","service":"api-gateway","timestamp":"2025-08-12T20:43:38.454Z"}
