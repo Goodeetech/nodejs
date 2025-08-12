@@ -136,3 +136,20 @@
 {"level":"info","message":"Waiting for messages with routing key: post.deleted","service":"media-service","timestamp":"2025-08-09T08:36:22.668Z"}
 {"level":"info","message":"🚀 Media-sevice Server running on port 3003","service":"media-service","timestamp":"2025-08-09T08:36:22.696Z"}
 {"level":"info","message":"Connected to the database successfully","service":"media-service","timestamp":"2025-08-09T08:36:38.038Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"media-service","timestamp":"2025-08-11T16:33:15.804Z"}
+{"level":"info","message":"Waiting for messages with routing key: post.deleted","service":"media-service","timestamp":"2025-08-11T16:33:15.822Z"}
+{"level":"info","message":"🚀 Media-sevice Server running on port 3003","service":"media-service","timestamp":"2025-08-11T16:33:15.846Z"}
+{"level":"info","message":"Connected to the database successfully","service":"media-service","timestamp":"2025-08-11T16:33:40.956Z"}
+{"level":"warn","message":"No media files found for postId: 689a205083ffa043d9d018f1","service":"media-service","timestamp":"2025-08-11T17:12:16.761Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"media-service","timestamp":"2025-08-12T19:43:12.644Z"}
+{"level":"info","message":"Waiting for messages with routing key: post.deleted","service":"media-service","timestamp":"2025-08-12T19:43:12.703Z"}
+{"level":"info","message":"🚀 Media-sevice Server running on port 3003","service":"media-service","timestamp":"2025-08-12T19:43:12.713Z"}
+{"level":"error","message":"Error occurred while connecting to the database: Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.wejddsb.mongodb.net","service":"media-service","timestamp":"2025-08-12T19:44:58.552Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"media-service","timestamp":"2025-08-12T19:51:25.868Z"}
+{"level":"info","message":"Waiting for messages with routing key: post.deleted","service":"media-service","timestamp":"2025-08-12T19:51:25.883Z"}
+{"level":"info","message":"🚀 Media-sevice Server running on port 3003","service":"media-service","timestamp":"2025-08-12T19:51:25.932Z"}
+{"level":"info","message":"Connected to the database successfully","service":"media-service","timestamp":"2025-08-12T19:51:34.568Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"media-service","timestamp":"2025-08-12T20:32:47.219Z"}
+{"level":"info","message":"Waiting for messages with routing key: post.deleted","service":"media-service","timestamp":"2025-08-12T20:32:47.238Z"}
+{"level":"info","message":"🚀 Media-sevice Server running on port 3003","service":"media-service","timestamp":"2025-08-12T20:32:47.248Z"}
+{"level":"info","message":"Connected to the database successfully","service":"media-service","timestamp":"2025-08-12T20:32:50.599Z"}

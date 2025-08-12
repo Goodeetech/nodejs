@@ -16,6 +16,8 @@
     "nodemon": "^3.1.10"
   },
   "dependencies": {
+    "@sendgrid/mail": "^8.1.5",
+    "amqplib": "^0.10.8",
     "argon2": "^0.43.1",
     "cors": "^2.8.5",
     "dotenv": "^17.2.1",

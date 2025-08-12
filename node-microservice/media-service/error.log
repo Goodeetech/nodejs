@@ -1,1 +1,2 @@
 {"level":"error","message":"Error occurred while uploading the file ","service":"media-service","timestamp":"2025-08-07T19:38:44.653Z"}
+{"level":"error","message":"Error occurred while connecting to the database: Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.wejddsb.mongodb.net","service":"media-service","timestamp":"2025-08-12T19:44:58.552Z"}

@@ -1,0 +1,56 @@
+{"level":"info","message":"Server is listening on port: 3004","service":"post-service","timestamp":"2025-08-11T16:00:16.719Z"}
+{"level":"info","message":"Database connected successfully","service":"post-service","timestamp":"2025-08-11T16:01:04.707Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"post-service","timestamp":"2025-08-11T16:30:46.143Z"}
+{"level":"info","message":"Waiting for messages with routing key: post.created","service":"post-service","timestamp":"2025-08-11T16:30:46.267Z"}
+{"level":"info","message":"Server is listening on port: 3004","service":"post-service","timestamp":"2025-08-11T16:30:46.280Z"}
+{"level":"info","message":"Database connected successfully","service":"post-service","timestamp":"2025-08-11T16:30:49.660Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"search-service","timestamp":"2025-08-11T16:32:18.071Z"}
+{"level":"info","message":"Waiting for messages with routing key: post.created","service":"search-service","timestamp":"2025-08-11T16:32:18.088Z"}
+{"level":"info","message":"Server is listening on port: 3004","service":"search-service","timestamp":"2025-08-11T16:32:18.096Z"}
+{"level":"info","message":"Database connected successfully","service":"search-service","timestamp":"2025-08-11T16:32:22.505Z"}
+{"level":"warn","message":"Unhandled rejection at [object Promise] at ReferenceError: logger is not defined","service":"search-service","timestamp":"2025-08-11T16:35:59.588Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"search-service","timestamp":"2025-08-11T16:36:19.907Z"}
+{"level":"info","message":"Waiting for messages with routing key: post.created","service":"search-service","timestamp":"2025-08-11T16:36:19.920Z"}
+{"level":"info","message":"Server is listening on port: 3004","service":"search-service","timestamp":"2025-08-11T16:36:19.926Z"}
+{"level":"info","message":"Database connected successfully","service":"search-service","timestamp":"2025-08-11T16:36:43.441Z"}
+{"level":"error","message":"Error getting the search post SearchPost.save is not a function","service":"search-service","stack":"TypeError: SearchPost.save is not a function\n    at handleSearchPost (C:\\Users\\USER\\Desktop\\New Project\\nodejs\\node-microservice\\search-service\\src\\eventHandlers\\search-event-handler.js:17:22)\n    at C:\\Users\\USER\\Desktop\\New Project\\nodejs\\node-microservice\\search-service\\src\\utils\\rabbitmq.js:30:7\n    at Channel.dispatchMessage (C:\\Users\\USER\\Desktop\\New Project\\nodejs\\node-microservice\\search-service\\node_modules\\amqplib\\lib\\channel.js:489:14)\n    at Channel.handleDelivery (C:\\Users\\USER\\Desktop\\New Project\\nodejs\\node-microservice\\search-service\\node_modules\\amqplib\\lib\\channel.js:498:17)\n    at Channel.emit (node:events:518:28)\n    at C:\\Users\\USER\\Desktop\\New Project\\nodejs\\node-microservice\\search-service\\node_modules\\amqplib\\lib\\channel.js:395:10\n    at Channel.content [as handleMessage] (C:\\Users\\USER\\Desktop\\New Project\\nodejs\\node-microservice\\search-service\\node_modules\\amqplib\\lib\\channel.js:448:9)\n    at Channel.acceptMessageFrame (C:\\Users\\USER\\Desktop\\New Project\\nodejs\\node-microservice\\search-service\\node_modules\\amqplib\\lib\\channel.js:232:33)\n    at Channel.accept (C:\\Users\\USER\\Desktop\\New Project\\nodejs\\node-microservice\\search-service\\node_modules\\amqplib\\lib\\channel.js:302:19)\n    at Connection.mainAccept [as accept] (C:\\Users\\USER\\Desktop\\New Project\\nodejs\\node-microservice\\search-service\\node_modules\\amqplib\\lib\\connection.js:579:33)","timestamp":"2025-08-11T16:36:44.111Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"search-service","timestamp":"2025-08-11T16:37:39.698Z"}
+{"level":"info","message":"Waiting for messages with routing key: post.created","service":"search-service","timestamp":"2025-08-11T16:37:39.715Z"}
+{"level":"info","message":"Server is listening on port: 3004","service":"search-service","timestamp":"2025-08-11T16:37:39.721Z"}
+{"level":"info","message":"Database connected successfully","service":"search-service","timestamp":"2025-08-11T16:38:03.734Z"}
+{"level":"info","message":"Search post saved successfully 689a1c6e83ffa043d9d018ef  689a1c6ee116cd762eba092f","service":"search-service","timestamp":"2025-08-11T16:38:07.117Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"search-service","timestamp":"2025-08-11T16:47:35.072Z"}
+{"level":"info","message":"Waiting for messages with routing key: post.created","service":"search-service","timestamp":"2025-08-11T16:47:35.093Z"}
+{"level":"info","message":"Server is listening on port: 3004","service":"search-service","timestamp":"2025-08-11T16:47:35.099Z"}
+{"level":"info","message":"Database connected successfully","service":"search-service","timestamp":"2025-08-11T16:48:47.408Z"}
+{"code":11000,"errorLabelSet":{},"errorResponse":{"code":11000,"errmsg":"E11000 duplicate key error collection: test.searchposts index: userId_1 dup key: { userId: \"688dc5eb684fb18b3c827993\" }","index":0,"keyPattern":{"userId":1},"keyValue":{"userId":"688dc5eb684fb18b3c827993"}},"index":0,"keyPattern":{"userId":1},"keyValue":{"userId":"688dc5eb684fb18b3c827993"},"level":"error","message":"Error getting the search post E11000 duplicate key error collection: test.searchposts index: userId_1 dup key: { userId: \"688dc5eb684fb18b3c827993\" }","service":"search-service","stack":"MongoServerError: E11000 duplicate key error collection: test.searchposts index: userId_1 dup key: { userId: \"688dc5eb684fb18b3c827993\" }\n    at InsertOneOperation.execute (C:\\Users\\USER\\Desktop\\New Project\\nodejs\\node-microservice\\search-service\\node_modules\\mongodb\\lib\\operations\\insert.js:51:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async tryOperation (C:\\Users\\USER\\Desktop\\New Project\\nodejs\\node-microservice\\search-service\\node_modules\\mongodb\\lib\\operations\\execute_operation.js:207:20)\n    at async executeOperation (C:\\Users\\USER\\Desktop\\New Project\\nodejs\\node-microservice\\search-service\\node_modules\\mongodb\\lib\\operations\\execute_operation.js:75:16)\n    at async Collection.insertOne (C:\\Users\\USER\\Desktop\\New Project\\nodejs\\node-microservice\\search-service\\node_modules\\mongodb\\lib\\collection.js:157:16)","timestamp":"2025-08-11T16:55:16.750Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"search-service","timestamp":"2025-08-11T17:08:17.913Z"}
+{"level":"info","message":"Waiting for messages with routing key: post.created","service":"search-service","timestamp":"2025-08-11T17:08:17.930Z"}
+{"level":"info","message":"Waiting for messages with routing key: post.deleted","service":"search-service","timestamp":"2025-08-11T17:08:17.979Z"}
+{"level":"info","message":"Server is listening on port: 3004","service":"search-service","timestamp":"2025-08-11T17:08:17.986Z"}
+{"level":"info","message":"Database connected successfully","service":"search-service","timestamp":"2025-08-11T17:08:20.330Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"search-service","timestamp":"2025-08-11T17:09:02.529Z"}
+{"level":"info","message":"Waiting for messages with routing key: post.created","service":"search-service","timestamp":"2025-08-11T17:09:02.554Z"}
+{"level":"info","message":"Waiting for messages with routing key: post.deleted","service":"search-service","timestamp":"2025-08-11T17:09:02.583Z"}
+{"level":"info","message":"Server is listening on port: 3004","service":"search-service","timestamp":"2025-08-11T17:09:02.589Z"}
+{"level":"info","message":"Database connected successfully","service":"search-service","timestamp":"2025-08-11T17:09:31.673Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"search-service","timestamp":"2025-08-11T17:09:40.646Z"}
+{"level":"info","message":"Waiting for messages with routing key: post.created","service":"search-service","timestamp":"2025-08-11T17:09:40.663Z"}
+{"level":"info","message":"Waiting for messages with routing key: post.deleted","service":"search-service","timestamp":"2025-08-11T17:09:40.677Z"}
+{"level":"info","message":"Server is listening on port: 3004","service":"search-service","timestamp":"2025-08-11T17:09:40.686Z"}
+{"level":"info","message":"Database connected successfully","service":"search-service","timestamp":"2025-08-11T17:09:43.172Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"search-service","timestamp":"2025-08-11T17:10:28.357Z"}
+{"level":"info","message":"Waiting for messages with routing key: post.created","service":"search-service","timestamp":"2025-08-11T17:10:28.371Z"}
+{"level":"info","message":"Waiting for messages with routing key: post.deleted","service":"search-service","timestamp":"2025-08-11T17:10:28.385Z"}
+{"level":"info","message":"Server is listening on port: 3004","service":"search-service","timestamp":"2025-08-11T17:10:28.398Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"search-service","timestamp":"2025-08-11T17:10:36.716Z"}
+{"level":"info","message":"Waiting for messages with routing key: post.created","service":"search-service","timestamp":"2025-08-11T17:10:36.732Z"}
+{"level":"info","message":"Waiting for messages with routing key: post.deleted","service":"search-service","timestamp":"2025-08-11T17:10:36.755Z"}
+{"level":"info","message":"Server is listening on port: 3004","service":"search-service","timestamp":"2025-08-11T17:10:36.761Z"}
+{"level":"info","message":"Database connected successfully","service":"search-service","timestamp":"2025-08-11T17:10:42.908Z"}
+{"level":"info","message":"Search Post deleted successfully","service":"search-service","timestamp":"2025-08-11T17:12:13.752Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"search-service","timestamp":"2025-08-11T17:18:12.898Z"}
+{"level":"info","message":"Waiting for messages with routing key: post.created","service":"search-service","timestamp":"2025-08-11T17:18:12.911Z"}
+{"level":"info","message":"Waiting for messages with routing key: post.deleted","service":"search-service","timestamp":"2025-08-11T17:18:12.921Z"}
+{"level":"info","message":"Server is listening on port: 3004","service":"search-service","timestamp":"2025-08-11T17:18:12.927Z"}
+{"level":"info","message":"Database connected successfully","service":"search-service","timestamp":"2025-08-11T17:18:15.182Z"}

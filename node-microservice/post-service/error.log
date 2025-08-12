@@ -9,3 +9,4 @@
 {"level":"error","message":"Error occurred while deleting single post","service":"post-service","timestamp":"2025-08-06T17:36:44.708Z"}
 {"level":"error","message":"Error occurred while deleting single post","service":"post-service","timestamp":"2025-08-09T01:10:55.020Z"}
 {"level":"error","message":"Error occurred while deleting single post","service":"post-service","timestamp":"2025-08-09T01:17:05.700Z"}
+{"level":"error","message":"Error occured while connecting to the database : Error: queryTxt ETIMEOUT cluster0.wejddsb.mongodb.net","service":"post-service","timestamp":"2025-08-12T19:44:46.727Z"}

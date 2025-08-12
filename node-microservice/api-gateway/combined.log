@@ -717,3 +717,45 @@
 {"level":"info","message":"Response receives from Post service: 200","service":"api-gateway","timestamp":"2025-08-09T08:05:43.168Z"}
 {"level":"info","message":"Received GET request to /v1/media/get-media","service":"api-gateway","timestamp":"2025-08-09T08:05:49.746Z"}
 {"level":"info","message":"Response receives from Media service: 200","service":"api-gateway","timestamp":"2025-08-09T08:05:49.926Z"}
+{"level":"info","message":"API Gateway is running on port 3000","service":"api-gateway","timestamp":"2025-08-11T16:33:18.607Z"}
+{"level":"info","message":"Identity service is running on port http://localhost:3001","service":"api-gateway","timestamp":"2025-08-11T16:33:18.617Z"}
+{"level":"info","message":"Post service is running on port http://localhost:3002","service":"api-gateway","timestamp":"2025-08-11T16:33:18.618Z"}
+{"level":"info","message":"Media service is running on port http://localhost:3003","service":"api-gateway","timestamp":"2025-08-11T16:33:18.619Z"}
+{"level":"info","message":"Redis connected: redis://localhost:6379","service":"api-gateway","timestamp":"2025-08-11T16:33:18.620Z"}
+{"level":"info","message":"Received POST request to /v1/auth/login","service":"api-gateway","timestamp":"2025-08-11T16:33:49.790Z"}
+{"level":"info","message":"Request Body: {\"email\":\"goodee123@gmail.com\",\"password\":\"ayomide\"}","service":"api-gateway","timestamp":"2025-08-11T16:33:49.791Z"}
+{"level":"info","message":"Response receives from Identity services: 200","service":"api-gateway","timestamp":"2025-08-11T16:33:51.926Z"}
+{"level":"info","message":"Received POST request to /v1/posts/create-post","service":"api-gateway","timestamp":"2025-08-11T16:35:38.389Z"}
+{"level":"info","message":"Request Body: {\"content\":\"Hello, this is Goodee and i am checking on my search post\"}","service":"api-gateway","timestamp":"2025-08-11T16:35:38.397Z"}
+{"level":"info","message":"Response receives from Post service: 201","service":"api-gateway","timestamp":"2025-08-11T16:35:59.622Z"}
+{"level":"info","message":"Received POST request to /v1/posts/create-post","service":"api-gateway","timestamp":"2025-08-11T16:36:41.216Z"}
+{"level":"info","message":"Request Body: {\"content\":\"Hello, this is Goodee and i am checking on my search post for the second time\"}","service":"api-gateway","timestamp":"2025-08-11T16:36:41.218Z"}
+{"level":"info","message":"Response receives from Post service: 201","service":"api-gateway","timestamp":"2025-08-11T16:36:44.095Z"}
+{"level":"info","message":"Received POST request to /v1/posts/create-post","service":"api-gateway","timestamp":"2025-08-11T16:38:06.539Z"}
+{"level":"info","message":"Request Body: {\"content\":\"Hello, this is Goodee and i am checking on my search post for the third time\"}","service":"api-gateway","timestamp":"2025-08-11T16:38:06.540Z"}
+{"level":"info","message":"Response receives from Post service: 201","service":"api-gateway","timestamp":"2025-08-11T16:38:06.863Z"}
+{"level":"info","message":"API Gateway is running on port 3000","service":"api-gateway","timestamp":"2025-08-11T16:42:41.139Z"}
+{"level":"info","message":"Identity service is running on port http://localhost:3001","service":"api-gateway","timestamp":"2025-08-11T16:42:41.145Z"}
+{"level":"info","message":"Post service is running on port http://localhost:3002","service":"api-gateway","timestamp":"2025-08-11T16:42:41.146Z"}
+{"level":"info","message":"Search service is running on port http://localhost:3004","service":"api-gateway","timestamp":"2025-08-11T16:42:41.147Z"}
+{"level":"info","message":"Media service is running on port http://localhost:3003","service":"api-gateway","timestamp":"2025-08-11T16:42:41.147Z"}
+{"level":"info","message":"Redis connected: redis://localhost:6379","service":"api-gateway","timestamp":"2025-08-11T16:42:41.148Z"}
+{"level":"info","message":"Received POST request to /v1/posts/create-post","service":"api-gateway","timestamp":"2025-08-11T16:54:40.321Z"}
+{"level":"info","message":"Request Body: {\"content\":\"Hello, this is Goodee and i am checking on my search post for the fourth time\"}","service":"api-gateway","timestamp":"2025-08-11T16:54:40.322Z"}
+{"level":"info","message":"Response receives from Post service: 201","service":"api-gateway","timestamp":"2025-08-11T16:55:08.557Z"}
+{"level":"info","message":"Received GET request to /v1/posts/get-posts","service":"api-gateway","timestamp":"2025-08-11T17:11:31.920Z"}
+{"level":"info","message":"Response receives from Post service: 200","service":"api-gateway","timestamp":"2025-08-11T17:11:33.406Z"}
+{"level":"info","message":"Received DELETE request to /v1/posts/delete-post/689a205083ffa043d9d018f1","service":"api-gateway","timestamp":"2025-08-11T17:12:13.327Z"}
+{"level":"info","message":"Response receives from Post service: 200","service":"api-gateway","timestamp":"2025-08-11T17:12:13.561Z"}
+{"level":"info","message":"Received POST request to /v1/auth/register","service":"api-gateway","timestamp":"2025-08-11T18:37:08.002Z"}
+{"level":"info","message":"Request Body: {\"username\":\"Goodee12345\",\"password\":\"ayomide12345\",\"email\":\"goodnessay79@gmail.com\"}","service":"api-gateway","timestamp":"2025-08-11T18:37:08.017Z"}
+{"level":"info","message":"Response receives from Identity services: 201","service":"api-gateway","timestamp":"2025-08-11T18:37:09.335Z"}
+{"level":"info","message":"Received POST request to /v1/auth/register","service":"api-gateway","timestamp":"2025-08-11T18:40:45.945Z"}
+{"level":"info","message":"Request Body: {\"username\":\"Goodee12345\",\"password\":\"ayomide12345\",\"email\":\"goodnessay79@gmail.com\"}","service":"api-gateway","timestamp":"2025-08-11T18:40:45.953Z"}
+{"level":"info","message":"Response receives from Identity services: 201","service":"api-gateway","timestamp":"2025-08-11T18:40:47.487Z"}
+{"level":"info","message":"API Gateway is running on port 3000","service":"api-gateway","timestamp":"2025-08-12T19:43:20.426Z"}
+{"level":"info","message":"Identity service is running on port http://localhost:3001","service":"api-gateway","timestamp":"2025-08-12T19:43:20.436Z"}
+{"level":"info","message":"Post service is running on port http://localhost:3002","service":"api-gateway","timestamp":"2025-08-12T19:43:20.437Z"}
+{"level":"info","message":"Search service is running on port http://localhost:3004","service":"api-gateway","timestamp":"2025-08-12T19:43:20.440Z"}
+{"level":"info","message":"Media service is running on port http://localhost:3003","service":"api-gateway","timestamp":"2025-08-12T19:43:20.441Z"}
+{"level":"info","message":"Redis connected: redis://localhost:6379","service":"api-gateway","timestamp":"2025-08-12T19:43:20.443Z"}

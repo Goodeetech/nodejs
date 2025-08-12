@@ -346,3 +346,92 @@
 {"level":"info","message":"Received POST request to /api/auth/login","service":"identity-service","timestamp":"2025-08-09T07:34:57.286Z"}
 {"level":"info","message":"Request Body: {\"email\":\"goodee123@gmail.com\",\"password\":\"ayomide\"}","service":"identity-service","timestamp":"2025-08-09T07:34:57.289Z"}
 {"level":"info","message":"Logging in user from the identity service","service":"identity-service","timestamp":"2025-08-09T07:34:57.337Z"}
+{"level":"info","message":"🚀 Identity-sevice Server running on port 3001","service":"identity-service","timestamp":"2025-08-11T16:33:24.859Z"}
+{"level":"info","message":"Database connected successfully","service":"identity-service","timestamp":"2025-08-11T16:33:41.114Z"}
+{"level":"info","message":"Received POST request to /api/auth/login","service":"identity-service","timestamp":"2025-08-11T16:33:49.856Z"}
+{"level":"info","message":"Request Body: {\"email\":\"goodee123@gmail.com\",\"password\":\"ayomide\"}","service":"identity-service","timestamp":"2025-08-11T16:33:49.858Z"}
+{"level":"info","message":"Logging in user from the identity service","service":"identity-service","timestamp":"2025-08-11T16:33:49.875Z"}
+{"level":"info","message":"🚀 Identity-sevice Server running on port 3001","service":"identity-service","timestamp":"2025-08-11T18:00:03.815Z"}
+{"level":"info","message":"Database connected successfully","service":"identity-service","timestamp":"2025-08-11T18:00:12.823Z"}
+{"level":"info","message":"🚀 Identity-sevice Server running on port 3001","service":"identity-service","timestamp":"2025-08-11T18:00:44.953Z"}
+{"level":"info","message":"Database connected successfully","service":"identity-service","timestamp":"2025-08-11T18:00:47.601Z"}
+{"level":"info","message":"🚀 Identity-sevice Server running on port 3001","service":"identity-service","timestamp":"2025-08-11T18:00:59.756Z"}
+{"level":"info","message":"Database connected successfully","service":"identity-service","timestamp":"2025-08-11T18:01:05.450Z"}
+{"level":"info","message":"🚀 Identity-sevice Server running on port 3001","service":"identity-service","timestamp":"2025-08-11T18:01:21.613Z"}
+{"level":"info","message":"Database connected successfully","service":"identity-service","timestamp":"2025-08-11T18:01:25.116Z"}
+{"level":"info","message":"🚀 Identity-sevice Server running on port 3001","service":"identity-service","timestamp":"2025-08-11T18:02:19.121Z"}
+{"level":"info","message":"Database connected successfully","service":"identity-service","timestamp":"2025-08-11T18:02:27.229Z"}
+{"level":"info","message":"🚀 Identity-sevice Server running on port 3001","service":"identity-service","timestamp":"2025-08-11T18:08:42.956Z"}
+{"level":"info","message":"Database connected successfully","service":"identity-service","timestamp":"2025-08-11T18:08:48.196Z"}
+{"level":"info","message":"Database connected successfully","service":"identity-service","timestamp":"2025-08-11T18:22:27.894Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"identity-service","timestamp":"2025-08-11T18:22:55.345Z"}
+{"level":"info","message":"Waiting for messages with routing key: register.email","service":"identity-service","timestamp":"2025-08-11T18:22:55.378Z"}
+{"level":"info","message":"🚀 Identity-sevice Server running on port 3001","service":"identity-service","timestamp":"2025-08-11T18:22:55.390Z"}
+{"level":"info","message":"Database connected successfully","service":"identity-service","timestamp":"2025-08-11T18:23:04.312Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"identity-service","timestamp":"2025-08-11T18:23:53.580Z"}
+{"level":"info","message":"Waiting for messages with routing key: register.email","service":"identity-service","timestamp":"2025-08-11T18:23:53.604Z"}
+{"level":"info","message":"🚀 Identity-sevice Server running on port 3001","service":"identity-service","timestamp":"2025-08-11T18:23:53.611Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"identity-service","timestamp":"2025-08-11T18:23:57.058Z"}
+{"level":"info","message":"Waiting for messages with routing key: register.email","service":"identity-service","timestamp":"2025-08-11T18:23:57.114Z"}
+{"level":"info","message":"🚀 Identity-sevice Server running on port 3001","service":"identity-service","timestamp":"2025-08-11T18:23:57.119Z"}
+{"level":"info","message":"Database connected successfully","service":"identity-service","timestamp":"2025-08-11T18:24:02.411Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"identity-service","timestamp":"2025-08-11T18:24:07.781Z"}
+{"level":"info","message":"Waiting for messages with routing key: register.email","service":"identity-service","timestamp":"2025-08-11T18:24:07.798Z"}
+{"level":"info","message":"🚀 Identity-sevice Server running on port 3001","service":"identity-service","timestamp":"2025-08-11T18:24:07.807Z"}
+{"level":"info","message":"Database connected successfully","service":"identity-service","timestamp":"2025-08-11T18:24:12.504Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"identity-service","timestamp":"2025-08-11T18:33:22.696Z"}
+{"level":"info","message":"Waiting for messages with routing key: register.email","service":"identity-service","timestamp":"2025-08-11T18:33:22.713Z"}
+{"level":"info","message":"🚀 Identity-sevice Server running on port 3001","service":"identity-service","timestamp":"2025-08-11T18:33:22.720Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"identity-service","timestamp":"2025-08-11T18:33:41.234Z"}
+{"level":"info","message":"Waiting for messages with routing key: register.email","service":"identity-service","timestamp":"2025-08-11T18:33:41.247Z"}
+{"level":"info","message":"🚀 Identity-sevice Server running on port 3001","service":"identity-service","timestamp":"2025-08-11T18:33:41.253Z"}
+{"level":"info","message":"Database connected successfully","service":"identity-service","timestamp":"2025-08-11T18:33:51.371Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"identity-service","timestamp":"2025-08-11T18:34:31.099Z"}
+{"level":"info","message":"Waiting for messages with routing key: register.email","service":"identity-service","timestamp":"2025-08-11T18:34:31.117Z"}
+{"level":"info","message":"🚀 Identity-sevice Server running on port 3001","service":"identity-service","timestamp":"2025-08-11T18:34:31.123Z"}
+{"code":"ETIMEOUT","hostname":"_mongodb._tcp.cluster0.wejddsb.mongodb.net","level":"error","message":"Error connecting to the database querySrv ETIMEOUT _mongodb._tcp.cluster0.wejddsb.mongodb.net","service":"identity-service","stack":"Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.wejddsb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:293:17)","syscall":"querySrv","timestamp":"2025-08-11T18:35:24.661Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"identity-service","timestamp":"2025-08-11T18:35:41.238Z"}
+{"level":"info","message":"Waiting for messages with routing key: register.email","service":"identity-service","timestamp":"2025-08-11T18:35:41.252Z"}
+{"level":"info","message":"🚀 Identity-sevice Server running on port 3001","service":"identity-service","timestamp":"2025-08-11T18:35:41.257Z"}
+{"level":"info","message":"Database connected successfully","service":"identity-service","timestamp":"2025-08-11T18:36:00.680Z"}
+{"level":"info","message":"Received POST request to /api/auth/register","service":"identity-service","timestamp":"2025-08-11T18:37:08.097Z"}
+{"level":"info","message":"Request Body: {\"username\":\"Goodee12345\",\"password\":\"ayomide12345\",\"email\":\"goodnessay79@gmail.com\"}","service":"identity-service","timestamp":"2025-08-11T18:37:08.098Z"}
+{"level":"info","message":"Registration endpoint hit","service":"identity-service","timestamp":"2025-08-11T18:37:08.117Z"}
+{"buffer":{"data":[104,154,56,84,205,255,79,136,225,113,226,207],"type":"Buffer"},"level":"info","message":"User registered successfully","service":"identity-service","timestamp":"2025-08-11T18:37:09.084Z"}
+{"level":"info","message":"Event published to RabbitMQ with routing key: register.email","service":"identity-service","timestamp":"2025-08-11T18:37:09.098Z"}
+{"level":"error","message":"unhandledRejection at TypeError: logger.ingo is not a function","service":"identity-service","timestamp":"2025-08-11T18:37:09.145Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"identity-service","timestamp":"2025-08-11T18:37:51.781Z"}
+{"level":"info","message":"Waiting for messages with routing key: register.email","service":"identity-service","timestamp":"2025-08-11T18:37:51.807Z"}
+{"level":"info","message":"🚀 Identity-sevice Server running on port 3001","service":"identity-service","timestamp":"2025-08-11T18:37:51.819Z"}
+{"level":"info","message":"Database connected successfully","service":"identity-service","timestamp":"2025-08-11T18:38:06.587Z"}
+{"level":"info","message":"Received POST request to /api/auth/register","service":"identity-service","timestamp":"2025-08-11T18:40:46.080Z"}
+{"level":"info","message":"Request Body: {\"username\":\"Goodee12345\",\"password\":\"ayomide12345\",\"email\":\"goodnessay79@gmail.com\"}","service":"identity-service","timestamp":"2025-08-11T18:40:46.086Z"}
+{"level":"info","message":"Registration endpoint hit","service":"identity-service","timestamp":"2025-08-11T18:40:46.170Z"}
+{"buffer":{"data":[104,154,57,46,134,130,105,155,241,94,30,14],"type":"Buffer"},"level":"info","message":"User registered successfully","service":"identity-service","timestamp":"2025-08-11T18:40:47.239Z"}
+{"level":"info","message":"Event published to RabbitMQ with routing key: register.email","service":"identity-service","timestamp":"2025-08-11T18:40:47.249Z"}
+{"level":"info","message":"Recieved user.registered event [object Object]","service":"identity-service","timestamp":"2025-08-11T18:40:47.311Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"identity-service","timestamp":"2025-08-11T18:43:10.991Z"}
+{"level":"info","message":"Waiting for messages with routing key: register.email","service":"identity-service","timestamp":"2025-08-11T18:43:11.009Z"}
+{"level":"info","message":"🚀 Identity-sevice Server running on port 3001","service":"identity-service","timestamp":"2025-08-11T18:43:11.016Z"}
+{"level":"info","message":"Database connected successfully","service":"identity-service","timestamp":"2025-08-11T18:43:51.739Z"}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.wejddsb.mongodb.net","level":"error","message":"Error connecting to the database querySrv ECONNREFUSED _mongodb._tcp.cluster0.wejddsb.mongodb.net","service":"identity-service","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.wejddsb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:293:17)","syscall":"querySrv","timestamp":"2025-08-11T18:44:52.380Z"}
+{"code":"ECONNREFUSED","hostname":"_mongodb._tcp.cluster0.wejddsb.mongodb.net","level":"error","message":"Error connecting to the database querySrv ECONNREFUSED _mongodb._tcp.cluster0.wejddsb.mongodb.net","service":"identity-service","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.wejddsb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:293:17)","syscall":"querySrv","timestamp":"2025-08-11T18:45:12.090Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"identity-service","timestamp":"2025-08-12T19:43:17.656Z"}
+{"level":"info","message":"Waiting for messages with routing key: register.email","service":"identity-service","timestamp":"2025-08-12T19:43:17.688Z"}
+{"level":"info","message":"🚀 Identity-sevice Server running on port 3001","service":"identity-service","timestamp":"2025-08-12T19:43:17.703Z"}
+{"code":"ETIMEOUT","hostname":"_mongodb._tcp.cluster0.wejddsb.mongodb.net","level":"error","message":"Error connecting to the database querySrv ETIMEOUT _mongodb._tcp.cluster0.wejddsb.mongodb.net","service":"identity-service","stack":"Error: querySrv ETIMEOUT _mongodb._tcp.cluster0.wejddsb.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:293:17)","syscall":"querySrv","timestamp":"2025-08-12T19:44:57.510Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"identity-service","timestamp":"2025-08-12T19:51:14.929Z"}
+{"level":"info","message":"Waiting for messages with routing key: register.email","service":"identity-service","timestamp":"2025-08-12T19:51:14.959Z"}
+{"level":"info","message":"🚀 Identity-sevice Server running on port 3001","service":"identity-service","timestamp":"2025-08-12T19:51:14.965Z"}
+{"level":"info","message":"Database connected successfully","service":"identity-service","timestamp":"2025-08-12T19:51:43.574Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"identity-service","timestamp":"2025-08-12T20:32:40.603Z"}
+{"level":"info","message":"Waiting for messages with routing key: register.email","service":"identity-service","timestamp":"2025-08-12T20:32:40.621Z"}
+{"level":"info","message":"🚀 Identity-sevice Server running on port 3001","service":"identity-service","timestamp":"2025-08-12T20:32:40.628Z"}
+{"level":"info","message":"Database connected successfully","service":"identity-service","timestamp":"2025-08-12T20:32:47.836Z"}
+{"level":"info","message":"Received POST request to /api/auth/register","service":"identity-service","timestamp":"2025-08-12T20:43:34.300Z"}
+{"level":"info","message":"Request Body: {\"username\":\"Goodee12345\",\"password\":\"ayomide12345\",\"email\":\"goodnessay79@gmail.com\"}","service":"identity-service","timestamp":"2025-08-12T20:43:34.308Z"}
+{"level":"info","message":"Registration endpoint hit","service":"identity-service","timestamp":"2025-08-12T20:43:34.342Z"}
+{"buffer":{"data":[104,155,167,121,132,112,55,246,0,126,62,88],"type":"Buffer"},"level":"info","message":"User registered successfully","service":"identity-service","timestamp":"2025-08-12T20:43:38.203Z"}
+{"level":"info","message":"Event published to RabbitMQ with routing key: register.email","service":"identity-service","timestamp":"2025-08-12T20:43:38.212Z"}
+{"level":"info","message":"Recieved user.registered event [object Object]","service":"identity-service","timestamp":"2025-08-12T20:43:38.278Z"}
+{"level":"info","message":"Email send successfully [object Object]","service":"identity-service","timestamp":"2025-08-12T20:43:40.441Z"}

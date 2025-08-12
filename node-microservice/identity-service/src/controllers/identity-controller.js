@@ -5,6 +5,7 @@ const { generateToken } = require("../utils/generateToken");
 const { valid } = require("joi");
 const RefreshToken = require("../models/refreshToken");
 const { trusted } = require("mongoose");
+const { publishEvent } = require("../utils/rabbitmq");
 
 //registration
 const registerUser = async (req, res) => {
@@ -32,7 +33,10 @@ const registerUser = async (req, res) => {
     user = new User({ email, username, password });
     await user.save();
     logger.info("User registered successfully", user._id);
-
+    await publishEvent("register.email", {
+      email: user.email,
+      username: user.username,
+    });
     const { accessToken, refreshToken } = await generateToken(user);
     return res.status(201).json({
       success: true,

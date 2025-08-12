@@ -498,3 +498,40 @@
 {"level":"info","message":"Received DELETE request to /api/posts/delete-post/6897013fcee4925970c858b9","service":"post-service","timestamp":"2025-08-09T08:05:42.836Z"}
 {"level":"warn","message":"API hit get delete post endpoint","service":"post-service","timestamp":"2025-08-09T08:05:42.838Z"}
 {"level":"info","message":"Event published to RabbitMQ with routing key: post.deleted","service":"post-service","timestamp":"2025-08-09T08:05:43.130Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"post-service","timestamp":"2025-08-11T16:33:10.759Z"}
+{"level":"info","message":"🚀 Post-sevice Server running on port 3002","service":"post-service","timestamp":"2025-08-11T16:33:10.773Z"}
+{"level":"info","message":"Database connected successfully","service":"post-service","timestamp":"2025-08-11T16:33:28.047Z"}
+{"level":"info","message":"Received POST request to /api/posts/create-post","service":"post-service","timestamp":"2025-08-11T16:35:38.521Z"}
+{"level":"info","message":"Request Body: {\"content\":\"Hello, this is Goodee and i am checking on my search post\"}","service":"post-service","timestamp":"2025-08-11T16:35:38.522Z"}
+{"level":"warn","message":"API hit create post endpoint","service":"post-service","timestamp":"2025-08-11T16:35:38.525Z"}
+{"level":"info","message":"Event published to RabbitMQ with routing key: post.created","service":"post-service","timestamp":"2025-08-11T16:35:59.539Z"}
+{"level":"info","message":"Post created successfully","service":"post-service","timestamp":"2025-08-11T16:35:59.588Z"}
+{"level":"info","message":"Received POST request to /api/posts/create-post","service":"post-service","timestamp":"2025-08-11T16:36:41.229Z"}
+{"level":"info","message":"Request Body: {\"content\":\"Hello, this is Goodee and i am checking on my search post for the second time\"}","service":"post-service","timestamp":"2025-08-11T16:36:41.235Z"}
+{"level":"warn","message":"API hit create post endpoint","service":"post-service","timestamp":"2025-08-11T16:36:41.245Z"}
+{"level":"info","message":"Event published to RabbitMQ with routing key: post.created","service":"post-service","timestamp":"2025-08-11T16:36:44.055Z"}
+{"level":"info","message":"Post created successfully","service":"post-service","timestamp":"2025-08-11T16:36:44.075Z"}
+{"level":"info","message":"Received POST request to /api/posts/create-post","service":"post-service","timestamp":"2025-08-11T16:38:06.548Z"}
+{"level":"info","message":"Request Body: {\"content\":\"Hello, this is Goodee and i am checking on my search post for the third time\"}","service":"post-service","timestamp":"2025-08-11T16:38:06.551Z"}
+{"level":"warn","message":"API hit create post endpoint","service":"post-service","timestamp":"2025-08-11T16:38:06.552Z"}
+{"level":"info","message":"Event published to RabbitMQ with routing key: post.created","service":"post-service","timestamp":"2025-08-11T16:38:06.796Z"}
+{"level":"info","message":"Post created successfully","service":"post-service","timestamp":"2025-08-11T16:38:06.836Z"}
+{"level":"info","message":"Received POST request to /api/posts/create-post","service":"post-service","timestamp":"2025-08-11T16:54:40.347Z"}
+{"level":"info","message":"Request Body: {\"content\":\"Hello, this is Goodee and i am checking on my search post for the fourth time\"}","service":"post-service","timestamp":"2025-08-11T16:54:40.348Z"}
+{"level":"warn","message":"API hit create post endpoint","service":"post-service","timestamp":"2025-08-11T16:54:40.349Z"}
+{"level":"info","message":"Event published to RabbitMQ with routing key: post.created","service":"post-service","timestamp":"2025-08-11T16:55:08.541Z"}
+{"level":"info","message":"Post created successfully","service":"post-service","timestamp":"2025-08-11T16:55:08.548Z"}
+{"level":"info","message":"Received GET request to /api/posts/get-posts","service":"post-service","timestamp":"2025-08-11T17:11:31.928Z"}
+{"level":"warn","message":"API hit get all posts endpoint","service":"post-service","timestamp":"2025-08-11T17:11:31.930Z"}
+{"level":"info","message":"Received DELETE request to /api/posts/delete-post/689a205083ffa043d9d018f1","service":"post-service","timestamp":"2025-08-11T17:12:13.336Z"}
+{"level":"warn","message":"API hit get delete post endpoint","service":"post-service","timestamp":"2025-08-11T17:12:13.338Z"}
+{"level":"info","message":"Event published to RabbitMQ with routing key: post.deleted","service":"post-service","timestamp":"2025-08-11T17:12:13.543Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"post-service","timestamp":"2025-08-12T19:43:04.907Z"}
+{"level":"info","message":"🚀 Post-sevice Server running on port 3002","service":"post-service","timestamp":"2025-08-12T19:43:04.919Z"}
+{"level":"error","message":"Error occured while connecting to the database : Error: queryTxt ETIMEOUT cluster0.wejddsb.mongodb.net","service":"post-service","timestamp":"2025-08-12T19:44:46.727Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"post-service","timestamp":"2025-08-12T19:51:19.000Z"}
+{"level":"info","message":"🚀 Post-sevice Server running on port 3002","service":"post-service","timestamp":"2025-08-12T19:51:19.012Z"}
+{"level":"info","message":"Database connected successfully","service":"post-service","timestamp":"2025-08-12T19:51:24.298Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"post-service","timestamp":"2025-08-12T20:32:27.312Z"}
+{"level":"info","message":"🚀 Post-sevice Server running on port 3002","service":"post-service","timestamp":"2025-08-12T20:32:27.325Z"}
+{"level":"info","message":"Database connected successfully","service":"post-service","timestamp":"2025-08-12T20:32:47.133Z"}
