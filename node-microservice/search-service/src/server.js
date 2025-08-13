@@ -12,6 +12,7 @@ const searchRoute = require("./routes/search-route");
 const {
   handleSearchPost,
   handlePostDelete,
+  handleInvalidateCache,
 } = require("./eventHandlers/search-event-handler");
 
 const app = express();
@@ -38,7 +39,14 @@ app.use((req, res, next) => {
   next();
 });
 
-app.use("api/search", searchRoute);
+app.use(
+  "api/search",
+  (req, res, next) => {
+    req.redisClient = redisClient;
+    next();
+  },
+  searchRoute
+);
 app.use(errorHandler);
 async function startServer() {
   try {
@@ -46,8 +54,12 @@ async function startServer() {
 
     //consume event from post.created
 
-    await consumeEvent("post.created", handleSearchPost);
+    await Promise.all([
+      consumeEvent("post.created", handleSearchPost),
+      consumeEvent("post.created", handleInvalidateCache),
+    ]);
     await consumeEvent("post.deleted", handlePostDelete);
+
     app.listen(PORT, () => {
       logger.info(`Server is listening on port: ${PORT}`);
     });

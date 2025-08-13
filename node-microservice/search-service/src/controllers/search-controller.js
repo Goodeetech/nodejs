@@ -6,6 +6,12 @@ const searchPostController = async (req, res) => {
 
   try {
     const { query } = req.query;
+    const cachedKey = `search:${query}`;
+    const cachedSearch = await req.redisClient.get(cachedKey);
+
+    if (cachedSearch) {
+      return res.json(JSON.parse(cachedSearch));
+    }
     const result = await SearchPost.find(
       {
         $text: { $search: query },
@@ -22,9 +28,11 @@ const searchPostController = async (req, res) => {
         success: false,
       });
     }
+    //store in redis
+    await req.redisClient.setex(cachedKey, 60, JSON.stringify(result));
 
     return res.status(200).json({
-      message: "Quesy gotten successfully",
+      message: "Query gotten successfully",
       success: true,
       result,
     });

@@ -1,6 +1,8 @@
 const SearchPost = require("../models/Search");
 const logger = require("../utils/logger");
+const Redis = require("ioredis");
 
+const redisClient = new Redis(process.env.REDIS_URL);
 async function handleSearchPost(event) {
   try {
     const newSearchPost = new SearchPost({
@@ -34,4 +36,61 @@ async function handlePostDelete(event) {
   }
 }
 
-module.exports = { handleSearchPost, handlePostDelete };
+async function handleInvalidateCache(event) {
+  try {
+    const { content } = event;
+    if (!content) return;
+
+    // Step 1: Normalize text (lowercase, trim)
+    const normalized = content.toLowerCase().trim();
+
+    // Step 2: Split into words (simple split on spaces)
+    let keywords = normalized.split(/\s+/);
+
+    // Step 3: Remove very common stop words to avoid useless invalidations
+    const stopWords = new Set([
+      "the",
+      "and",
+      "is",
+      "a",
+      "an",
+      "of",
+      "to",
+      "in",
+      "on",
+      "for",
+      "with",
+    ]);
+    keywords = keywords.filter(
+      (word) => !stopWords.has(word) && word.length > 1
+    );
+
+    // Step 4: Make keywords unique to avoid double work
+    keywords = [...new Set(keywords)];
+
+    // Step 5: Loop through each keyword and invalidate matching cache
+    // for (const keyword of keywords) {
+    //   const searchKey = `search:${keyword}`;
+    //   const exists = await req.redisClient.exists(searchKey);
+    //   if (exists) {
+    //     await req.redisClient.del(searchKey);
+    //     console.log(`Invalidated cache for: ${searchKey}`);
+    //   }
+    // }
+
+    const deletePromises = keywords.map(async (keyword) => {
+      const searchKey = `search:${keyword}`;
+      const exists = await redisClient.exists(searchKey);
+
+      if (exists) {
+        await redisClient.del(searchKey);
+        logger.info(`invalidated cache for :${searchKey}`);
+      }
+    });
+    await Promise.all(deletePromises);
+  } catch (error) {
+    console.error("Error invalidating search cache:", error);
+  }
+}
+
+module.exports = { handleSearchPost, handlePostDelete, handleInvalidateCache };
