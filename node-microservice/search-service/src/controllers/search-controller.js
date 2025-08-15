@@ -6,7 +6,8 @@ const searchPostController = async (req, res) => {
 
   try {
     const { query } = req.query;
-    const cachedKey = `search:${query}`;
+    const cachedKeyLower = query.toLowerCase().trim();
+    const cachedKey = `search:${cachedKeyLower}`;
     const cachedSearch = await req.redisClient.get(cachedKey);
 
     if (cachedSearch) {
@@ -29,7 +30,7 @@ const searchPostController = async (req, res) => {
       });
     }
     //store in redis
-    await req.redisClient.setex(cachedKey, 60, JSON.stringify(result));
+    await req.redisClient.setex(cachedKey, 300, JSON.stringify(result));
 
     return res.status(200).json({
       message: "Query gotten successfully",

@@ -29,8 +29,47 @@ async function handleSearchPost(event) {
 
 async function handlePostDelete(event) {
   try {
-    await SearchPost.findOneAndDelete(event.postId);
-    logger.info(`Search Post deleted successfully`);
+    // await SearchPost.findOneAndDelete({ postId: event.postId });
+    // logger.info(`Search Post deleted successfully`);
+
+    const postInSearchPost = await SearchPost.findOne({ postId: event.postId });
+    if (!postInSearchPost) {
+      logger.warn(`Post not found for deletion: ${event.postId}`);
+      return;
+    }
+    await postInSearchPost.deleteOne({ postId: event.postId });
+
+    //Now to invalidate the cached post if the deleted post has any of the cached
+    const normalized = postInSearchPost.content.toLowerCase().trim();
+    let keywords = normalized.split(/\s+/);
+
+    const stopWords = new Set([
+      "the",
+      "and",
+      "is",
+      "a",
+      "an",
+      "of",
+      "to",
+      "in",
+      "on",
+      "for",
+      "with",
+    ]);
+    keywords = keywords.filter(
+      (word) => !stopWords.has(word) && word.length > 1
+    );
+    keywords = [...new Set(keywords)];
+
+    const deletePromises = keywords.map(async (keyword) => {
+      const searchKey = `search:${keyword}`;
+      const exists = await redisClient.exists(searchKey);
+      if (exists) {
+        await redisClient.del(searchKey);
+        logger.info(`Invalidated cache for :${keyword}`);
+      }
+    });
+    await Promise.all(deletePromises);
   } catch (error) {
     logger.error(`Error delete search post ${error}`);
   }

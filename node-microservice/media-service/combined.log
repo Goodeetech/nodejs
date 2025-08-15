@@ -157,3 +157,30 @@
 {"level":"info","message":"Waiting for messages with routing key: post.deleted","service":"media-service","timestamp":"2025-08-13T14:43:14.199Z"}
 {"level":"info","message":"🚀 Media-sevice Server running on port 3003","service":"media-service","timestamp":"2025-08-13T14:43:14.208Z"}
 {"level":"info","message":"Connected to the database successfully","service":"media-service","timestamp":"2025-08-13T14:43:23.552Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"media-service","timestamp":"2025-08-15T16:25:25.330Z"}
+{"level":"info","message":"Waiting for messages with routing key: post.deleted","service":"media-service","timestamp":"2025-08-15T16:25:25.363Z"}
+{"level":"info","message":"🚀 Media-sevice Server running on port 3003","service":"media-service","timestamp":"2025-08-15T16:25:25.395Z"}
+{"level":"info","message":"Connected to the database successfully","service":"media-service","timestamp":"2025-08-15T16:25:50.445Z"}
+{"level":"info","message":"[MEDIA SERVICE] POST /api/search/posts?query=Goodee","service":"media-service","timestamp":"2025-08-15T16:30:40.213Z"}
+{"level":"info","message":"Received POST request to /api/search/posts?query=Goodee","service":"media-service","timestamp":"2025-08-15T16:30:40.215Z"}
+{"level":"info","message":"[MEDIA SERVICE] GET /api/search/posts?query=Goodee","service":"media-service","timestamp":"2025-08-15T16:30:47.911Z"}
+{"level":"info","message":"Received GET request to /api/search/posts?query=Goodee","service":"media-service","timestamp":"2025-08-15T16:30:47.939Z"}
+{"level":"info","message":"[MEDIA SERVICE] GET /api/search/posts?query=Goodee","service":"media-service","timestamp":"2025-08-15T16:47:56.470Z"}
+{"level":"info","message":"Received GET request to /api/search/posts?query=Goodee","service":"media-service","timestamp":"2025-08-15T16:47:56.472Z"}
+{"level":"info","message":"[MEDIA SERVICE] GET /api/search/posts?query=Goodee","service":"media-service","timestamp":"2025-08-15T16:48:26.112Z"}
+{"level":"info","message":"Received GET request to /api/search/posts?query=Goodee","service":"media-service","timestamp":"2025-08-15T16:48:26.113Z"}
+{"level":"info","message":"[MEDIA SERVICE] GET /api/search/posts?query=Goodee","service":"media-service","timestamp":"2025-08-15T16:53:39.263Z"}
+{"level":"info","message":"Received GET request to /api/search/posts?query=Goodee","service":"media-service","timestamp":"2025-08-15T16:53:39.272Z"}
+{"level":"info","message":"[MEDIA SERVICE] GET /api/search/posts?query=Goodee","service":"media-service","timestamp":"2025-08-15T16:53:51.839Z"}
+{"level":"info","message":"Received GET request to /api/search/posts?query=Goodee","service":"media-service","timestamp":"2025-08-15T16:53:51.843Z"}
+{"level":"info","message":"[MEDIA SERVICE] GET /api/search/posts?query=Goodee","service":"media-service","timestamp":"2025-08-15T16:56:16.706Z"}
+{"level":"info","message":"Received GET request to /api/search/posts?query=Goodee","service":"media-service","timestamp":"2025-08-15T16:56:16.710Z"}
+{"level":"info","message":"[MEDIA SERVICE] GET /api/search/posts?query=Goodee","service":"media-service","timestamp":"2025-08-15T17:06:48.982Z"}
+{"level":"info","message":"Received GET request to /api/search/posts?query=Goodee","service":"media-service","timestamp":"2025-08-15T17:06:48.989Z"}
+{"level":"info","message":"[MEDIA SERVICE] GET /api/search/posts?query=Goodee","service":"media-service","timestamp":"2025-08-15T17:07:09.463Z"}
+{"level":"info","message":"Received GET request to /api/search/posts?query=Goodee","service":"media-service","timestamp":"2025-08-15T17:07:09.466Z"}
+{"level":"warn","message":"No media files found for postId: 689f6c295c452e9bb070a756","service":"media-service","timestamp":"2025-08-15T17:27:11.270Z"}
+{"level":"warn","message":"No media files found for postId: 689f6be75c452e9bb070a752","service":"media-service","timestamp":"2025-08-15T17:30:59.198Z"}
+{"level":"warn","message":"No media files found for postId: 689f6be05c452e9bb070a750","service":"media-service","timestamp":"2025-08-15T17:57:23.840Z"}
+{"level":"warn","message":"No media files found for postId: 689f6bef5c452e9bb070a754","service":"media-service","timestamp":"2025-08-15T17:59:32.518Z"}
+{"level":"warn","message":"No media files found for postId: 689f76865c452e9bb070a76c","service":"media-service","timestamp":"2025-08-15T18:05:55.141Z"}

@@ -146,7 +146,7 @@ app.use(
 app.use(
   "/v1/search",
   validateToken,
-  proxy(process.env.MEDIA_SERVICE_URL, {
+  proxy(process.env.SEARCH_SERVICE_URL, {
     ...proxyOption,
     proxyReqOptDecorator: (proxyReqOpts, srcReq) => {
       // ✅ Forward the original Authorization token

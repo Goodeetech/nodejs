@@ -771,3 +771,220 @@
 {"level":"info","message":"Received POST request to /v1/auth/login","service":"api-gateway","timestamp":"2025-08-13T14:59:39.059Z"}
 {"level":"info","message":"Request Body: {\"email\":\"goodee123@gmail.com\",\"password\":\"ayomide\"}","service":"api-gateway","timestamp":"2025-08-13T14:59:39.060Z"}
 {"level":"info","message":"Response receives from Identity services: 500","service":"api-gateway","timestamp":"2025-08-13T15:00:11.200Z"}
+{"level":"info","message":"API Gateway is running on port 3000","service":"api-gateway","timestamp":"2025-08-15T16:25:14.374Z"}
+{"level":"info","message":"Identity service is running on port http://localhost:3001","service":"api-gateway","timestamp":"2025-08-15T16:25:14.381Z"}
+{"level":"info","message":"Post service is running on port http://localhost:3002","service":"api-gateway","timestamp":"2025-08-15T16:25:14.383Z"}
+{"level":"info","message":"Search service is running on port http://localhost:3004","service":"api-gateway","timestamp":"2025-08-15T16:25:14.384Z"}
+{"level":"info","message":"Media service is running on port http://localhost:3003","service":"api-gateway","timestamp":"2025-08-15T16:25:14.388Z"}
+{"level":"info","message":"Redis connected: redis://localhost:6379","service":"api-gateway","timestamp":"2025-08-15T16:25:14.393Z"}
+{"level":"info","message":"Received POST request to /v1/auth/login","service":"api-gateway","timestamp":"2025-08-15T16:27:39.959Z"}
+{"level":"info","message":"Request Body: {\"email\":\"goodee123@gmail.com\",\"password\":\"ayomide\"}","service":"api-gateway","timestamp":"2025-08-15T16:27:39.962Z"}
+{"level":"info","message":"Response receives from Identity services: 200","service":"api-gateway","timestamp":"2025-08-15T16:27:41.916Z"}
+{"level":"info","message":"Received POST request to /v1/posts/create-post","service":"api-gateway","timestamp":"2025-08-15T16:28:18.190Z"}
+{"level":"info","message":"Request Body: {\"content\":\"search 1 1\"}","service":"api-gateway","timestamp":"2025-08-15T16:28:18.231Z"}
+{"level":"info","message":"Response receives from Post service: 201","service":"api-gateway","timestamp":"2025-08-15T16:28:20.994Z"}
+{"level":"info","message":"Received GET request to /v1/posts/get-posts","service":"api-gateway","timestamp":"2025-08-15T16:28:34.921Z"}
+{"level":"info","message":"Response receives from Post service: 200","service":"api-gateway","timestamp":"2025-08-15T16:28:42.583Z"}
+{"level":"info","message":"Received GET request to /v1/posts/get-posts","service":"api-gateway","timestamp":"2025-08-15T16:28:53.532Z"}
+{"level":"info","message":"Response receives from Post service: 200","service":"api-gateway","timestamp":"2025-08-15T16:28:53.580Z"}
+{"level":"info","message":"Received POST request to /v1/posts/create-post","service":"api-gateway","timestamp":"2025-08-15T16:29:31.362Z"}
+{"level":"info","message":"Request Body: {\"content\":\"search 2 2\"}","service":"api-gateway","timestamp":"2025-08-15T16:29:31.364Z"}
+{"level":"info","message":"Response receives from Post service: 201","service":"api-gateway","timestamp":"2025-08-15T16:29:31.678Z"}
+{"level":"info","message":"Received POST request to /v1/posts/create-post","service":"api-gateway","timestamp":"2025-08-15T16:29:39.026Z"}
+{"level":"info","message":"Request Body: {\"content\":\"Goodee\"}","service":"api-gateway","timestamp":"2025-08-15T16:29:39.026Z"}
+{"level":"info","message":"Response receives from Post service: 201","service":"api-gateway","timestamp":"2025-08-15T16:29:40.305Z"}
+{"level":"info","message":"Received POST request to /v1/posts/create-post","service":"api-gateway","timestamp":"2025-08-15T16:29:48.078Z"}
+{"level":"info","message":"Request Body: {\"content\":\"Goodee is a boy\"}","service":"api-gateway","timestamp":"2025-08-15T16:29:48.079Z"}
+{"level":"info","message":"Response receives from Post service: 201","service":"api-gateway","timestamp":"2025-08-15T16:29:50.121Z"}
+{"level":"info","message":"Received POST request to /v1/posts/create-post","service":"api-gateway","timestamp":"2025-08-15T16:30:01.819Z"}
+{"level":"info","message":"Request Body: {\"content\":\"Goodee is a boy and a programmer\"}","service":"api-gateway","timestamp":"2025-08-15T16:30:01.821Z"}
+{"level":"info","message":"Response receives from Post service: 201","service":"api-gateway","timestamp":"2025-08-15T16:30:17.703Z"}
+{"level":"info","message":"Received POST request to /v1/search/posts?query=Goodee","service":"api-gateway","timestamp":"2025-08-15T16:30:40.068Z"}
+{"level":"info","message":"Request Body: {\"email\":\"goodee123@gmail.com\",\"password\":\"ayomide\"}","service":"api-gateway","timestamp":"2025-08-15T16:30:40.069Z"}
+{"level":"info","message":"Response receives from Search service: 404","service":"api-gateway","timestamp":"2025-08-15T16:30:40.222Z"}
+{"level":"info","message":"Received GET request to /v1/search/posts?query=Goodee","service":"api-gateway","timestamp":"2025-08-15T16:30:47.883Z"}
+{"level":"info","message":"Request Body: {\"email\":\"goodee123@gmail.com\",\"password\":\"ayomide\"}","service":"api-gateway","timestamp":"2025-08-15T16:30:47.884Z"}
+{"level":"info","message":"Response receives from Search service: 404","service":"api-gateway","timestamp":"2025-08-15T16:30:47.950Z"}
+{"level":"info","message":"Received GET request to /","service":"api-gateway","timestamp":"2025-08-15T16:32:00.519Z"}
+{"level":"info","message":"Received POST request to /v1/posts/create-post","service":"api-gateway","timestamp":"2025-08-15T16:44:48.812Z"}
+{"level":"info","message":"Request Body: {\"content\":\"Goodee is a boy and a programmer and a medical student\"}","service":"api-gateway","timestamp":"2025-08-15T16:44:48.813Z"}
+{"level":"info","message":"Response receives from Post service: 201","service":"api-gateway","timestamp":"2025-08-15T16:45:03.838Z"}
+{"level":"info","message":"Received POST request to /v1/posts/create-post","service":"api-gateway","timestamp":"2025-08-15T16:45:16.540Z"}
+{"level":"info","message":"Request Body: {\"content\":\"Goodee is a boy and a programmer and a medical student and oya\"}","service":"api-gateway","timestamp":"2025-08-15T16:45:16.541Z"}
+{"level":"info","message":"Response receives from Post service: 201","service":"api-gateway","timestamp":"2025-08-15T16:45:18.661Z"}
+{"level":"info","message":"Received POST request to /v1/posts/create-post","service":"api-gateway","timestamp":"2025-08-15T16:47:48.355Z"}
+{"level":"info","message":"Request Body: {\"content\":\"Goodee is a boy and a programmer and a medical student and oya\"}","service":"api-gateway","timestamp":"2025-08-15T16:47:48.355Z"}
+{"level":"info","message":"Response receives from Post service: 201","service":"api-gateway","timestamp":"2025-08-15T16:47:48.601Z"}
+{"level":"info","message":"Received GET request to /v1/search/posts?query=Goodee","service":"api-gateway","timestamp":"2025-08-15T16:47:56.465Z"}
+{"level":"info","message":"Request Body: {\"email\":\"goodee123@gmail.com\",\"password\":\"ayomide\"}","service":"api-gateway","timestamp":"2025-08-15T16:47:56.466Z"}
+{"level":"info","message":"Response receives from Search service: 404","service":"api-gateway","timestamp":"2025-08-15T16:47:56.479Z"}
+{"level":"info","message":"Received GET request to /v1/search/posts?query=Goodee","service":"api-gateway","timestamp":"2025-08-15T16:48:26.104Z"}
+{"level":"info","message":"Request Body: {\"email\":\"goodee123@gmail.com\",\"password\":\"ayomide\"}","service":"api-gateway","timestamp":"2025-08-15T16:48:26.105Z"}
+{"level":"info","message":"Response receives from Search service: 404","service":"api-gateway","timestamp":"2025-08-15T16:48:26.116Z"}
+{"level":"info","message":"Received GET request to /v1/search/posts?query=Goodee","service":"api-gateway","timestamp":"2025-08-15T16:53:39.246Z"}
+{"level":"info","message":"Request Body: {\"email\":\"goodee123@gmail.com\",\"password\":\"ayomide\"}","service":"api-gateway","timestamp":"2025-08-15T16:53:39.247Z"}
+{"level":"info","message":"Response receives from Search service: 404","service":"api-gateway","timestamp":"2025-08-15T16:53:39.279Z"}
+{"level":"info","message":"Received GET request to /v1/search/posts?query=Goodee","service":"api-gateway","timestamp":"2025-08-15T16:53:51.817Z"}
+{"level":"info","message":"Request Body: {\"email\":\"goodee123@gmail.com\",\"password\":\"ayomide\"}","service":"api-gateway","timestamp":"2025-08-15T16:53:51.821Z"}
+{"level":"info","message":"Response receives from Search service: 404","service":"api-gateway","timestamp":"2025-08-15T16:53:51.842Z"}
+{"level":"info","message":"API Gateway is running on port 3000","service":"api-gateway","timestamp":"2025-08-15T16:55:56.361Z"}
+{"level":"info","message":"Identity service is running on port http://localhost:3001","service":"api-gateway","timestamp":"2025-08-15T16:55:56.372Z"}
+{"level":"info","message":"Post service is running on port http://localhost:3002","service":"api-gateway","timestamp":"2025-08-15T16:55:56.375Z"}
+{"level":"info","message":"Search service is running on port http://localhost:3004","service":"api-gateway","timestamp":"2025-08-15T16:55:56.384Z"}
+{"level":"info","message":"Media service is running on port http://localhost:3003","service":"api-gateway","timestamp":"2025-08-15T16:55:56.387Z"}
+{"level":"info","message":"Redis connected: redis://localhost:6379","service":"api-gateway","timestamp":"2025-08-15T16:55:56.390Z"}
+{"level":"info","message":"Received GET request to /v1/search/posts?query=Goodee","service":"api-gateway","timestamp":"2025-08-15T16:56:16.664Z"}
+{"level":"info","message":"Request Body: {\"email\":\"goodee123@gmail.com\",\"password\":\"ayomide\"}","service":"api-gateway","timestamp":"2025-08-15T16:56:16.665Z"}
+{"level":"info","message":"Response receives from Search service: 404","service":"api-gateway","timestamp":"2025-08-15T16:56:16.712Z"}
+{"level":"info","message":"Received POST request to /v1/posts/create-post","service":"api-gateway","timestamp":"2025-08-15T16:56:38.329Z"}
+{"level":"info","message":"Request Body: {\"content\":\"Goodee is a boy and a programmer and a medical student and oya 1\"}","service":"api-gateway","timestamp":"2025-08-15T16:56:38.330Z"}
+{"level":"info","message":"Response receives from Post service: 201","service":"api-gateway","timestamp":"2025-08-15T16:56:39.800Z"}
+{"level":"info","message":"Received POST request to /v1/posts/create-post","service":"api-gateway","timestamp":"2025-08-15T17:00:39.908Z"}
+{"level":"info","message":"Request Body: {\"content\":\"Goodee is a boy and a programmer and a medical student and oya 1\"}","service":"api-gateway","timestamp":"2025-08-15T17:00:39.910Z"}
+{"level":"info","message":"Response receives from Post service: 201","service":"api-gateway","timestamp":"2025-08-15T17:00:40.246Z"}
+{"level":"info","message":"Received POST request to /v1/posts/create-post","service":"api-gateway","timestamp":"2025-08-15T17:05:15.691Z"}
+{"level":"info","message":"Request Body: {\"content\":\"Goodee is a boy and a programmer and a medical student and oya 1\"}","service":"api-gateway","timestamp":"2025-08-15T17:05:15.696Z"}
+{"level":"info","message":"Response receives from Post service: 201","service":"api-gateway","timestamp":"2025-08-15T17:05:15.974Z"}
+{"level":"info","message":"Received POST request to /v1/posts/create-post","service":"api-gateway","timestamp":"2025-08-15T17:05:22.697Z"}
+{"level":"info","message":"Request Body: {\"content\":\"Goodee is a boy\"}","service":"api-gateway","timestamp":"2025-08-15T17:05:22.697Z"}
+{"level":"info","message":"Response receives from Post service: 201","service":"api-gateway","timestamp":"2025-08-15T17:05:22.892Z"}
+{"level":"info","message":"Received POST request to /v1/posts/create-post","service":"api-gateway","timestamp":"2025-08-15T17:06:19.120Z"}
+{"level":"info","message":"Request Body: {\"content\":\"Goodee is a boy\"}","service":"api-gateway","timestamp":"2025-08-15T17:06:19.121Z"}
+{"level":"info","message":"Response receives from Post service: 201","service":"api-gateway","timestamp":"2025-08-15T17:06:19.359Z"}
+{"level":"info","message":"Received POST request to /v1/posts/create-post","service":"api-gateway","timestamp":"2025-08-15T17:06:23.704Z"}
+{"level":"info","message":"Request Body: {\"content\":\"Goodee is a boy\"}","service":"api-gateway","timestamp":"2025-08-15T17:06:23.705Z"}
+{"level":"info","message":"Response receives from Post service: 201","service":"api-gateway","timestamp":"2025-08-15T17:06:23.890Z"}
+{"level":"info","message":"Received POST request to /v1/posts/create-post","service":"api-gateway","timestamp":"2025-08-15T17:06:39.357Z"}
+{"level":"info","message":"Request Body: {\"content\":\"Goodee is a boy and also a programmer\"}","service":"api-gateway","timestamp":"2025-08-15T17:06:39.360Z"}
+{"level":"info","message":"Response receives from Post service: 201","service":"api-gateway","timestamp":"2025-08-15T17:06:39.644Z"}
+{"level":"info","message":"Received GET request to /v1/search/posts?query=Goodee","service":"api-gateway","timestamp":"2025-08-15T17:06:48.961Z"}
+{"level":"info","message":"Request Body: {\"email\":\"goodee123@gmail.com\",\"password\":\"ayomide\"}","service":"api-gateway","timestamp":"2025-08-15T17:06:48.972Z"}
+{"level":"info","message":"Response receives from Search service: 404","service":"api-gateway","timestamp":"2025-08-15T17:06:48.995Z"}
+{"level":"info","message":"Received GET request to /v1/search/posts?query=Goodee","service":"api-gateway","timestamp":"2025-08-15T17:07:09.453Z"}
+{"level":"info","message":"Response receives from Search service: 404","service":"api-gateway","timestamp":"2025-08-15T17:07:09.472Z"}
+{"level":"info","message":"API Gateway is running on port 3000","service":"api-gateway","timestamp":"2025-08-15T17:08:17.138Z"}
+{"level":"info","message":"Identity service is running on port http://localhost:3001","service":"api-gateway","timestamp":"2025-08-15T17:08:17.143Z"}
+{"level":"info","message":"Post service is running on port http://localhost:3002","service":"api-gateway","timestamp":"2025-08-15T17:08:17.147Z"}
+{"level":"info","message":"Search service is running on port http://localhost:3004","service":"api-gateway","timestamp":"2025-08-15T17:08:17.148Z"}
+{"level":"info","message":"Media service is running on port http://localhost:3003","service":"api-gateway","timestamp":"2025-08-15T17:08:17.149Z"}
+{"level":"info","message":"Redis connected: redis://localhost:6379","service":"api-gateway","timestamp":"2025-08-15T17:08:17.150Z"}
+{"level":"info","message":"Received GET request to /v1/search/posts?query=Goodee","service":"api-gateway","timestamp":"2025-08-15T17:08:25.936Z"}
+{"level":"info","message":"Response receives from Search service: 200","service":"api-gateway","timestamp":"2025-08-15T17:08:26.238Z"}
+{"level":"info","message":"Received GET request to /v1/search/posts?query=Goodee","service":"api-gateway","timestamp":"2025-08-15T17:08:37.147Z"}
+{"level":"info","message":"Response receives from Search service: 200","service":"api-gateway","timestamp":"2025-08-15T17:08:37.207Z"}
+{"level":"info","message":"Received GET request to /v1/search/posts?query=Goodee","service":"api-gateway","timestamp":"2025-08-15T17:09:20.935Z"}
+{"level":"info","message":"Response receives from Search service: 200","service":"api-gateway","timestamp":"2025-08-15T17:09:21.018Z"}
+{"level":"info","message":"Received GET request to /v1/search/posts?query=Goodee","service":"api-gateway","timestamp":"2025-08-15T17:09:33.441Z"}
+{"level":"info","message":"Response receives from Search service: 200","service":"api-gateway","timestamp":"2025-08-15T17:09:33.710Z"}
+{"level":"info","message":"Received GET request to /v1/search/posts?query=Goodee","service":"api-gateway","timestamp":"2025-08-15T17:09:37.519Z"}
+{"level":"info","message":"Response receives from Search service: 200","service":"api-gateway","timestamp":"2025-08-15T17:09:37.530Z"}
+{"level":"info","message":"Received GET request to /v1/search/posts?query=Goodee","service":"api-gateway","timestamp":"2025-08-15T17:09:42.732Z"}
+{"level":"info","message":"Response receives from Search service: 200","service":"api-gateway","timestamp":"2025-08-15T17:09:42.756Z"}
+{"level":"info","message":"Received POST request to /v1/posts/create-post","service":"api-gateway","timestamp":"2025-08-15T17:09:57.785Z"}
+{"level":"info","message":"Request Body: {\"content\":\"Goodee is a boy and also a programmer and also a singer\"}","service":"api-gateway","timestamp":"2025-08-15T17:09:57.786Z"}
+{"level":"info","message":"Response receives from Post service: 201","service":"api-gateway","timestamp":"2025-08-15T17:09:58.083Z"}
+{"level":"info","message":"Received GET request to /v1/search/posts?query=Goodee","service":"api-gateway","timestamp":"2025-08-15T17:10:03.948Z"}
+{"level":"info","message":"Response receives from Search service: 200","service":"api-gateway","timestamp":"2025-08-15T17:10:03.966Z"}
+{"level":"info","message":"Received GET request to /v1/search/posts?query=Goodee","service":"api-gateway","timestamp":"2025-08-15T17:10:12.047Z"}
+{"level":"info","message":"Response receives from Search service: 200","service":"api-gateway","timestamp":"2025-08-15T17:10:12.061Z"}
+{"level":"info","message":"Received GET request to /v1/search/posts?query=Goodee","service":"api-gateway","timestamp":"2025-08-15T17:10:45.858Z"}
+{"level":"info","message":"Response receives from Search service: 200","service":"api-gateway","timestamp":"2025-08-15T17:10:45.872Z"}
+{"level":"info","message":"Received POST request to /v1/posts/create-post","service":"api-gateway","timestamp":"2025-08-15T17:18:24.154Z"}
+{"level":"info","message":"Request Body: {\"content\":\"Goodee is a boy and also a programmer and also a singer\"}","service":"api-gateway","timestamp":"2025-08-15T17:18:24.159Z"}
+{"level":"info","message":"Response receives from Post service: 201","service":"api-gateway","timestamp":"2025-08-15T17:18:24.465Z"}
+{"level":"info","message":"Received POST request to /v1/posts/create-post","service":"api-gateway","timestamp":"2025-08-15T17:18:31.972Z"}
+{"level":"info","message":"Request Body: {\"content\":\"Goodee is a boy and also a programmer\"}","service":"api-gateway","timestamp":"2025-08-15T17:18:31.972Z"}
+{"level":"info","message":"Response receives from Post service: 201","service":"api-gateway","timestamp":"2025-08-15T17:18:32.161Z"}
+{"level":"info","message":"Received POST request to /v1/posts/create-post","service":"api-gateway","timestamp":"2025-08-15T17:18:39.671Z"}
+{"level":"info","message":"Request Body: {\"content\":\"Goodee is a boy \"}","service":"api-gateway","timestamp":"2025-08-15T17:18:39.671Z"}
+{"level":"info","message":"Response receives from Post service: 201","service":"api-gateway","timestamp":"2025-08-15T17:18:54.061Z"}
+{"level":"info","message":"Received GET request to /v1/search/posts?query=Goodee","service":"api-gateway","timestamp":"2025-08-15T17:19:09.243Z"}
+{"level":"info","message":"Response receives from Search service: 200","service":"api-gateway","timestamp":"2025-08-15T17:19:10.537Z"}
+{"level":"info","message":"Received POST request to /v1/posts/create-post","service":"api-gateway","timestamp":"2025-08-15T17:19:37.620Z"}
+{"level":"info","message":"Request Body: {\"content\":\"Goodee is a boy and can fly\"}","service":"api-gateway","timestamp":"2025-08-15T17:19:37.622Z"}
+{"level":"info","message":"Response receives from Post service: 201","service":"api-gateway","timestamp":"2025-08-15T17:19:38.583Z"}
+{"level":"info","message":"Received GET request to /v1/search/posts?query=Goodee","service":"api-gateway","timestamp":"2025-08-15T17:19:43.969Z"}
+{"level":"info","message":"Response receives from Search service: 200","service":"api-gateway","timestamp":"2025-08-15T17:19:44.153Z"}
+{"level":"info","message":"Received POST request to /v1/posts/create-post","service":"api-gateway","timestamp":"2025-08-15T17:20:03.951Z"}
+{"level":"info","message":"Request Body: {\"content\":\"Goodee is a boy and can fly and dance kalago\"}","service":"api-gateway","timestamp":"2025-08-15T17:20:03.952Z"}
+{"level":"info","message":"Response receives from Post service: 201","service":"api-gateway","timestamp":"2025-08-15T17:20:04.148Z"}
+{"level":"info","message":"Received GET request to /v1/search/posts?query=Goodee","service":"api-gateway","timestamp":"2025-08-15T17:20:10.213Z"}
+{"level":"info","message":"Response receives from Search service: 200","service":"api-gateway","timestamp":"2025-08-15T17:20:10.402Z"}
+{"level":"info","message":"Received GET request to /v1/search/posts?query=Goodee","service":"api-gateway","timestamp":"2025-08-15T17:20:28.875Z"}
+{"level":"info","message":"Response receives from Search service: 200","service":"api-gateway","timestamp":"2025-08-15T17:20:28.887Z"}
+{"level":"info","message":"Received GET request to /v1/posts/get-posts","service":"api-gateway","timestamp":"2025-08-15T17:25:44.707Z"}
+{"level":"info","message":"Response receives from Post service: 200","service":"api-gateway","timestamp":"2025-08-15T17:25:46.479Z"}
+{"level":"info","message":"Received GET request to /v1/posts/delete-post/689f6c295c452e9bb070a756","service":"api-gateway","timestamp":"2025-08-15T17:26:36.609Z"}
+{"level":"info","message":"Response receives from Post service: 404","service":"api-gateway","timestamp":"2025-08-15T17:26:36.632Z"}
+{"level":"info","message":"Received DELETE request to /v1/posts/delete-post/689f6c295c452e9bb070a756","service":"api-gateway","timestamp":"2025-08-15T17:27:01.554Z"}
+{"level":"info","message":"Response receives from Post service: 200","service":"api-gateway","timestamp":"2025-08-15T17:27:09.192Z"}
+{"level":"info","message":"Received GET request to /v1/search/posts?query=Goodee","service":"api-gateway","timestamp":"2025-08-15T17:28:01.849Z"}
+{"level":"error","message":"Invalid access token, access denied!","service":"api-gateway","timestamp":"2025-08-15T17:28:01.852Z"}
+{"level":"info","message":"Received POST request to /v1/auth/login","service":"api-gateway","timestamp":"2025-08-15T17:28:09.901Z"}
+{"level":"info","message":"Request Body: {\"email\":\"goodee123@gmail.com\",\"password\":\"ayomide\"}","service":"api-gateway","timestamp":"2025-08-15T17:28:09.901Z"}
+{"level":"info","message":"Response receives from Identity services: 200","service":"api-gateway","timestamp":"2025-08-15T17:28:13.319Z"}
+{"level":"info","message":"Received GET request to /v1/search/posts?query=Goodee","service":"api-gateway","timestamp":"2025-08-15T17:28:28.360Z"}
+{"level":"info","message":"Response receives from Search service: 200","service":"api-gateway","timestamp":"2025-08-15T17:28:32.139Z"}
+{"level":"info","message":"Received DELETE request to /v1/posts/delete-post/689f6be80e4095b0df5c5e1b","service":"api-gateway","timestamp":"2025-08-15T17:28:53.601Z"}
+{"level":"error","message":"Invalid access token, access denied!","service":"api-gateway","timestamp":"2025-08-15T17:28:53.603Z"}
+{"level":"info","message":"Received DELETE request to /v1/posts/delete-post/689f6be80e4095b0df5c5e1b","service":"api-gateway","timestamp":"2025-08-15T17:29:15.569Z"}
+{"level":"info","message":"Response receives from Post service: 400","service":"api-gateway","timestamp":"2025-08-15T17:29:15.884Z"}
+{"level":"info","message":"Received DELETE request to /v1/posts/delete-post/689f6be80e4095b0df5c5e1b","service":"api-gateway","timestamp":"2025-08-15T17:29:37.331Z"}
+{"level":"info","message":"Response receives from Post service: 400","service":"api-gateway","timestamp":"2025-08-15T17:29:37.517Z"}
+{"level":"info","message":"Received GET request to /v1/posts/get-posts","service":"api-gateway","timestamp":"2025-08-15T17:29:59.849Z"}
+{"level":"info","message":"Response receives from Post service: 200","service":"api-gateway","timestamp":"2025-08-15T17:30:16.505Z"}
+{"level":"info","message":"Received DELETE request to /v1/posts/delete-post/689f6be75c452e9bb070a752","service":"api-gateway","timestamp":"2025-08-15T17:30:45.227Z"}
+{"level":"info","message":"Response receives from Post service: 200","service":"api-gateway","timestamp":"2025-08-15T17:30:55.153Z"}
+{"level":"info","message":"Received GET request to /v1/search/posts?query=Goodee","service":"api-gateway","timestamp":"2025-08-15T17:31:00.851Z"}
+{"level":"info","message":"Response receives from Search service: 200","service":"api-gateway","timestamp":"2025-08-15T17:31:00.869Z"}
+{"level":"info","message":"Received GET request to /v1/posts/get-posts","service":"api-gateway","timestamp":"2025-08-15T17:31:25.784Z"}
+{"level":"info","message":"Response receives from Post service: 200","service":"api-gateway","timestamp":"2025-08-15T17:31:26.844Z"}
+{"level":"info","message":"Received GET request to /v1/search/posts?query=Goodee","service":"api-gateway","timestamp":"2025-08-15T17:31:47.265Z"}
+{"level":"info","message":"Response receives from Search service: 200","service":"api-gateway","timestamp":"2025-08-15T17:31:47.293Z"}
+{"level":"info","message":"Received DELETE request to /v1/posts/delete-post/689f6c440e4095b0df5c5e23","service":"api-gateway","timestamp":"2025-08-15T17:56:55.111Z"}
+{"level":"info","message":"Response receives from Post service: 400","service":"api-gateway","timestamp":"2025-08-15T17:56:55.318Z"}
+{"level":"info","message":"Received DELETE request to /v1/posts/delete-post/689f6be05c452e9bb070a750","service":"api-gateway","timestamp":"2025-08-15T17:57:23.453Z"}
+{"level":"info","message":"Response receives from Post service: 200","service":"api-gateway","timestamp":"2025-08-15T17:57:23.653Z"}
+{"level":"info","message":"Received GET request to /v1/search/posts?query=Goodee","service":"api-gateway","timestamp":"2025-08-15T17:57:32.213Z"}
+{"level":"info","message":"Response receives from Search service: 200","service":"api-gateway","timestamp":"2025-08-15T17:57:32.429Z"}
+{"level":"info","message":"Received DELETE request to /v1/posts/delete-post/689f6be05c452e9bb070a750","service":"api-gateway","timestamp":"2025-08-15T17:57:56.136Z"}
+{"level":"info","message":"Response receives from Post service: 400","service":"api-gateway","timestamp":"2025-08-15T17:57:56.360Z"}
+{"level":"info","message":"Received POST request to /v1/posts/create-post","service":"api-gateway","timestamp":"2025-08-15T17:58:29.415Z"}
+{"level":"info","message":"Request Body: {\"content\":\"Goodee is a boy and can fly and dance kalago1\"}","service":"api-gateway","timestamp":"2025-08-15T17:58:29.418Z"}
+{"level":"error","message":"Invalid access token, access denied!","service":"api-gateway","timestamp":"2025-08-15T17:58:29.424Z"}
+{"level":"info","message":"Received POST request to /v1/auth/login","service":"api-gateway","timestamp":"2025-08-15T17:58:35.761Z"}
+{"level":"info","message":"Request Body: {\"email\":\"goodee123@gmail.com\",\"password\":\"ayomide\"}","service":"api-gateway","timestamp":"2025-08-15T17:58:35.766Z"}
+{"level":"info","message":"Response receives from Identity services: 200","service":"api-gateway","timestamp":"2025-08-15T17:58:36.478Z"}
+{"level":"info","message":"Received POST request to /v1/posts/create-post","service":"api-gateway","timestamp":"2025-08-15T17:58:52.166Z"}
+{"level":"info","message":"Request Body: {\"content\":\"Goodee is a boy and can fly and dance kalago1\"}","service":"api-gateway","timestamp":"2025-08-15T17:58:52.168Z"}
+{"level":"info","message":"Response receives from Post service: 201","service":"api-gateway","timestamp":"2025-08-15T17:58:52.434Z"}
+{"level":"info","message":"Received GET request to /v1/search/posts?query=Goodee","service":"api-gateway","timestamp":"2025-08-15T17:58:59.567Z"}
+{"level":"info","message":"Response receives from Search service: 200","service":"api-gateway","timestamp":"2025-08-15T17:58:59.779Z"}
+{"level":"info","message":"Received DELETE request to /v1/posts/delete-post/689f6bef5c452e9bb070a754","service":"api-gateway","timestamp":"2025-08-15T17:59:32.134Z"}
+{"level":"info","message":"Response receives from Post service: 200","service":"api-gateway","timestamp":"2025-08-15T17:59:32.357Z"}
+{"level":"info","message":"Received GET request to /v1/search/posts?query=Goodee","service":"api-gateway","timestamp":"2025-08-15T17:59:38.669Z"}
+{"level":"info","message":"Response receives from Search service: 200","service":"api-gateway","timestamp":"2025-08-15T17:59:38.690Z"}
+{"level":"info","message":"Received POST request to /v1/posts/create-post","service":"api-gateway","timestamp":"2025-08-15T18:02:15.044Z"}
+{"level":"info","message":"Request Body: {\"content\":\"Goodee is a boy and can fly and dance kalago1 and lets go\"}","service":"api-gateway","timestamp":"2025-08-15T18:02:15.047Z"}
+{"level":"info","message":"Response receives from Post service: 201","service":"api-gateway","timestamp":"2025-08-15T18:02:15.266Z"}
+{"level":"info","message":"Received GET request to /v1/search/posts?query=Goodee","service":"api-gateway","timestamp":"2025-08-15T18:02:31.487Z"}
+{"level":"info","message":"Response receives from Search service: 200","service":"api-gateway","timestamp":"2025-08-15T18:02:31.762Z"}
+{"level":"info","message":"Received POST request to /v1/posts/create-post","service":"api-gateway","timestamp":"2025-08-15T18:03:50.191Z"}
+{"level":"info","message":"Request Body: {\"content\":\"Goodee is a boy and can fly and dance kalago1 and lets go\"}","service":"api-gateway","timestamp":"2025-08-15T18:03:50.195Z"}
+{"level":"info","message":"Response receives from Post service: 201","service":"api-gateway","timestamp":"2025-08-15T18:03:50.511Z"}
+{"level":"info","message":"Received POST request to /v1/posts/create-post","service":"api-gateway","timestamp":"2025-08-15T18:04:01.351Z"}
+{"level":"info","message":"Request Body: {\"content\":\"Goodee is a boy and can fly\"}","service":"api-gateway","timestamp":"2025-08-15T18:04:01.356Z"}
+{"level":"info","message":"Response receives from Post service: 201","service":"api-gateway","timestamp":"2025-08-15T18:04:01.558Z"}
+{"level":"info","message":"Received POST request to /v1/posts/create-post","service":"api-gateway","timestamp":"2025-08-15T18:04:08.563Z"}
+{"level":"info","message":"Request Body: {\"content\":\"Goodee is a boy\"}","service":"api-gateway","timestamp":"2025-08-15T18:04:08.564Z"}
+{"level":"info","message":"Response receives from Post service: 201","service":"api-gateway","timestamp":"2025-08-15T18:04:08.756Z"}
+{"level":"info","message":"Received GET request to /v1/search/posts?query=Goodee","service":"api-gateway","timestamp":"2025-08-15T18:04:15.530Z"}
+{"level":"info","message":"Response receives from Search service: 500","service":"api-gateway","timestamp":"2025-08-15T18:04:15.751Z"}
+{"level":"info","message":"Received GET request to /v1/search/posts?query=Goodee","service":"api-gateway","timestamp":"2025-08-15T18:05:06.885Z"}
+{"level":"info","message":"Response receives from Search service: 500","service":"api-gateway","timestamp":"2025-08-15T18:05:07.061Z"}
+{"level":"info","message":"Received GET request to /v1/search/posts?query=Goodee","service":"api-gateway","timestamp":"2025-08-15T18:05:24.925Z"}
+{"level":"info","message":"Response receives from Search service: 200","service":"api-gateway","timestamp":"2025-08-15T18:05:25.174Z"}
+{"level":"info","message":"Received DELETE request to /v1/posts/delete-post/689f76865c452e9bb070a76c","service":"api-gateway","timestamp":"2025-08-15T18:05:54.766Z"}
+{"level":"info","message":"Response receives from Post service: 200","service":"api-gateway","timestamp":"2025-08-15T18:05:54.979Z"}
+{"level":"info","message":"Received GET request to /v1/search/posts?query=Goodee","service":"api-gateway","timestamp":"2025-08-15T18:06:00.403Z"}
+{"level":"info","message":"Response receives from Search service: 200","service":"api-gateway","timestamp":"2025-08-15T18:06:00.599Z"}

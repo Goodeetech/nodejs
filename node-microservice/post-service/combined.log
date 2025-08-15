@@ -541,3 +541,176 @@
 {"level":"info","message":"Connected to RabbitMQ","service":"post-service","timestamp":"2025-08-13T16:39:29.013Z"}
 {"level":"info","message":"🚀 Post-sevice Server running on port 3002","service":"post-service","timestamp":"2025-08-13T16:39:29.023Z"}
 {"level":"info","message":"Database connected successfully","service":"post-service","timestamp":"2025-08-13T16:39:38.621Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"post-service","timestamp":"2025-08-13T17:01:14.056Z"}
+{"level":"info","message":"🚀 Post-sevice Server running on port 3002","service":"post-service","timestamp":"2025-08-13T17:01:14.071Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"post-service","timestamp":"2025-08-15T16:25:28.402Z"}
+{"level":"info","message":"🚀 Post-sevice Server running on port 3002","service":"post-service","timestamp":"2025-08-15T16:25:28.413Z"}
+{"level":"info","message":"Database connected successfully","service":"post-service","timestamp":"2025-08-15T16:25:55.365Z"}
+{"level":"info","message":"Received POST request to /api/posts/create-post","service":"post-service","timestamp":"2025-08-15T16:28:18.354Z"}
+{"level":"info","message":"Request Body: {\"content\":\"search 1 1\"}","service":"post-service","timestamp":"2025-08-15T16:28:18.356Z"}
+{"level":"warn","message":"API hit create post endpoint","service":"post-service","timestamp":"2025-08-15T16:28:18.358Z"}
+{"level":"info","message":"Event published to RabbitMQ with routing key: post.created","service":"post-service","timestamp":"2025-08-15T16:28:20.927Z"}
+{"level":"info","message":"Post created successfully","service":"post-service","timestamp":"2025-08-15T16:28:20.955Z"}
+{"level":"info","message":"Received GET request to /api/posts/get-posts","service":"post-service","timestamp":"2025-08-15T16:28:34.932Z"}
+{"level":"warn","message":"API hit get all posts endpoint","service":"post-service","timestamp":"2025-08-15T16:28:34.934Z"}
+{"level":"info","message":"Received GET request to /api/posts/get-posts","service":"post-service","timestamp":"2025-08-15T16:28:53.550Z"}
+{"level":"warn","message":"API hit get all posts endpoint","service":"post-service","timestamp":"2025-08-15T16:28:53.571Z"}
+{"level":"info","message":"Received POST request to /api/posts/create-post","service":"post-service","timestamp":"2025-08-15T16:29:31.383Z"}
+{"level":"info","message":"Request Body: {\"content\":\"search 2 2\"}","service":"post-service","timestamp":"2025-08-15T16:29:31.391Z"}
+{"level":"warn","message":"API hit create post endpoint","service":"post-service","timestamp":"2025-08-15T16:29:31.397Z"}
+{"level":"info","message":"Event published to RabbitMQ with routing key: post.created","service":"post-service","timestamp":"2025-08-15T16:29:31.667Z"}
+{"level":"info","message":"Post created successfully","service":"post-service","timestamp":"2025-08-15T16:29:31.674Z"}
+{"level":"info","message":"Received POST request to /api/posts/create-post","service":"post-service","timestamp":"2025-08-15T16:29:39.039Z"}
+{"level":"info","message":"Request Body: {\"content\":\"Goodee\"}","service":"post-service","timestamp":"2025-08-15T16:29:39.048Z"}
+{"level":"warn","message":"API hit create post endpoint","service":"post-service","timestamp":"2025-08-15T16:29:39.050Z"}
+{"level":"info","message":"Event published to RabbitMQ with routing key: post.created","service":"post-service","timestamp":"2025-08-15T16:29:40.248Z"}
+{"level":"info","message":"Post created successfully","service":"post-service","timestamp":"2025-08-15T16:29:40.267Z"}
+{"level":"info","message":"Received POST request to /api/posts/create-post","service":"post-service","timestamp":"2025-08-15T16:29:48.088Z"}
+{"level":"info","message":"Request Body: {\"content\":\"Goodee is a boy\"}","service":"post-service","timestamp":"2025-08-15T16:29:48.089Z"}
+{"level":"warn","message":"API hit create post endpoint","service":"post-service","timestamp":"2025-08-15T16:29:48.092Z"}
+{"level":"info","message":"Event published to RabbitMQ with routing key: post.created","service":"post-service","timestamp":"2025-08-15T16:29:50.101Z"}
+{"level":"info","message":"Post created successfully","service":"post-service","timestamp":"2025-08-15T16:29:50.113Z"}
+{"level":"info","message":"Received POST request to /api/posts/create-post","service":"post-service","timestamp":"2025-08-15T16:30:01.839Z"}
+{"level":"info","message":"Request Body: {\"content\":\"Goodee is a boy and a programmer\"}","service":"post-service","timestamp":"2025-08-15T16:30:01.849Z"}
+{"level":"warn","message":"API hit create post endpoint","service":"post-service","timestamp":"2025-08-15T16:30:01.853Z"}
+{"level":"info","message":"Event published to RabbitMQ with routing key: post.created","service":"post-service","timestamp":"2025-08-15T16:30:17.665Z"}
+{"level":"info","message":"Post created successfully","service":"post-service","timestamp":"2025-08-15T16:30:17.683Z"}
+{"level":"info","message":"Received POST request to /api/posts/create-post","service":"post-service","timestamp":"2025-08-15T16:44:48.818Z"}
+{"level":"info","message":"Request Body: {\"content\":\"Goodee is a boy and a programmer and a medical student\"}","service":"post-service","timestamp":"2025-08-15T16:44:48.819Z"}
+{"level":"warn","message":"API hit create post endpoint","service":"post-service","timestamp":"2025-08-15T16:44:48.820Z"}
+{"level":"info","message":"Event published to RabbitMQ with routing key: post.created","service":"post-service","timestamp":"2025-08-15T16:45:03.803Z"}
+{"level":"info","message":"Post created successfully","service":"post-service","timestamp":"2025-08-15T16:45:03.817Z"}
+{"level":"info","message":"Received POST request to /api/posts/create-post","service":"post-service","timestamp":"2025-08-15T16:45:16.547Z"}
+{"level":"info","message":"Request Body: {\"content\":\"Goodee is a boy and a programmer and a medical student and oya\"}","service":"post-service","timestamp":"2025-08-15T16:45:16.548Z"}
+{"level":"warn","message":"API hit create post endpoint","service":"post-service","timestamp":"2025-08-15T16:45:16.549Z"}
+{"level":"info","message":"Event published to RabbitMQ with routing key: post.created","service":"post-service","timestamp":"2025-08-15T16:45:18.629Z"}
+{"level":"info","message":"Post created successfully","service":"post-service","timestamp":"2025-08-15T16:45:18.649Z"}
+{"level":"info","message":"Received POST request to /api/posts/create-post","service":"post-service","timestamp":"2025-08-15T16:47:48.354Z"}
+{"level":"info","message":"Request Body: {\"content\":\"Goodee is a boy and a programmer and a medical student and oya\"}","service":"post-service","timestamp":"2025-08-15T16:47:48.369Z"}
+{"level":"warn","message":"API hit create post endpoint","service":"post-service","timestamp":"2025-08-15T16:47:48.397Z"}
+{"level":"info","message":"Event published to RabbitMQ with routing key: post.created","service":"post-service","timestamp":"2025-08-15T16:47:48.566Z"}
+{"level":"info","message":"Post created successfully","service":"post-service","timestamp":"2025-08-15T16:47:48.581Z"}
+{"level":"info","message":"Received POST request to /api/posts/create-post","service":"post-service","timestamp":"2025-08-15T16:56:38.345Z"}
+{"level":"info","message":"Request Body: {\"content\":\"Goodee is a boy and a programmer and a medical student and oya 1\"}","service":"post-service","timestamp":"2025-08-15T16:56:38.349Z"}
+{"level":"warn","message":"API hit create post endpoint","service":"post-service","timestamp":"2025-08-15T16:56:38.351Z"}
+{"level":"info","message":"Event published to RabbitMQ with routing key: post.created","service":"post-service","timestamp":"2025-08-15T16:56:39.767Z"}
+{"level":"info","message":"Post created successfully","service":"post-service","timestamp":"2025-08-15T16:56:39.799Z"}
+{"level":"info","message":"Received POST request to /api/posts/create-post","service":"post-service","timestamp":"2025-08-15T17:00:39.921Z"}
+{"level":"info","message":"Request Body: {\"content\":\"Goodee is a boy and a programmer and a medical student and oya 1\"}","service":"post-service","timestamp":"2025-08-15T17:00:39.924Z"}
+{"level":"warn","message":"API hit create post endpoint","service":"post-service","timestamp":"2025-08-15T17:00:39.926Z"}
+{"level":"info","message":"Event published to RabbitMQ with routing key: post.created","service":"post-service","timestamp":"2025-08-15T17:00:40.198Z"}
+{"level":"info","message":"Post created successfully","service":"post-service","timestamp":"2025-08-15T17:00:40.212Z"}
+{"level":"info","message":"Received POST request to /api/posts/create-post","service":"post-service","timestamp":"2025-08-15T17:05:15.711Z"}
+{"level":"info","message":"Request Body: {\"content\":\"Goodee is a boy and a programmer and a medical student and oya 1\"}","service":"post-service","timestamp":"2025-08-15T17:05:15.715Z"}
+{"level":"warn","message":"API hit create post endpoint","service":"post-service","timestamp":"2025-08-15T17:05:15.717Z"}
+{"level":"info","message":"Event published to RabbitMQ with routing key: post.created","service":"post-service","timestamp":"2025-08-15T17:05:15.951Z"}
+{"level":"info","message":"Post created successfully","service":"post-service","timestamp":"2025-08-15T17:05:15.958Z"}
+{"level":"info","message":"Received POST request to /api/posts/create-post","service":"post-service","timestamp":"2025-08-15T17:05:22.708Z"}
+{"level":"info","message":"Request Body: {\"content\":\"Goodee is a boy\"}","service":"post-service","timestamp":"2025-08-15T17:05:22.709Z"}
+{"level":"warn","message":"API hit create post endpoint","service":"post-service","timestamp":"2025-08-15T17:05:22.712Z"}
+{"level":"info","message":"Event published to RabbitMQ with routing key: post.created","service":"post-service","timestamp":"2025-08-15T17:05:22.882Z"}
+{"level":"info","message":"Post created successfully","service":"post-service","timestamp":"2025-08-15T17:05:22.891Z"}
+{"level":"info","message":"Received POST request to /api/posts/create-post","service":"post-service","timestamp":"2025-08-15T17:06:19.131Z"}
+{"level":"info","message":"Request Body: {\"content\":\"Goodee is a boy\"}","service":"post-service","timestamp":"2025-08-15T17:06:19.132Z"}
+{"level":"warn","message":"API hit create post endpoint","service":"post-service","timestamp":"2025-08-15T17:06:19.133Z"}
+{"level":"info","message":"Event published to RabbitMQ with routing key: post.created","service":"post-service","timestamp":"2025-08-15T17:06:19.336Z"}
+{"level":"info","message":"Post created successfully","service":"post-service","timestamp":"2025-08-15T17:06:19.350Z"}
+{"level":"info","message":"Received POST request to /api/posts/create-post","service":"post-service","timestamp":"2025-08-15T17:06:23.713Z"}
+{"level":"info","message":"Request Body: {\"content\":\"Goodee is a boy\"}","service":"post-service","timestamp":"2025-08-15T17:06:23.713Z"}
+{"level":"warn","message":"API hit create post endpoint","service":"post-service","timestamp":"2025-08-15T17:06:23.714Z"}
+{"level":"info","message":"Event published to RabbitMQ with routing key: post.created","service":"post-service","timestamp":"2025-08-15T17:06:23.881Z"}
+{"level":"info","message":"Post created successfully","service":"post-service","timestamp":"2025-08-15T17:06:23.887Z"}
+{"level":"info","message":"Received POST request to /api/posts/create-post","service":"post-service","timestamp":"2025-08-15T17:06:39.369Z"}
+{"level":"info","message":"Request Body: {\"content\":\"Goodee is a boy and also a programmer\"}","service":"post-service","timestamp":"2025-08-15T17:06:39.370Z"}
+{"level":"warn","message":"API hit create post endpoint","service":"post-service","timestamp":"2025-08-15T17:06:39.375Z"}
+{"level":"info","message":"Event published to RabbitMQ with routing key: post.created","service":"post-service","timestamp":"2025-08-15T17:06:39.611Z"}
+{"level":"info","message":"Post created successfully","service":"post-service","timestamp":"2025-08-15T17:06:39.628Z"}
+{"level":"info","message":"Received POST request to /api/posts/create-post","service":"post-service","timestamp":"2025-08-15T17:09:57.799Z"}
+{"level":"info","message":"Request Body: {\"content\":\"Goodee is a boy and also a programmer and also a singer\"}","service":"post-service","timestamp":"2025-08-15T17:09:57.801Z"}
+{"level":"warn","message":"API hit create post endpoint","service":"post-service","timestamp":"2025-08-15T17:09:57.805Z"}
+{"level":"info","message":"Event published to RabbitMQ with routing key: post.created","service":"post-service","timestamp":"2025-08-15T17:09:57.978Z"}
+{"level":"info","message":"Post created successfully","service":"post-service","timestamp":"2025-08-15T17:09:58.069Z"}
+{"level":"info","message":"Received POST request to /api/posts/create-post","service":"post-service","timestamp":"2025-08-15T17:18:24.171Z"}
+{"level":"info","message":"Request Body: {\"content\":\"Goodee is a boy and also a programmer and also a singer\"}","service":"post-service","timestamp":"2025-08-15T17:18:24.189Z"}
+{"level":"warn","message":"API hit create post endpoint","service":"post-service","timestamp":"2025-08-15T17:18:24.209Z"}
+{"level":"info","message":"Event published to RabbitMQ with routing key: post.created","service":"post-service","timestamp":"2025-08-15T17:18:24.426Z"}
+{"level":"info","message":"Post created successfully","service":"post-service","timestamp":"2025-08-15T17:18:24.459Z"}
+{"level":"info","message":"Received POST request to /api/posts/create-post","service":"post-service","timestamp":"2025-08-15T17:18:31.979Z"}
+{"level":"info","message":"Request Body: {\"content\":\"Goodee is a boy and also a programmer\"}","service":"post-service","timestamp":"2025-08-15T17:18:31.979Z"}
+{"level":"warn","message":"API hit create post endpoint","service":"post-service","timestamp":"2025-08-15T17:18:31.983Z"}
+{"level":"info","message":"Event published to RabbitMQ with routing key: post.created","service":"post-service","timestamp":"2025-08-15T17:18:32.148Z"}
+{"level":"info","message":"Post created successfully","service":"post-service","timestamp":"2025-08-15T17:18:32.154Z"}
+{"level":"info","message":"Received POST request to /api/posts/create-post","service":"post-service","timestamp":"2025-08-15T17:18:39.678Z"}
+{"level":"info","message":"Request Body: {\"content\":\"Goodee is a boy \"}","service":"post-service","timestamp":"2025-08-15T17:18:39.684Z"}
+{"level":"warn","message":"API hit create post endpoint","service":"post-service","timestamp":"2025-08-15T17:18:39.685Z"}
+{"level":"info","message":"Event published to RabbitMQ with routing key: post.created","service":"post-service","timestamp":"2025-08-15T17:18:54.045Z"}
+{"level":"info","message":"Post created successfully","service":"post-service","timestamp":"2025-08-15T17:18:54.053Z"}
+{"level":"info","message":"Received POST request to /api/posts/create-post","service":"post-service","timestamp":"2025-08-15T17:19:37.633Z"}
+{"level":"info","message":"Request Body: {\"content\":\"Goodee is a boy and can fly\"}","service":"post-service","timestamp":"2025-08-15T17:19:37.634Z"}
+{"level":"warn","message":"API hit create post endpoint","service":"post-service","timestamp":"2025-08-15T17:19:37.636Z"}
+{"level":"info","message":"Event published to RabbitMQ with routing key: post.created","service":"post-service","timestamp":"2025-08-15T17:19:38.563Z"}
+{"level":"info","message":"Post created successfully","service":"post-service","timestamp":"2025-08-15T17:19:38.577Z"}
+{"level":"info","message":"Received POST request to /api/posts/create-post","service":"post-service","timestamp":"2025-08-15T17:20:03.960Z"}
+{"level":"info","message":"Request Body: {\"content\":\"Goodee is a boy and can fly and dance kalago\"}","service":"post-service","timestamp":"2025-08-15T17:20:03.960Z"}
+{"level":"warn","message":"API hit create post endpoint","service":"post-service","timestamp":"2025-08-15T17:20:03.961Z"}
+{"level":"info","message":"Event published to RabbitMQ with routing key: post.created","service":"post-service","timestamp":"2025-08-15T17:20:04.141Z"}
+{"level":"info","message":"Post created successfully","service":"post-service","timestamp":"2025-08-15T17:20:04.147Z"}
+{"level":"info","message":"Received GET request to /api/posts/get-posts","service":"post-service","timestamp":"2025-08-15T17:25:44.715Z"}
+{"level":"warn","message":"API hit get all posts endpoint","service":"post-service","timestamp":"2025-08-15T17:25:44.716Z"}
+{"level":"info","message":"Received GET request to /api/posts/delete-post/689f6c295c452e9bb070a756","service":"post-service","timestamp":"2025-08-15T17:26:36.617Z"}
+{"level":"info","message":"Received DELETE request to /api/posts/delete-post/689f6c295c452e9bb070a756","service":"post-service","timestamp":"2025-08-15T17:27:01.564Z"}
+{"level":"warn","message":"API hit get delete post endpoint","service":"post-service","timestamp":"2025-08-15T17:27:01.566Z"}
+{"level":"info","message":"Event published to RabbitMQ with routing key: post.deleted","service":"post-service","timestamp":"2025-08-15T17:27:09.151Z"}
+{"level":"info","message":"Received DELETE request to /api/posts/delete-post/689f6be80e4095b0df5c5e1b","service":"post-service","timestamp":"2025-08-15T17:29:15.579Z"}
+{"level":"warn","message":"API hit get delete post endpoint","service":"post-service","timestamp":"2025-08-15T17:29:15.582Z"}
+{"level":"warn","message":"Couldn't find the post with this ID","service":"post-service","timestamp":"2025-08-15T17:29:15.882Z"}
+{"level":"info","message":"Received DELETE request to /api/posts/delete-post/689f6be80e4095b0df5c5e1b","service":"post-service","timestamp":"2025-08-15T17:29:37.338Z"}
+{"level":"warn","message":"API hit get delete post endpoint","service":"post-service","timestamp":"2025-08-15T17:29:37.343Z"}
+{"level":"warn","message":"Couldn't find the post with this ID","service":"post-service","timestamp":"2025-08-15T17:29:37.514Z"}
+{"level":"info","message":"Received GET request to /api/posts/get-posts","service":"post-service","timestamp":"2025-08-15T17:29:59.855Z"}
+{"level":"warn","message":"API hit get all posts endpoint","service":"post-service","timestamp":"2025-08-15T17:29:59.859Z"}
+{"level":"info","message":"Received DELETE request to /api/posts/delete-post/689f6be75c452e9bb070a752","service":"post-service","timestamp":"2025-08-15T17:30:45.240Z"}
+{"level":"warn","message":"API hit get delete post endpoint","service":"post-service","timestamp":"2025-08-15T17:30:45.249Z"}
+{"level":"info","message":"Event published to RabbitMQ with routing key: post.deleted","service":"post-service","timestamp":"2025-08-15T17:30:55.112Z"}
+{"level":"info","message":"Received GET request to /api/posts/get-posts","service":"post-service","timestamp":"2025-08-15T17:31:25.791Z"}
+{"level":"warn","message":"API hit get all posts endpoint","service":"post-service","timestamp":"2025-08-15T17:31:25.792Z"}
+{"level":"info","message":"Received DELETE request to /api/posts/delete-post/689f6c440e4095b0df5c5e23","service":"post-service","timestamp":"2025-08-15T17:56:55.120Z"}
+{"level":"warn","message":"API hit get delete post endpoint","service":"post-service","timestamp":"2025-08-15T17:56:55.122Z"}
+{"level":"warn","message":"Couldn't find the post with this ID","service":"post-service","timestamp":"2025-08-15T17:56:55.310Z"}
+{"level":"info","message":"Received DELETE request to /api/posts/delete-post/689f6be05c452e9bb070a750","service":"post-service","timestamp":"2025-08-15T17:57:23.460Z"}
+{"level":"warn","message":"API hit get delete post endpoint","service":"post-service","timestamp":"2025-08-15T17:57:23.462Z"}
+{"level":"info","message":"Event published to RabbitMQ with routing key: post.deleted","service":"post-service","timestamp":"2025-08-15T17:57:23.637Z"}
+{"level":"info","message":"Received DELETE request to /api/posts/delete-post/689f6be05c452e9bb070a750","service":"post-service","timestamp":"2025-08-15T17:57:56.146Z"}
+{"level":"warn","message":"API hit get delete post endpoint","service":"post-service","timestamp":"2025-08-15T17:57:56.151Z"}
+{"level":"warn","message":"Couldn't find the post with this ID","service":"post-service","timestamp":"2025-08-15T17:57:56.356Z"}
+{"level":"info","message":"Received POST request to /api/posts/create-post","service":"post-service","timestamp":"2025-08-15T17:58:52.199Z"}
+{"level":"info","message":"Request Body: {\"content\":\"Goodee is a boy and can fly and dance kalago1\"}","service":"post-service","timestamp":"2025-08-15T17:58:52.213Z"}
+{"level":"warn","message":"API hit create post endpoint","service":"post-service","timestamp":"2025-08-15T17:58:52.224Z"}
+{"level":"info","message":"Event published to RabbitMQ with routing key: post.created","service":"post-service","timestamp":"2025-08-15T17:58:52.410Z"}
+{"level":"info","message":"Post created successfully","service":"post-service","timestamp":"2025-08-15T17:58:52.422Z"}
+{"level":"info","message":"Received DELETE request to /api/posts/delete-post/689f6bef5c452e9bb070a754","service":"post-service","timestamp":"2025-08-15T17:59:32.142Z"}
+{"level":"warn","message":"API hit get delete post endpoint","service":"post-service","timestamp":"2025-08-15T17:59:32.143Z"}
+{"level":"info","message":"Event published to RabbitMQ with routing key: post.deleted","service":"post-service","timestamp":"2025-08-15T17:59:32.343Z"}
+{"level":"info","message":"Received POST request to /api/posts/create-post","service":"post-service","timestamp":"2025-08-15T18:02:15.056Z"}
+{"level":"info","message":"Request Body: {\"content\":\"Goodee is a boy and can fly and dance kalago1 and lets go\"}","service":"post-service","timestamp":"2025-08-15T18:02:15.057Z"}
+{"level":"warn","message":"API hit create post endpoint","service":"post-service","timestamp":"2025-08-15T18:02:15.057Z"}
+{"level":"info","message":"Event published to RabbitMQ with routing key: post.created","service":"post-service","timestamp":"2025-08-15T18:02:15.245Z"}
+{"level":"info","message":"Post created successfully","service":"post-service","timestamp":"2025-08-15T18:02:15.259Z"}
+{"level":"info","message":"Received POST request to /api/posts/create-post","service":"post-service","timestamp":"2025-08-15T18:03:50.202Z"}
+{"level":"info","message":"Request Body: {\"content\":\"Goodee is a boy and can fly and dance kalago1 and lets go\"}","service":"post-service","timestamp":"2025-08-15T18:03:50.214Z"}
+{"level":"warn","message":"API hit create post endpoint","service":"post-service","timestamp":"2025-08-15T18:03:50.218Z"}
+{"level":"info","message":"Event published to RabbitMQ with routing key: post.created","service":"post-service","timestamp":"2025-08-15T18:03:50.497Z"}
+{"level":"info","message":"Post created successfully","service":"post-service","timestamp":"2025-08-15T18:03:50.503Z"}
+{"level":"info","message":"Received POST request to /api/posts/create-post","service":"post-service","timestamp":"2025-08-15T18:04:01.362Z"}
+{"level":"info","message":"Request Body: {\"content\":\"Goodee is a boy and can fly\"}","service":"post-service","timestamp":"2025-08-15T18:04:01.368Z"}
+{"level":"warn","message":"API hit create post endpoint","service":"post-service","timestamp":"2025-08-15T18:04:01.368Z"}
+{"level":"info","message":"Event published to RabbitMQ with routing key: post.created","service":"post-service","timestamp":"2025-08-15T18:04:01.549Z"}
+{"level":"info","message":"Post created successfully","service":"post-service","timestamp":"2025-08-15T18:04:01.554Z"}
+{"level":"info","message":"Received POST request to /api/posts/create-post","service":"post-service","timestamp":"2025-08-15T18:04:08.569Z"}
+{"level":"info","message":"Request Body: {\"content\":\"Goodee is a boy\"}","service":"post-service","timestamp":"2025-08-15T18:04:08.570Z"}
+{"level":"warn","message":"API hit create post endpoint","service":"post-service","timestamp":"2025-08-15T18:04:08.572Z"}
+{"level":"info","message":"Event published to RabbitMQ with routing key: post.created","service":"post-service","timestamp":"2025-08-15T18:04:08.745Z"}
+{"level":"info","message":"Post created successfully","service":"post-service","timestamp":"2025-08-15T18:04:08.752Z"}
+{"level":"info","message":"Received DELETE request to /api/posts/delete-post/689f76865c452e9bb070a76c","service":"post-service","timestamp":"2025-08-15T18:05:54.772Z"}
+{"level":"warn","message":"API hit get delete post endpoint","service":"post-service","timestamp":"2025-08-15T18:05:54.772Z"}
+{"level":"info","message":"Event published to RabbitMQ with routing key: post.deleted","service":"post-service","timestamp":"2025-08-15T18:05:54.966Z"}
