@@ -460,3 +460,7 @@
 {"level":"info","message":"Received POST request to /api/auth/login","service":"identity-service","timestamp":"2025-08-15T17:58:35.773Z"}
 {"level":"info","message":"Request Body: {\"email\":\"goodee123@gmail.com\",\"password\":\"ayomide\"}","service":"identity-service","timestamp":"2025-08-15T17:58:35.776Z"}
 {"level":"info","message":"Logging in user from the identity service","service":"identity-service","timestamp":"2025-08-15T17:58:35.784Z"}
+{"level":"info","message":"Connected to RabbitMQ","service":"identity-service","timestamp":"2025-08-15T18:36:31.161Z"}
+{"level":"info","message":"Waiting for messages with routing key: register.email","service":"identity-service","timestamp":"2025-08-15T18:36:31.177Z"}
+{"level":"info","message":"🚀 Identity-sevice Server running on port 3001","service":"identity-service","timestamp":"2025-08-15T18:36:31.183Z"}
+{"level":"info","message":"Database connected successfully","service":"identity-service","timestamp":"2025-08-15T18:36:33.890Z"}
